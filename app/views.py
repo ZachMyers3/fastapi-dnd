@@ -4,35 +4,29 @@ from .models import mongo
 
 views = Blueprint('views', __name__)
 
-@views.route('/player', methods=['GET', 'POST'])
-@views.route('/player/<int:player_id>', methods=['GET', 'POST'])
-def player(player_id=0):
-    if request.method == 'GET':
-        return get_player(player_id)
-    elif request.method == 'POST':
-        return create_player(player_id)
-    else:
-        return '400 Invalid Request', 400
+@views.route('/character', methods=['GET'])
+def get_character():
+    # need JSON
+    if not request.json:
+        return jsonify(ok=False, msg='JSON format required'), 400
+    # need first name
+    if not 'firstName' in request.json:
+        return jsonify(ok=False, msg='First name required'), 400
+    print(f'{jsonify(request.args)=}')
+    # based off of the JSON find character
+    this_char = mongo.db.characters.find_one(request.json)
+    print(f'{this_char=}')
+    return jsonify(ok=True, character=this_char)
 
-
-def get_player(player_id):
-    players = mongo.db.players
-
-    this_player = players.find_one({'firstName': player_id})
-
-    print(f'{this_player=}')
-
-    return jsonify(get='get')
-
-def create_player(player_id):
+@views.route('/character', methods=['POST'])
+def create_character():
     # TODO: verify player doesnt exist
-    # go to players store
-    players = mongo.db.players
+    # go to characters store
+    characters = mongo.db.characters
     # insert request
-    pid = players.insert(request.json)
+    pid = characters.insert(request.json)
     # find new player
-    new_player = players.find_one({'_id': pid})
-    print(f'{new_player}')
-    return jsonify(new_player)
-
+    new_char = characters.find_one({'_id': pid})
+    print(f'{new_char}')
+    return jsonify(ok=True, character=new_char)
 
