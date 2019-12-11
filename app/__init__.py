@@ -1,4 +1,5 @@
 from flask import Flask
+from flask_cors import CORS
 
 from .models import mongo
 from .views import views
@@ -11,6 +12,8 @@ def create_app():
     app.config.from_object('config.Config')
     # initialize database with app
     mongo.init_app(app)
+    # initialize CORS
+    CORS(app, resources={r"/api/*": {"origins": "*"}})
     # initialize blueprint
     app.register_blueprint(views)
     # use extended JSONEncoder
