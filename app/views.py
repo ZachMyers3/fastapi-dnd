@@ -4,7 +4,7 @@ from .models import mongo
 
 views = Blueprint('views', __name__)
 
-@views.route('/character', methods=['GET'])
+@views.route('/api/character', methods=['GET'])
 def get_character():
     # need JSON
     if not request.json:
@@ -19,7 +19,7 @@ def get_character():
     else:
         return jsonify(ok=False, msg='Character not found'), 404
 
-@views.route('/character', methods=['POST'])
+@views.route('/api/character', methods=['POST'])
 def create_character():
     # TODO: verify player doesnt exist
     # go to characters store
@@ -30,7 +30,7 @@ def create_character():
     new_char = characters.find_one({'_id': pid})
     return jsonify(ok=True, character=new_char)
 
-@views.route('/character', methods=['PUT'])
+@views.route('/api/character', methods=['PUT'])
 def update_character():
     if not request.json:
         return jsonify(ok=False, msg='JSON format required'), 400
@@ -44,7 +44,7 @@ def update_character():
 
     return jsonify(ok=True, character=this_char)
 
-@views.route('/characters', methods=['GET'])
+@views.route('/api/characters', methods=['GET'])
 def get_characters():
     # get all characters (return a max limit)
     results = list(mongo.db.characters.find())
