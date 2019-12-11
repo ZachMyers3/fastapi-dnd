@@ -48,3 +48,10 @@ def update_character():
     print(f'{this_char=}')
 
     return jsonify(ok=True)
+
+@views.route('/characters', methods=['GET'])
+def get_characters():
+    # get all characters (return a max limit)
+    results = list(mongo.db.characters.find())
+
+    return jsonify(ok=True, characters=results)
