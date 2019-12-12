@@ -1,19 +1,18 @@
 from flask import Blueprint, abort, jsonify, request
 
+from bson.objectid import ObjectId
+
 from .models import mongo
 
 views = Blueprint('views', __name__)
 
 @views.route('/api/character', methods=['GET'])
 def get_character():
-    # need JSON
-    if not request.json:
-        return jsonify(ok=False, msg='JSON format required'), 400
-    # need first name
-    if not 'firstName' in request.json:
-        return jsonify(ok=False, msg='First name required'), 400
-    # based off of the JSON find character
-    this_char = mongo.db.characters.find_one(request.json)
+    _id = request.args.get('_id', default=None, type=str)
+    if not _id:
+        return jsonify(ok=False, msg='_id field required'), 400
+    this_char = mongo.db.characters.find_one({'_id': ObjectId(_id)})
+    print(f'{this_char=}')
     if this_char:
         return jsonify(ok=True, character=this_char)
     else:
