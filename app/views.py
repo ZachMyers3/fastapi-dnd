@@ -6,7 +6,7 @@ from .models import mongo
 
 views = Blueprint('views', __name__)
 
-@views.route('/api/character', methods=['GET'])
+@views.route('/api/v1/character', methods=['GET'])
 def get_character():
     _id = request.args.get('_id', default=None, type=str)
     if not _id:
@@ -18,7 +18,7 @@ def get_character():
     else:
         return jsonify(ok=False, msg='Character not found'), 404
 
-@views.route('/api/character', methods=['POST'])
+@views.route('/api/v1/character', methods=['POST'])
 def create_character():
     # TODO: verify player doesnt exist
     # go to characters store
@@ -29,7 +29,7 @@ def create_character():
     new_char = characters.find_one({'_id': pid})
     return jsonify(ok=True, character=new_char)
 
-@views.route('/api/character', methods=['PUT'])
+@views.route('/api/v1/character', methods=['PUT'])
 def update_character():
     _id = ObjectId(request.json['_id'])
     if not request.json:
@@ -46,14 +46,14 @@ def update_character():
 
     return jsonify(ok=True, character=this_char)
 
-@views.route('/api/characters', methods=['GET'])
+@views.route('/api/v1/characters', methods=['GET'])
 def get_characters():
     # get all characters (return a max limit)
     results = list(mongo.db.characters.find())
 
     return jsonify(ok=True, characters=results)
 
-@views.route('/api/character', methods=['DELETE'])
+@views.route('/api/v1/character', methods=['DELETE'])
 def delete_character():
     _id = request.args.get('_id', default=None, type=str)
     if not _id:
@@ -64,3 +64,33 @@ def delete_character():
     del_result = mongo.db.characters.delete_one({'_id': ObjectId(_id)})
     if this_char:
         return jsonify(ok=True, character=del_char)
+
+@views.route('/api/v1/monsters', methods=['GET'])
+def get_monsters():
+    # get args for pagination
+    start = request.args.get('start', default=1, type=int)
+    limit = request.args.get('limit', default=10, type=int)
+    count = mongo.db.monsters.count()
+    # error if starting after the entire size of the collection
+    if count < start:
+        return jsonify(ok=False, 
+                       msg=f'Start of {start} larger than collection size of {count}'), 404
+    # gather url params for previous query 
+    if start == 1:
+        previous = ''
+    else:
+        start_copy = max(1, start - limit)
+        limit_copy = start - 1
+        previous = f'?start={start_copy}&limit={limit_copy}'
+    print(f'{previous=}')
+    # gather url params for next query
+    if start + limit > count:
+        nxt = ''
+    else:
+        start_copy = start + limit
+        nxt = f'?start={start_copy}&limit={limit}'
+    print(f'{nxt=}')
+    # use find() by parameters
+    monsters = mongo.db.monsters.find().skip(start).limit(limit)
+    for monster in monsters:
+        print(f'{monster}')

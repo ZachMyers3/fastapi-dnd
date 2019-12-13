@@ -14,6 +14,7 @@ def create_app():
     mongo.init_app(app)
     # initialize CORS
     CORS(app, resources={r"/api/*": {"origins": "*"}})
+    # CORS(app)
     # initialize blueprint
     app.register_blueprint(views)
     # use extended JSONEncoder
