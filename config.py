@@ -8,3 +8,4 @@ class Config:
     FLASK_ENV = os.environ.get('FLASK_ENV')
     # flask-pymongo
     MONGO_URI = os.environ.get('MONGODB_URI')
+    # MONGO_URI = os.environ.get('MONGO_URI')
