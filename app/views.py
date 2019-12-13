@@ -80,8 +80,7 @@ def get_monsters():
         previous = ''
     else:
         start_copy = max(1, start - limit)
-        limit_copy = start - 1
-        previous = f'?start={start_copy}&limit={limit_copy}'
+        previous = f'?start={start_copy}&limit={limit}'
     print(f'{previous=}')
     # gather url params for next query
     if start + limit > count:
@@ -92,6 +91,7 @@ def get_monsters():
     print(f'{nxt=}')
     # use find() by parameters
     monsters = list(mongo.db.monsters.find().skip(start).limit(limit))
+    # return gathered data
     return jsonify(
         ok=True,
         monsters=monsters,
