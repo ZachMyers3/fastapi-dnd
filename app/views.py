@@ -91,6 +91,13 @@ def get_monsters():
         nxt = f'?start={start_copy}&limit={limit}'
     print(f'{nxt=}')
     # use find() by parameters
-    monsters = mongo.db.monsters.find().skip(start).limit(limit)
-    for monster in monsters:
-        print(f'{monster}')
+    monsters = list(mongo.db.monsters.find().skip(start).limit(limit))
+    return jsonify(
+        ok=True,
+        monsters=monsters,
+        previous=previous,
+        next=nxt,
+        start=start,
+        limit=limit,
+        count=count
+    )
