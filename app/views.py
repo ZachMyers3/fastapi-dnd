@@ -65,6 +65,17 @@ def delete_character():
     if this_char:
         return jsonify(ok=True, character=del_char)
 
+@views.route('/api/v1/monster', methods=['GET'])
+def get_monster():
+    _id = request.args.get('_id', default=None, type=str)
+    if not _id:
+        return jsonify(ok=False, msg='_id field required'), 400
+    this_monster = mongo.db.monsters.find_one({'_id': ObjectId(_id)})
+    if this_monster:
+        return jsonify(ok=True, monster=this_monster)
+    else:
+        return jsonify(ok=False, msg='Character not found'), 404
+
 @views.route('/api/v1/monsters', methods=['GET'])
 def get_monsters():
     # get args for pagination
