@@ -88,12 +88,12 @@ def get_monsters():
     last_page = math.floor(total / per_page) + 1
     # gather url params for previous query 
     if current_page == 1:
-        prev_page_url = ''
+        prev_page_url = None
     else:
         prev_page_url = f'{URL}/monsters?page={current_page-1}'
     # gather url params for next query
     if ((current_page * per_page) + per_page) > total:
-        next_page_url = ''
+        next_page_url = None
     else:
         next_page_url = f'{URL}/monsters?page={current_page+1}'
     # use find() by parameters
