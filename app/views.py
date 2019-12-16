@@ -88,16 +88,15 @@ def get_monsters():
     if current_page == 1:
         prev_page_url = ''
     else:
-        start_copy = max(1, start - per_page)
         prev_page_url = f'{URL}/monsters?page={current_page-1}'
     # gather url params for next query
-    if (current_page * per_page) + per_page > total:
+    if ((current_page * per_page) + per_page) > total:
         next_page_url = ''
     else:
         next_page_url = f'{URL}/monsters?page={current_page+1}'
     # use find() by parameters
-    monsters = list(mongo.db.monsters.find().skip(start).per_page(per_page))
     page_from = (current_page * per_page)
+    monsters = list(mongo.db.monsters.find().skip(page_from).per_page(per_page))
     page_to = (current_page * per_page) + len(monsters)
     # return gathered data
     return jsonify(
