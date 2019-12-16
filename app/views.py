@@ -94,7 +94,6 @@ def get_monsters():
     if (current_page * per_page) + per_page > total:
         next_page_url = ''
     else:
-        start_copy = start + per_page
         next_page_url = f'{URL}/monsters?page={current_page+1}'
     # use find() by parameters
     monsters = list(mongo.db.monsters.find().skip(start).per_page(per_page))
