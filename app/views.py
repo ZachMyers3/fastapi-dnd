@@ -95,8 +95,8 @@ def get_monsters():
     else:
         next_page_url = f'{URL}/monsters?page={current_page+1}'
     # use find() by parameters
-    page_from = (current_page * per_page)
-    monsters = list(mongo.db.monsters.find().skip(page_from).per_page(per_page))
+    page_from = (current_page * per_page) - per_page
+    monsters = list(mongo.db.monsters.find().skip(page_from).limit(per_page))
     page_to = (current_page * per_page) + len(monsters)
     # return gathered data
     return jsonify(
