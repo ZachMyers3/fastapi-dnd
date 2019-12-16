@@ -99,7 +99,7 @@ def get_monsters():
     # use find() by parameters
     page_from = (current_page * per_page) - per_page
     monsters = list(mongo.db.monsters.find().skip(page_from).limit(per_page))
-    page_to = page_from + len(monsters)
+    page_to = page_from + len(monsters) - 1
     # return gathered data
     return jsonify(
         total=total,
