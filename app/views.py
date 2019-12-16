@@ -2,6 +2,8 @@ from flask import Blueprint, abort, jsonify, request
 
 from bson.objectid import ObjectId
 
+import math
+
 from .models import mongo
 
 views = Blueprint('views', __name__)
@@ -83,7 +85,7 @@ def get_monsters():
     per_page = request.args.get('per_page', default=10, type=int)
     current_page = request.args.get('page', default=1, type=int)
     total = mongo.db.monsters.count()
-    last_page = round(total / per_page)
+    last_page = math.floor(total / per_page) + 1
     # gather url params for previous query 
     if current_page == 1:
         prev_page_url = ''
@@ -97,7 +99,7 @@ def get_monsters():
     # use find() by parameters
     page_from = (current_page * per_page) - per_page
     monsters = list(mongo.db.monsters.find().skip(page_from).limit(per_page))
-    page_to = (current_page * per_page) + len(monsters)
+    page_to = page_from + len(monsters)
     # return gathered data
     return jsonify(
         total=total,
