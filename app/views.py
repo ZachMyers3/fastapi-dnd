@@ -116,6 +116,6 @@ def get_monsters():
 @views.route('/api/v1/monsters/all', methods=['GET'])
 def get_all_monsters():
     # get all characters (return a max per_page)
-    results = list(mongo.db.characters.find())
+    results = list(mongo.db.monsters.find())
 
     return jsonify(ok=True, data=results)
