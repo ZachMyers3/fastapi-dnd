@@ -109,7 +109,7 @@ def get_monsters():
         last_page=last_page,
         next_page_url=next_page_url,
         prev_page_url=prev_page_url,
-        from=page_from,
-        to=page_to,
+        page_from=page_from,
+        page_to=page_to,
         data=monsters
     )
