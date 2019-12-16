@@ -6,6 +6,8 @@ from .models import mongo
 
 views = Blueprint('views', __name__)
 
+URL = 'https://flask-dnd.herokuapp.com/api/v1'
+
 @views.route('/api/v1/character', methods=['GET'])
 def get_character():
     _id = request.args.get('_id', default=None, type=str)
@@ -48,7 +50,7 @@ def update_character():
 
 @views.route('/api/v1/characters', methods=['GET'])
 def get_characters():
-    # get all characters (return a max limit)
+    # get all characters (return a max per_page)
     results = list(mongo.db.characters.find())
 
     return jsonify(ok=True, characters=results)
@@ -78,37 +80,36 @@ def get_monster():
 
 @views.route('/api/v1/monsters', methods=['GET'])
 def get_monsters():
-    # get args for pagination
-    start = request.args.get('start', default=1, type=int)
-    limit = request.args.get('limit', default=10, type=int)
-    count = mongo.db.monsters.count()
-    # error if starting after the entire size of the collection
-    if count < start:
-        return jsonify(ok=False, 
-                       msg=f'Start of {start} larger than collection size of {count}'), 404
+    per_page = request.args.get('per_page', default=10, type=int)
+    current_page = request.args.get('current_page', default=1, type=int)
+    total = mongo.db.monsters.total()
+    last_page = round(total / per_page)
     # gather url params for previous query 
-    if start == 1:
-        previous = ''
+    if current_page == 1:
+        prev_page_url = ''
     else:
-        start_copy = max(1, start - limit)
-        previous = f'?start={start_copy}&limit={limit}'
-    print(f'{previous=}')
+        start_copy = max(1, start - per_page)
+        prev_page_url = f'{URL}/monsters?page={current_page-1}'
+    print(f'{previous_page_url=}')
     # gather url params for next query
-    if start + limit > count:
-        nxt = ''
+    if (page * per_page) + per_page > total:
+        next_page_url = ''
     else:
-        start_copy = start + limit
-        nxt = f'?start={start_copy}&limit={limit}'
-    print(f'{nxt=}')
+        start_copy = start + per_page
+        next_page_url = f'{URL}/monsters?page={current_page+1}'
     # use find() by parameters
-    monsters = list(mongo.db.monsters.find().skip(start).limit(limit))
+    monsters = list(mongo.db.monsters.find().skip(start).per_page(per_page))
+    page_from = (page * per_page)
+    page_to = (page * per_page) + len(monsters)
     # return gathered data
     return jsonify(
-        ok=True,
-        monsters=monsters,
-        previous=previous,
-        next=nxt,
-        start=start,
-        limit=limit,
-        count=count
+        total=total,
+        per_page=per_page,
+        current_page=current_page,
+        last_page=last_page,
+        next_page_url=next_page_url,
+        prev_page_url=prev_page_url,
+        from=page_from,
+        to=page_to,
+        data=monsters
     )
