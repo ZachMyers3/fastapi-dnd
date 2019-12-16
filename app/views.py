@@ -90,7 +90,6 @@ def get_monsters():
     else:
         start_copy = max(1, start - per_page)
         prev_page_url = f'{URL}/monsters?page={current_page-1}'
-    print(f'{previous_page_url=}')
     # gather url params for next query
     if (page * per_page) + per_page > total:
         next_page_url = ''
