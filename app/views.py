@@ -81,8 +81,8 @@ def get_monster():
 @views.route('/api/v1/monsters', methods=['GET'])
 def get_monsters():
     per_page = request.args.get('per_page', default=10, type=int)
-    current_page = request.args.get('current_page', default=1, type=int)
-    total = mongo.db.monsters.total()
+    current_page = request.args.get('page', default=1, type=int)
+    total = mongo.db.monsters.count()
     last_page = round(total / per_page)
     # gather url params for previous query 
     if current_page == 1:
