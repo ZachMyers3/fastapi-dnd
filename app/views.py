@@ -127,7 +127,7 @@ def get_all_spells():
     return jsonify(ok=True, data=results)
 
 @views.route('/api/v1/spell', methods=['GET'])
-def get_monster():
+def get_spell():
     _id = request.args.get('_id', default=None, type=str)
     if not _id:
         return jsonify(ok=False, msg='_id field required'), 400
