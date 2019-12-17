@@ -119,3 +119,9 @@ def get_all_monsters():
     results = list(mongo.db.monsters.find())
 
     return jsonify(ok=True, data=results)
+
+@views.route('/api/v1/spells/all', methods=['GET'])
+def get_all_spells():
+    results = list(mongo.db.spells.find())
+
+    return jsonify(ok=True, data=results)
