@@ -12,7 +12,7 @@
   "casting_time":"1 action",
   "level": 8,
   "school":"Necromancy",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Absorb Elements",
@@ -27,7 +27,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Abjuration",
-  "class":"Druid, Ranger, Wizard"
+  "class":["Druid", "Ranger", "Wizard"]
 },
 {
   "name":"Acid Splash",
@@ -41,7 +41,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Conjuration",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Aganazzar's Scorcher",
@@ -57,7 +57,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Evocation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Aid",
@@ -73,7 +73,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Abjuration",
-  "class":"Cleric, Paladin"
+  "class":["Cleric", "Paladin"]
 },
 {
   "name":"Alarm",
@@ -88,7 +88,7 @@
   "casting_time":"1 minute",
   "level": 1,
   "school":"Abjuration",
-  "class":"Ranger, Ritual Caster, Wizard"
+  "class":["Ranger", "Ritual Caster", "Wizard"]
 },
 {
   "name":"Alter Self",
@@ -102,7 +102,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Transmutation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Animal Friendship",
@@ -118,7 +118,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Enchantment",
-  "class":"Bard, Cleric, Druid, Ranger",
+  "class":["Bard", "Cleric", "Druid", "Ranger"],
   "archetype":"Cleric: Nature",
   "domains":"Nature"
 },
@@ -136,7 +136,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Enchantment",
-  "class":"Bard, Druid, Ranger, Ritual Caster"
+  "class":["Bard", "Druid", "Ranger", "Ritual Caster"]
 },
 {
   "name":"Animal Shapes",
@@ -150,7 +150,7 @@
   "casting_time":"1 action",
   "level": 8,
   "school":"Transmutation",
-  "class":"Druid"
+  "class":["Druid"]
 },
 {
   "name":"Animate Dead",
@@ -166,7 +166,7 @@
   "casting_time":"1 minute",
   "level": 3,
   "school":"Necromancy",
-  "class":"Cleric, Wizard"
+  "class":["Cleric", "Wizard"]
 },
 {
   "name":"Animate Objects",
@@ -181,7 +181,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Transmutation",
-  "class":"Bard, Sorcerer, Wizard"
+  "class":["Bard", "Sorcerer", "Wizard"]
 },
 {
   "name":"Antilife Shell",
@@ -195,7 +195,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Abjuration",
-  "class":"Druid"
+  "class":["Druid"]
 },
 {
   "name":"Antimagic Field",
@@ -210,7 +210,7 @@
   "casting_time":"1 action",
   "level": 8,
   "school":"Abjuration",
-  "class":"Cleric, Wizard"
+  "class":["Cleric", "Wizard"]
 },
 {
   "name":"Antipathy/Sympathy",
@@ -225,7 +225,7 @@
   "casting_time":"1 hour",
   "level": 8,
   "school":"Enchantment",
-  "class":"Druid, Wizard"
+  "class":["Druid", "Wizard"]
 },
 {
   "name":"Arcane Eye",
@@ -240,7 +240,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Divination",
-  "class":"Cleric, Wizard",
+  "class":["Cleric", "Wizard"],
   "archetype":"Cleric: Knowledge",
   "domains":"Knowledge"
 },
@@ -256,7 +256,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Conjuration",
-  "class":"Sorcerer, Warlock, Wizard"
+  "class":["Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Arcane Lock",
@@ -271,7 +271,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Abjuration",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Armor of Agathys",
@@ -287,7 +287,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Abjuration",
-  "class":"Warlock"
+  "class":["Warlock"]
 },
 {
   "name":"Arms of Hadar",
@@ -302,7 +302,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Conjuration",
-  "class":"Warlock"
+  "class":["Warlock"]
 },
 {
   "name":"Astral Projection",
@@ -315,9 +315,9 @@
   "duration":"Special",
   "concentration":false,
   "casting_time":"1 hour",
-  "level":"9th-level",
+  "level": 9,
   "school":"Necromancy",
-  "class":"Cleric, Warlock, Wizard"
+  "class":["Cleric", "Warlock", "Wizard"]
 },
 {
   "name":"Augury",
@@ -332,7 +332,7 @@
   "casting_time":"1 minute",
   "level": 2,
   "school":"Divination",
-  "class":"Cleric, Ritual Caster",
+  "class":["Cleric", "Ritual Caster"],
   "domains":"Knowledge"
 },
 {
@@ -347,7 +347,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Abjuration",
-  "class":"Paladin"
+  "class":["Paladin"]
 },
 {
   "name":"Aura of Purity",
@@ -361,7 +361,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Abjuration",
-  "class":"Paladin"
+  "class":["Paladin"]
 },
 {
   "name":"Aura of Vitality",
@@ -375,7 +375,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Evocation",
-  "class":"Paladin"
+  "class":["Paladin"]
 },
 {
   "name":"Awaken",
@@ -390,7 +390,7 @@
   "casting_time":"8 hours",
   "level": 5,
   "school":"Transmutation",
-  "class":"Bard, Druid"
+  "class":["Bard", "Druid"]
 },
 {
   "name":"Bane",
@@ -406,7 +406,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Enchantment",
-  "class":"Bard, Cleric, Paladin",
+  "class":["Bard", "Cleric", "Paladin"],
   "archetype":"Paladin: Vengeance",
   "oaths":"Vengeance"
 },
@@ -422,7 +422,7 @@
   "casting_time":"1 bonus action",
   "level": 5,
   "school":"Abjuration",
-  "class":"Paladin"
+  "class":["Paladin"]
 },
 {
   "name":"Banishment",
@@ -438,7 +438,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Abjuration",
-  "class":"Cleric, Paladin, Sorcerer, Warlock, Wizard",
+  "class":["Cleric", "Paladin", "Sorcerer", "Warlock", "Wizard"],
   "oaths":"Vengeance"
 },
 {
@@ -454,7 +454,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Transmutation",
-  "class":"Cleric, Druid, Ranger",
+  "class":["Cleric", "Druid", "Ranger"],
   "archetype":"Cleric: Nature",
   "domains":"Nature",
   "circles":"Forest"
@@ -471,7 +471,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Abjuration",
-  "class":"Cleric, Paladin",
+  "class":["Cleric", "Paladin"],
   "archetype":"Paladin: Devotion",
   "domains":"Life",
   "oaths":"Devotion"
@@ -489,7 +489,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Divination",
-  "class":"Druid, Ranger, Wizard"
+  "class":["Druid", "Ranger", "Wizard"]
 },
 {
   "name":"Beast Sense",
@@ -503,7 +503,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Divination",
-  "class":"Druid, Ranger, Ritual Caster"
+  "class":["Druid", "Ranger", "Ritual Caster"]
 },
 {
   "name":"Bestow Curse",
@@ -518,7 +518,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Necromancy",
-  "class":"Bard, Cleric, Wizard"
+  "class":["Bard", "Cleric", "Wizard"]
 },
 {
   "name":"Bigby's Hand",
@@ -534,7 +534,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Evocation",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Blade Barrier",
@@ -548,7 +548,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Evocation",
-  "class":"Cleric"
+  "class":["Cleric"]
 },
 {
   "name":"Blade Ward",
@@ -562,7 +562,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Abjuration",
-  "class":"Bard, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Bless",
@@ -578,7 +578,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Enchantment",
-  "class":"Cleric, Paladin",
+  "class":["Cleric", "Paladin"],
   "domains":"Life"
 },
 {
@@ -594,7 +594,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Necromancy",
-  "class":"Druid, Sorcerer, Warlock, Wizard",
+  "class":["Druid", "Sorcerer", "Warlock", "Wizard"],
   "circles":"Desert"
 },
 {
@@ -609,7 +609,7 @@
   "casting_time":"1 bonus action",
   "level": 3,
   "school":"Evocation",
-  "class":"Paladin"
+  "class":["Paladin"]
 },
 {
   "name":"Blindness/Deafness",
@@ -624,7 +624,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Necromancy",
-  "class":"Bard, Cleric, Sorcerer, Warlock, Wizard",
+  "class":["Bard", "Cleric", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Warlock: Fiend",
   "patrons":"Fiend"
 },
@@ -640,7 +640,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Transmutation",
-  "class":"Cleric, Sorcerer, Warlock, Wizard",
+  "class":["Cleric", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Cleric: Trickery<br/> Warlock: Archfey",
   "domains":"Trickery",
   "patrons":"Archfey"
@@ -657,7 +657,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Illusion",
-  "class":"Druid, Sorcerer, Wizard",
+  "class":["Druid", "Sorcerer", "Wizard"],
   "archetype":"Druid: Desert",
   "circles":"Desert"
 },
@@ -674,7 +674,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Transmutation",
-  "class":"Druid"
+  "class":["Druid"]
 },
 {
   "name":"Booming Blade",
@@ -689,7 +689,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Evocation",
-  "class":"Sorcerer, Warlock, Wizard"
+  "class":["Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Branding Smite",
@@ -704,7 +704,7 @@
   "casting_time":"1 bonus action",
   "level": 2,
   "school":"Evocation",
-  "class":"Paladin"
+  "class":["Paladin"]
 },
 {
   "name":"Burning Hands",
@@ -719,7 +719,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Evocation",
-  "class":"Cleric, Sorcerer, Warlock, Wizard",
+  "class":["Cleric", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Cleric: Light<br/> Warlock: Fiend",
   "domains":"Light",
   "patrons":"Fiend"
@@ -737,7 +737,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Conjuration",
-  "class":"Cleric, Druid",
+  "class":["Cleric", "Druid"],
   "archetype":"Cleric: Tempest",
   "domains":"Tempest",
   "circles":"Forest"
@@ -754,7 +754,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Enchantment",
-  "class":"Bard, Cleric, Warlock",
+  "class":["Bard", "Cleric", "Warlock"],
   "archetype":"Warlock: Archfey",
   "patrons":"Archfey"
 },
@@ -771,7 +771,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Transmutation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Chain Lightning",
@@ -787,7 +787,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Evocation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Charm Person",
@@ -802,7 +802,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Enchantment",
-  "class":"Bard, Cleric, Druid, Sorcerer, Warlock, Wizard",
+  "class":["Bard", "Cleric", "Druid", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Cleric: Trickery",
   "domains":"Trickery"
 },
@@ -818,7 +818,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Necromancy",
-  "class":"Sorcerer, Warlock, Wizard"
+  "class":["Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Chromatic Orb",
@@ -834,7 +834,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Evocation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Circle of Death",
@@ -850,7 +850,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Necromancy",
-  "class":"Sorcerer, Warlock, Wizard"
+  "class":["Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Circle of Power",
@@ -864,7 +864,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Abjuration",
-  "class":"Paladin"
+  "class":["Paladin"]
 },
 {
   "name":"Clairvoyance",
@@ -879,7 +879,7 @@
   "casting_time":"10 minutes",
   "level": 3,
   "school":"Divination",
-  "class":"Bard, Cleric, Sorcerer, Warlock, Wizard",
+  "class":["Bard", "Cleric", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Warlock: Great Old One",
   "patrons":"Great Old One"
 },
@@ -896,7 +896,7 @@
   "casting_time":"1 hour",
   "level": 8,
   "school":"Necromancy",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Cloud of Daggers",
@@ -912,7 +912,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Conjuration",
-  "class":"Bard, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Cloudkill",
@@ -927,7 +927,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Conjuration",
-  "class":"Druid, Sorcerer, Wizard",
+  "class":["Druid", "Sorcerer", "Wizard"],
   "archetype":"Druid: Underdark",
   "circles":"Underdark"
 },
@@ -945,7 +945,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Illusion",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Command",
@@ -960,7 +960,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Enchantment",
-  "class":"Cleric, Paladin, Warlock",
+  "class":["Cleric", "Paladin", "Warlock"],
   "archetype":"Warlock: Fiend",
   "domains":"Knowledge",
   "patrons":"Fiend"
@@ -978,7 +978,7 @@
   "casting_time":"1 minute",
   "level": 5,
   "school":"Divination",
-  "class":"Cleric, Paladin, Ritual Caster",
+  "class":["Cleric", "Paladin", "Ritual Caster"],
   "archetype":"Paladin: Devotion",
   "oaths":"Devotion"
 },
@@ -994,7 +994,7 @@
   "casting_time":"1 minute",
   "level": 5,
   "school":"Divination",
-  "class":"Druid, Paladin, Ranger, Ritual Caster",
+  "class":["Druid", "Paladin", "Ranger", "Ritual Caster"],
   "archetype":"Paladin: Ancients",
   "circles":"Arctic, Forest",
   "oaths":"Ancients"
@@ -1011,7 +1011,7 @@
   "casting_time":"1 bonus action",
   "level": 1,
   "school":"Enchantment",
-  "class":"Paladin"
+  "class":["Paladin"]
 },
 {
   "name":"Comprehend Languages",
@@ -1026,7 +1026,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Divination",
-  "class":"Bard, Ritual Caster, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Ritual Caster", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Compulsion",
@@ -1040,7 +1040,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Enchantment",
-  "class":"Bard"
+  "class":["Bard"]
 },
 {
   "name":"Cone of Cold",
@@ -1056,7 +1056,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Evocation",
-  "class":"Druid, Sorcerer, Wizard",
+  "class":["Druid", "Sorcerer", "Wizard"],
   "archetype":"Druid: Arctic",
   "circles":"Arctic"
 },
@@ -1074,7 +1074,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Enchantment",
-  "class":"Bard, Cleric, Druid, Sorcerer, Wizard",
+  "class":["Bard", "Cleric", "Druid", "Sorcerer", "Wizard"],
   "archetype":"Cleric: Knowledge",
   "domains":"Knowledge"
 },
@@ -1091,7 +1091,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Conjuration",
-  "class":"Druid, Ranger"
+  "class":["Druid", "Ranger"]
 },
 {
   "name":"Conjure Barrage",
@@ -1106,7 +1106,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Conjuration",
-  "class":"Ranger"
+  "class":["Ranger"]
 },
 {
   "name":"Conjure Celestial",
@@ -1121,7 +1121,7 @@
   "casting_time":"1 minute",
   "level": 7,
   "school":"Conjuration",
-  "class":"Cleric"
+  "class":["Cleric"]
 },
 {
   "name":"Conjure Elemental",
@@ -1137,7 +1137,7 @@
   "casting_time":"1 minute",
   "level": 5,
   "school":"Conjuration",
-  "class":"Druid, Wizard",
+  "class":["Druid", "Wizard"],
   "circles":"Coast"
 },
 {
@@ -1153,7 +1153,7 @@
   "casting_time":"1 minute",
   "level": 6,
   "school":"Conjuration",
-  "class":"Druid, Warlock"
+  "class":["Druid", "Warlock"]
 },
 {
   "name":"Conjure Minor Elementals",
@@ -1168,7 +1168,7 @@
   "casting_time":"1 minute",
   "level": 4,
   "school":"Conjuration",
-  "class":"Druid, Wizard"
+  "class":["Druid", "Wizard"]
 },
 {
   "name":"Conjure Volley",
@@ -1183,7 +1183,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Conjuration",
-  "class":"Ranger"
+  "class":["Ranger"]
 },
 {
   "name":"Conjure Woodland Beings",
@@ -1199,7 +1199,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Conjuration",
-  "class":"Druid, Ranger"
+  "class":["Druid", "Ranger"]
 },
 {
   "name":"Contact Other Plane",
@@ -1213,7 +1213,7 @@
   "casting_time":"1 minute",
   "level": 5,
   "school":"Divination",
-  "class":"Ritual Caster, Warlock, Wizard"
+  "class":["Ritual Caster", "Warlock", "Wizard"]
 },
 {
   "name":"Contagion",
@@ -1227,7 +1227,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Necromancy",
-  "class":"Cleric, Druid"
+  "class":["Cleric", "Druid"]
 },
 {
   "name":"Contingency",
@@ -1242,7 +1242,7 @@
   "casting_time":"10 minutes",
   "level": 6,
   "school":"Evocation",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Continual Flame",
@@ -1257,7 +1257,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Evocation",
-  "class":"Cleric, Wizard"
+  "class":["Cleric", "Wizard"]
 },
 {
   "name":"Control Flames",
@@ -1271,7 +1271,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Transmutation",
-  "class":"Druid, Sorcerer, Wizard"
+  "class":["Druid", "Sorcerer", "Wizard"]
 },
 {
   "name":"Control Water",
@@ -1286,7 +1286,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Transmutation",
-  "class":"Cleric, Druid, Wizard"
+  "class":["Cleric", "Druid", "Wizard"]
 },
 {
   "name":"Control Weather",
@@ -1301,7 +1301,7 @@
   "casting_time":"10 minutes",
   "level": 8,
   "school":"Transmutation",
-  "class":"Cleric, Druid, Wizard",
+  "class":["Cleric", "Druid", "Wizard"],
   "domains":"Tempest",
   "circles":"Coast"
 },
@@ -1317,7 +1317,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Transmutation",
-  "class":"Druid, Sorcerer, Wizard"
+  "class":["Druid", "Sorcerer", "Wizard"]
 },
 {
   "name":"Cordon of Arrows",
@@ -1333,7 +1333,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Transmutation",
-  "class":"Ranger"
+  "class":["Ranger"]
 },
 {
   "name":"Counterspell",
@@ -1348,7 +1348,7 @@
   "casting_time":"1 reaction",
   "level": 3,
   "school":"Abjuration",
-  "class":"Sorcerer, Warlock, Wizard"
+  "class":["Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Create Bonfire",
@@ -1362,7 +1362,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Conjuration",
-  "class":"Druid, Sorcerer, Warlock, Wizard"
+  "class":["Druid", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Create Food and Water",
@@ -1376,7 +1376,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Conjuration",
-  "class":"Cleric, Druid, Paladin",
+  "class":["Cleric", "Druid", "Paladin"],
   "archetype":"Druid: Desert",
   "circles":"Desert"
 },
@@ -1394,7 +1394,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Transmutation",
-  "class":"Cleric, Druid"
+  "class":["Cleric", "Druid"]
 },
 {
   "name":"Create Undead",
@@ -1410,7 +1410,7 @@
   "casting_time":"1 minute",
   "level": 6,
   "school":"Necromancy",
-  "class":"Cleric, Warlock, Wizard"
+  "class":["Cleric", "Warlock", "Wizard"]
 },
 {
   "name":"Creation",
@@ -1426,7 +1426,7 @@
   "casting_time":"1 minute",
   "level": 5,
   "school":"Illusion",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Crown of Madness",
@@ -1440,7 +1440,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Enchantment",
-  "class":"Bard, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Crusader's Mantle",
@@ -1454,7 +1454,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Evocation",
-  "class":"Cleric, Paladin",
+  "class":["Cleric", "Paladin"],
   "archetype":"Cleric: War",
   "domains":"War"
 },
@@ -1471,7 +1471,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Evocation",
-  "class":"Bard, Cleric, Druid, Paladin, Ranger",
+  "class":["Bard", "Cleric", "Druid", "Paladin", "Ranger"],
   "domains":"Life"
 },
 {
@@ -1487,7 +1487,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Evocation",
-  "class":"Bard, Sorcerer, Wizard"
+  "class":["Bard", "Sorcerer", "Wizard"]
 },
 {
   "name":"Darkness",
@@ -1502,7 +1502,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Evocation",
-  "class":"Druid, Sorcerer, Warlock, Wizard",
+  "class":["Druid", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Druid: Swamp",
   "circles":"Swamp"
 },
@@ -1519,7 +1519,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Transmutation",
-  "class":"Druid, Ranger, Sorcerer, Wizard"
+  "class":["Druid", "Ranger", "Sorcerer", "Wizard"]
 },
 {
   "name":"Daylight",
@@ -1533,7 +1533,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Evocation",
-  "class":"Cleric, Druid, Paladin, Ranger, Sorcerer",
+  "class":["Cleric", "Druid", "Paladin", "Ranger", "Sorcerer"],
   "domains":"Light",
   "circles":"Grassland"
 },
@@ -1549,7 +1549,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Abjuration",
-  "class":"Cleric, Paladin",
+  "class":["Cleric", "Paladin"],
   "domains":"Life"
 },
 {
@@ -1566,7 +1566,7 @@
   "casting_time":"1 action",
   "level": 7,
   "school":"Evocation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Demiplane",
@@ -1580,7 +1580,7 @@
   "casting_time":"1 action",
   "level": 8,
   "school":"Conjuration",
-  "class":"Warlock, Wizard"
+  "class":["Warlock", "Wizard"]
 },
 {
   "name":"Destructive Wave",
@@ -1594,7 +1594,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Evocation",
-  "class":"Cleric, Paladin",
+  "class":["Cleric", "Paladin"],
   "archetype":"Cleric: Tempest",
   "domains":"Tempest"
 },
@@ -1610,7 +1610,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Divination",
-  "class":"Cleric, Paladin"
+  "class":["Cleric", "Paladin"]
 },
 {
   "name":"Detect Magic",
@@ -1624,7 +1624,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Divination",
-  "class":"Bard, Cleric, Druid, Paladin, Ranger, Ritual Caster, Sorcerer, Wizard"
+  "class":["Bard", "Cleric", "Druid", "Paladin", "Ranger", "Ritual Caster", "Sorcerer", "Wizard"]
 },
 {
   "name":"Detect Poison and Disease",
@@ -1639,7 +1639,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Divination",
-  "class":"Cleric, Druid, Paladin, Ranger, Ritual Caster"
+  "class":["Cleric", "Druid", "Paladin", "Ranger", "Ritual Caster"]
 },
 {
   "name":"Detect Thoughts",
@@ -1654,7 +1654,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Divination",
-  "class":"Bard, Sorcerer, Warlock, Wizard",
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Warlock: Great Old One",
   "patrons":"Great Old One"
 },
@@ -1670,7 +1670,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Conjuration",
-  "class":"Bard, Cleric, Paladin, Sorcerer, Warlock, Wizard",
+  "class":["Bard", "Cleric", "Paladin", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Cleric: Trickery<br/> Paladin: Vengeance",
   "domains":"Trickery",
   "oaths":"Vengeance"
@@ -1687,7 +1687,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Illusion",
-  "class":"Bard, Cleric, Sorcerer, Wizard",
+  "class":["Bard", "Cleric", "Sorcerer", "Wizard"],
   "archetype":"Cleric: Trickery",
   "domains":"Trickery"
 },
@@ -1705,7 +1705,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Transmutation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Dispel Evil and Good",
@@ -1720,7 +1720,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Abjuration",
-  "class":"Cleric, Paladin"
+  "class":["Cleric", "Paladin"]
 },
 {
   "name":"Dispel Magic",
@@ -1735,7 +1735,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Abjuration",
-  "class":"Bard, Cleric, Druid, Paladin, Sorcerer, Warlock, Wizard",
+  "class":["Bard", "Cleric", "Druid", "Paladin", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Cleric: Trickery",
   "domains":"Trickery",
   "oaths":"Devotion"
@@ -1753,7 +1753,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Enchantment",
-  "class":"Bard, Warlock",
+  "class":["Bard", "Warlock"],
   "archetype":"Warlock: Great Old One",
   "patrons":"Great Old One"
 },
@@ -1770,7 +1770,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Divination",
-  "class":"Cleric, Druid, Ritual Caster",
+  "class":["Cleric", "Druid", "Ritual Caster"],
   "archetype":"Druid: Forest, Grassland",
   "circles":"Forest, Grassland"
 },
@@ -1786,7 +1786,7 @@
   "casting_time":"1 bonus action",
   "level": 1,
   "school":"Evocation",
-  "class":"Cleric, Paladin",
+  "class":["Cleric", "Paladin"],
   "archetype":"Cleric: War",
   "domains":"War"
 },
@@ -1802,7 +1802,7 @@
   "casting_time":"1 bonus action",
   "level": 7,
   "school":"Evocation",
-  "class":"Cleric"
+  "class":["Cleric"]
 },
 {
   "name":"Dominate Beast",
@@ -1817,7 +1817,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Enchantment",
-  "class":"Cleric, Druid, Sorcerer, Warlock",
+  "class":["Cleric", "Druid", "Sorcerer", "Warlock"],
   "archetype":"Cleric: Nature<br/> Warlock: Archfey, Great Old One",
   "domains":"Nature",
   "patrons":"Archfey, Great Old One"
@@ -1835,7 +1835,7 @@
   "casting_time":"1 minute",
   "level": 6,
   "school":"Conjuration",
-  "class":"Ritual Caster, Wizard"
+  "class":["Ritual Caster", "Wizard"]
 },
 {
   "name":"Dominate Monster",
@@ -1850,7 +1850,7 @@
   "casting_time":"1 action",
   "level": 8,
   "school":"Enchantment",
-  "class":"Bard, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Dominate Person",
@@ -1865,7 +1865,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Enchantment",
-  "class":"Bard, Cleric, Sorcerer, Warlock, Wizard",
+  "class":["Bard", "Cleric", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Cleric: Trickery<br/> Warlock: Archfey, Great Old One",
   "domains":"Trickery",
   "patrons":"Archfey, Great Old One"
@@ -1883,7 +1883,7 @@
   "casting_time":"1 minute",
   "level": 5,
   "school":"Illusion",
-  "class":"Bard, Druid, Warlock, Wizard",
+  "class":["Bard", "Druid", "Warlock", "Wizard"],
   "archetype":"Druid: Grassland",
   "circles":"Grassland"
 },
@@ -1899,7 +1899,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Transmutation",
-  "class":"Druid"
+  "class":["Druid"]
 },
 {
   "name":"Dust Devil",
@@ -1915,7 +1915,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Conjuration",
-  "class":"Druid, Sorcerer, Wizard"
+  "class":["Druid", "Sorcerer", "Wizard"]
 },
 {
   "name":"Earth Tremor",
@@ -1930,7 +1930,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Evocation",
-  "class":"Bard, Druid, Sorcerer, Wizard"
+  "class":["Bard", "Druid", "Sorcerer", "Wizard"]
 },
 {
   "name":"Earthbind",
@@ -1944,7 +1944,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Transmutation",
-  "class":"Druid, Sorcerer, Warlock, Wizard"
+  "class":["Druid", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Earthquake",
@@ -1959,7 +1959,7 @@
   "casting_time":"1 action",
   "level": 8,
   "school":"Evocation",
-  "class":"Cleric, Druid, Sorcerer"
+  "class":["Cleric", "Druid", "Sorcerer"]
 },
 {
   "name":"Eldritch Blast",
@@ -1973,7 +1973,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Evocation",
-  "class":"Warlock"
+  "class":["Warlock"]
 },
 {
   "name":"Elemental Bane",
@@ -1988,7 +1988,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Transmutation",
-  "class":"Druid, Warlock, Wizard"
+  "class":["Druid", "Warlock", "Wizard"]
 },
 {
   "name":"Elemental Weapon",
@@ -2003,7 +2003,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Transmutation",
-  "class":"Paladin"
+  "class":["Paladin"]
 },
 {
   "name":"Enhance Ability",
@@ -2019,7 +2019,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Transmutation",
-  "class":"Bard, Cleric, Druid, Sorcerer"
+  "class":["Bard", "Cleric", "Druid", "Sorcerer"]
 },
 {
   "name":"Enlarge/Reduce",
@@ -2034,7 +2034,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Transmutation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Ensnaring Strike",
@@ -2049,7 +2049,7 @@
   "casting_time":"1 bonus action",
   "level": 1,
   "school":"Conjuration",
-  "class":"Paladin, Ranger",
+  "class":["Paladin", "Ranger"],
   "archetype":"Paladin: Ancients",
   "oaths":"Ancients"
 },
@@ -2065,7 +2065,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Conjuration",
-  "class":"Druid"
+  "class":["Druid"]
 },
 {
   "name":"Enthrall",
@@ -2079,7 +2079,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Enchantment",
-  "class":"Bard, Warlock"
+  "class":["Bard", "Warlock"]
 },
 {
   "name":"Erupting Earth",
@@ -2095,7 +2095,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Transmutation",
-  "class":"Druid, Sorcerer, Wizard"
+  "class":["Druid", "Sorcerer", "Wizard"]
 },
 {
   "name":"Etherealness",
@@ -2110,7 +2110,7 @@
   "casting_time":"1 action",
   "level": 7,
   "school":"Transmutation",
-  "class":"Bard, Cleric, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Cleric", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Evard's Black Tentacles",
@@ -2125,7 +2125,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Conjuration",
-  "class":"Warlock, Wizard",
+  "class":["Warlock", "Wizard"],
   "archetype":"Warlock: Great Old One",
   "patrons":"Great Old One"
 },
@@ -2141,7 +2141,7 @@
   "casting_time":"1 bonus action",
   "level": 1,
   "school":"Transmutation",
-  "class":"Sorcerer, Warlock, Wizard"
+  "class":["Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Eyebite",
@@ -2155,7 +2155,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Necromancy",
-  "class":"Bard, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Fabricate",
@@ -2169,7 +2169,7 @@
   "casting_time":"10 minutes",
   "level": 4,
   "school":"Transmutation",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Faerie Fire",
@@ -2183,7 +2183,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Evocation",
-  "class":"Bard, Cleric, Druid, Warlock",
+  "class":["Bard", "Cleric", "Druid", "Warlock"],
   "archetype":"Cleric: Light<br/> Warlock: Archfey",
   "domains":"Light",
   "patrons":"Archfey"
@@ -2202,7 +2202,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Necromancy",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Fear",
@@ -2217,7 +2217,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Illusion",
-  "class":"Bard, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Feather Fall",
@@ -2232,7 +2232,7 @@
   "casting_time":"1 reaction",
   "level": 1,
   "school":"Transmutation",
-  "class":"Bard, Sorcerer, Wizard"
+  "class":["Bard", "Sorcerer", "Wizard"]
 },
 {
   "name":"Feeblemind",
@@ -2247,7 +2247,7 @@
   "casting_time":"1 action",
   "level": 8,
   "school":"Enchantment",
-  "class":"Bard, Druid, Warlock, Wizard"
+  "class":["Bard", "Druid", "Warlock", "Wizard"]
 },
 {
   "name":"Feign Death",
@@ -2262,7 +2262,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Necromancy",
-  "class":"Bard, Cleric, Druid, Ritual Caster, Wizard"
+  "class":["Bard", "Cleric", "Druid", "Ritual Caster", "Wizard"]
 },
 {
   "name":"Find Familiar",
@@ -2277,7 +2277,7 @@
   "casting_time":"1 hour",
   "level": 1,
   "school":"Conjuration",
-  "class":"Ritual Caster, Wizard"
+  "class":["Ritual Caster", "Wizard"]
 },
 {
   "name":"Find Steed",
@@ -2291,7 +2291,7 @@
   "casting_time":"10 minutes",
   "level": 2,
   "school":"Conjuration",
-  "class":"Paladin"
+  "class":["Paladin"]
 },
 {
   "name":"Find the Path",
@@ -2306,7 +2306,7 @@
   "casting_time":"1 minute",
   "level": 6,
   "school":"Divination",
-  "class":"Bard, Cleric, Druid"
+  "class":["Bard", "Cleric", "Druid"]
 },
 {
   "name":"Find Traps",
@@ -2320,7 +2320,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Divination",
-  "class":"Cleric, Druid, Ranger"
+  "class":["Cleric", "Druid", "Ranger"]
 },
 {
   "name":"Finger of Death",
@@ -2334,7 +2334,7 @@
   "casting_time":"1 action",
   "level": 7,
   "school":"Necromancy",
-  "class":"Sorcerer, Warlock, Wizard"
+  "class":["Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Fireball",
@@ -2350,7 +2350,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Evocation",
-  "class":"Cleric, Sorcerer, Warlock, Wizard",
+  "class":["Cleric", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Cleric: Light<br/> Warlock: Fiend",
   "domains":"Light",
   "patrons":"Fiend"
@@ -2367,7 +2367,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Evocation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Fire Shield",
@@ -2382,7 +2382,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Evocation",
-  "class":"Warlock, Wizard",
+  "class":["Warlock", "Wizard"],
   "archetype":"Warlock: Fiend",
   "patrons":"Fiend"
 },
@@ -2398,7 +2398,7 @@
   "casting_time":"1 action",
   "level": 7,
   "school":"Evocation",
-  "class":"Cleric, Druid, Sorcerer"
+  "class":["Cleric", "Druid", "Sorcerer"]
 },
 {
   "name":"Flame Arrows",
@@ -2413,7 +2413,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Transmutation",
-  "class":"Druid, Ranger, Sorcerer, Wizard"
+  "class":["Druid", "Ranger", "Sorcerer", "Wizard"]
 },
 {
   "name":"Flame Blade",
@@ -2429,7 +2429,7 @@
   "casting_time":"1 bonus action",
   "level": 2,
   "school":"Evocation",
-  "class":"Druid"
+  "class":["Druid"]
 },
 {
   "name":"Flame Strike",
@@ -2445,7 +2445,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Evocation",
-  "class":"Cleric, Paladin, Warlock",
+  "class":["Cleric", "Paladin", "Warlock"],
   "archetype":"Paladin: Devotion<br/> Warlock: Fiend",
   "domains":"Light, War",
   "oaths":"Devotion",
@@ -2465,7 +2465,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Conjuration",
-  "class":"Cleric, Druid, Wizard",
+  "class":["Cleric", "Druid", "Wizard"],
   "archetype":"Cleric: Light",
   "domains":"Light"
 },
@@ -2482,7 +2482,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Transmutation",
-  "class":"Warlock, Wizard"
+  "class":["Warlock", "Wizard"]
 },
 {
   "name":"Fly",
@@ -2498,7 +2498,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Transmutation",
-  "class":"Sorcerer, Warlock, Wizard"
+  "class":["Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Fog Cloud",
@@ -2513,7 +2513,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Conjuration",
-  "class":"Cleric, Druid, Ranger, Sorcerer, Wizard",
+  "class":["Cleric", "Druid", "Ranger", "Sorcerer", "Wizard"],
   "archetype":"Cleric: Tempest",
   "domains":"Tempest"
 },
@@ -2530,7 +2530,7 @@
   "casting_time":"10 minutes",
   "level": 6,
   "school":"Abjuration",
-  "class":"Cleric, Ritual Caster"
+  "class":["Cleric", "Ritual Caster"]
 },
 {
   "name":"Forcecage",
@@ -2545,7 +2545,7 @@
   "casting_time":"1 action",
   "level": 7,
   "school":"Evocation",
-  "class":"Bard, Warlock, Wizard"
+  "class":["Bard", "Warlock", "Wizard"]
 },
 {
   "name":"Foresight",
@@ -2558,9 +2558,9 @@
   "duration":"8 hours",
   "concentration":false,
   "casting_time":"1 minute",
-  "level":"9th-level",
+  "level": 9,
   "school":"Divination",
-  "class":"Bard, Druid, Warlock, Wizard"
+  "class":["Bard", "Druid", "Warlock", "Wizard"]
 },
 {
   "name":"Freedom of Movement",
@@ -2575,7 +2575,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Abjuration",
-  "class":"Bard, Cleric, Druid, Paladin, Ranger",
+  "class":["Bard", "Cleric", "Druid", "Paladin", "Ranger"],
   "archetype":"Paladin: Devotion",
   "domains":"War",
   "circles":"Arctic, Coast, Forest, Grassland, Swamp",
@@ -2594,7 +2594,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Enchantment",
-  "class":"Bard, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Frostbite",
@@ -2608,7 +2608,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Evocation",
-  "class":"Druid, Sorcerer, Warlock, Wizard"
+  "class":["Druid", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Gaseous Form",
@@ -2623,7 +2623,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Transmutation",
-  "class":"Druid, Sorcerer, Warlock, Wizard",
+  "class":["Druid", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Druid: Underdark",
   "circles":"Underdark"
 },
@@ -2638,9 +2638,9 @@
   "duration":"Up to 1 minute",
   "concentration":true,
   "casting_time":"1 action",
-  "level":"9th-level",
+  "level": 9,
   "school":"Conjuration",
-  "class":"Cleric, Sorcerer, Wizard"
+  "class":["Cleric", "Sorcerer", "Wizard"]
 },
 {
   "name":"Geas",
@@ -2655,7 +2655,7 @@
   "casting_time":"1 minute",
   "level": 5,
   "school":"Enchantment",
-  "class":"Bard, Cleric, Druid, Paladin, Wizard"
+  "class":["Bard", "Cleric", "Druid", "Paladin", "Wizard"]
 },
 {
   "name":"Gentle Repose",
@@ -2670,7 +2670,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Necromancy",
-  "class":"Cleric, Ritual Caster, Wizard"
+  "class":["Cleric", "Ritual Caster", "Wizard"]
 },
 {
   "name":"Giant Insect",
@@ -2684,7 +2684,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Transmutation",
-  "class":"Druid"
+  "class":["Druid"]
 },
 {
   "name":"Glibness",
@@ -2698,7 +2698,7 @@
   "casting_time":"1 action",
   "level": 8,
   "school":"Transmutation",
-  "class":"Bard, Warlock"
+  "class":["Bard", "Warlock"]
 },
 {
   "name":"Globe of Invulnerability",
@@ -2714,7 +2714,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Abjuration",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Glyph of Warding",
@@ -2730,7 +2730,7 @@
   "casting_time":"1 hour",
   "level": 3,
   "school":"Abjuration",
-  "class":"Bard, Cleric, Wizard"
+  "class":["Bard", "Cleric", "Wizard"]
 },
 {
   "name":"Goodberry",
@@ -2745,7 +2745,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Transmutation",
-  "class":"Druid, Ranger"
+  "class":["Druid", "Ranger"]
 },
 {
   "name":"Grasping Vine",
@@ -2759,7 +2759,7 @@
   "casting_time":"1 bonus action",
   "level": 4,
   "school":"Conjuration",
-  "class":"Cleric, Druid, Ranger",
+  "class":["Cleric", "Druid", "Ranger"],
   "archetype":"Cleric: Nature",
   "domains":"Nature"
 },
@@ -2776,7 +2776,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Conjuration",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Greater Invisibility",
@@ -2790,7 +2790,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Illusion",
-  "class":"Bard, Druid, Sorcerer, Warlock, Wizard",
+  "class":["Bard", "Druid", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Druid: Underdark<br/> Warlock: Archfey",
   "circles":"Underdark",
   "patrons":"Archfey"
@@ -2808,7 +2808,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Abjuration",
-  "class":"Bard, Cleric, Druid"
+  "class":["Bard", "Cleric", "Druid"]
 },
 {
   "name":"Green-Flame Blade",
@@ -2823,7 +2823,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Evocation",
-  "class":"Sorcerer, Warlock, Wizard"
+  "class":["Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Guardian of Faith",
@@ -2837,7 +2837,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Conjuration",
-  "class":"Cleric, Paladin",
+  "class":["Cleric", "Paladin"],
   "archetype":"Paladin: Devotion",
   "domains":"Life, Light",
   "oaths":"Devotion"
@@ -2855,7 +2855,7 @@
   "casting_time":"10 minutes",
   "level": 6,
   "school":"Abjuration",
-  "class":"Bard, Wizard"
+  "class":["Bard", "Wizard"]
 },
 {
   "name":"Guidance",
@@ -2869,7 +2869,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Divination",
-  "class":"Cleric, Druid"
+  "class":["Cleric", "Druid"]
 },
 {
   "name":"Guiding Bolt",
@@ -2884,7 +2884,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Evocation",
-  "class":"Cleric"
+  "class":["Cleric"]
 },
 {
   "name":"Gust",
@@ -2898,7 +2898,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Transmutation",
-  "class":"Druid, Sorcerer, Wizard"
+  "class":["Druid", "Sorcerer", "Wizard"]
 },
 {
   "name":"Gust of Wind",
@@ -2913,7 +2913,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Evocation",
-  "class":"Cleric, Druid, Sorcerer, Wizard",
+  "class":["Cleric", "Druid", "Sorcerer", "Wizard"],
   "archetype":"Cleric: Tempest",
   "domains":"Tempest"
 },
@@ -2930,7 +2930,7 @@
   "casting_time":"1 bonus action",
   "level": 1,
   "school":"Conjuration",
-  "class":"Ranger"
+  "class":["Ranger"]
 },
 {
   "name":"Hallow",
@@ -2945,7 +2945,7 @@
   "casting_time":"24 hours",
   "level": 5,
   "school":"Evocation",
-  "class":"Cleric, Warlock",
+  "class":["Cleric", "Warlock"],
   "archetype":"Warlock: Fiend",
   "patrons":"Fiend"
 },
@@ -2962,7 +2962,7 @@
   "casting_time":"10 minutes",
   "level": 4,
   "school":"Illusion",
-  "class":"Bard, Druid, Warlock, Wizard",
+  "class":["Bard", "Druid", "Warlock", "Wizard"],
   "circles":"Desert"
 },
 {
@@ -2977,7 +2977,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Necromancy",
-  "class":"Cleric"
+  "class":["Cleric"]
 },
 {
   "name":"Haste",
@@ -2992,7 +2992,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Transmutation",
-  "class":"Druid, Paladin, Sorcerer, Wizard",
+  "class":["Druid", "Paladin", "Sorcerer", "Wizard"],
   "archetype":"Druid: Grassland<br/> Paladin: Vengeance",
   "circles":"Grassland",
   "oaths":"Vengeance"
@@ -3010,7 +3010,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Evocation",
-  "class":"Cleric, Druid"
+  "class":["Cleric", "Druid"]
 },
 {
   "name":"Healing Word",
@@ -3025,7 +3025,7 @@
   "casting_time":"1 bonus action",
   "level": 1,
   "school":"Evocation",
-  "class":"Bard, Cleric, Druid"
+  "class":["Bard", "Cleric", "Druid"]
 },
 {
   "name":"Heat Metal",
@@ -3041,7 +3041,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Transmutation",
-  "class":"Bard, Druid"
+  "class":["Bard", "Druid"]
 },
 {
   "name":"Hellish Rebuke",
@@ -3056,7 +3056,7 @@
   "casting_time":"1 reaction",
   "level": 1,
   "school":"Evocation",
-  "class":"Warlock"
+  "class":["Warlock"]
 },
 {
   "name":"Heroes' Feast",
@@ -3071,7 +3071,7 @@
   "casting_time":"10 minutes",
   "level": 6,
   "school":"Conjuration",
-  "class":"Cleric, Druid"
+  "class":["Cleric", "Druid"]
 },
 {
   "name":"Heroism",
@@ -3085,7 +3085,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Enchantment",
-  "class":"Bard, Paladin"
+  "class":["Bard", "Paladin"]
 },
 {
   "name":"Hex",
@@ -3101,7 +3101,7 @@
   "casting_time":"1 bonus action",
   "level": 1,
   "school":"Enchantment",
-  "class":"Warlock"
+  "class":["Warlock"]
 },
 {
   "name":"Hold Monster",
@@ -3117,7 +3117,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Enchantment",
-  "class":"Bard, Cleric, Paladin, Sorcerer, Warlock, Wizard",
+  "class":["Bard", "Cleric", "Paladin", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Cleric: War<br/> Paladin: Vengeance",
   "domains":"War",
   "oaths":"Vengeance"
@@ -3136,7 +3136,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Enchantment",
-  "class":"Bard, Cleric, Druid, Paladin, Sorcerer, Warlock, Wizard",
+  "class":["Bard", "Cleric", "Druid", "Paladin", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Paladin: Vengeance",
   "circles":"Arctic",
   "oaths":"Vengeance"
@@ -3154,7 +3154,7 @@
   "casting_time":"1 action",
   "level": 8,
   "school":"Abjuration",
-  "class":"Cleric"
+  "class":["Cleric"]
 },
 {
   "name":"Hunger of Hadar",
@@ -3169,7 +3169,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Conjuration",
-  "class":"Warlock"
+  "class":["Warlock"]
 },
 {
   "name":"Hunter's Mark",
@@ -3184,7 +3184,7 @@
   "casting_time":"1 bonus action",
   "level": 1,
   "school":"Divination",
-  "class":"Paladin, Ranger",
+  "class":["Paladin", "Ranger"],
   "archetype":"Paladin: Vengeance",
   "oaths":"Vengeance"
 },
@@ -3201,7 +3201,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Illusion",
-  "class":"Bard, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Ice Knife",
@@ -3217,7 +3217,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Conjuration",
-  "class":"Druid, Sorcerer, Wizard"
+  "class":["Druid", "Sorcerer", "Wizard"]
 },
 {
   "name":"Ice Storm",
@@ -3233,7 +3233,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Evocation",
-  "class":"Cleric, Druid, Paladin, Sorcerer, Wizard",
+  "class":["Cleric", "Druid", "Paladin", "Sorcerer", "Wizard"],
   "archetype":"Cleric: Tempest<br/> Paladin: Ancients",
   "domains":"Tempest",
   "circles":"Arctic",
@@ -3252,7 +3252,7 @@
   "casting_time":"1 minute",
   "level": 1,
   "school":"Divination",
-  "class":"Bard, Cleric, Ritual Caster, Wizard",
+  "class":["Bard", "Cleric", "Ritual Caster", "Wizard"],
   "archetype":"Cleric: Knowledge",
   "domains":"Knowledge"
 },
@@ -3269,7 +3269,7 @@
   "casting_time":"1 minute",
   "level": 1,
   "school":"Illusion",
-  "class":"Bard, Ritual Caster, Warlock, Wizard"
+  "class":["Bard", "Ritual Caster", "Warlock", "Wizard"]
 },
 {
   "name":"Immolation",
@@ -3283,7 +3283,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Evocation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Imprisonment",
@@ -3296,9 +3296,9 @@
   "duration":"Until dispelled",
   "concentration":false,
   "casting_time":"1 minute",
-  "level":"9th-level",
+  "level": 9,
   "school":"Abjuration",
-  "class":"Warlock, Wizard"
+  "class":["Warlock", "Wizard"]
 },
 {
   "name":"Incendiary Cloud",
@@ -3312,7 +3312,7 @@
   "casting_time":"1 action",
   "level": 8,
   "school":"Conjuration",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Inflict Wounds",
@@ -3327,7 +3327,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Necromancy",
-  "class":"Cleric"
+  "class":["Cleric"]
 },
 {
   "name":"Insect Plague",
@@ -3343,7 +3343,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Conjuration",
-  "class":"Cleric, Druid, Sorcerer",
+  "class":["Cleric", "Druid", "Sorcerer"],
   "domains":"Nature, Tempest",
   "circles":"Desert, Grassland, Swamp, Underdark"
 },
@@ -3359,7 +3359,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Transmutation",
-  "class":"Druid, Sorcerer, Warlock, Wizard"
+  "class":["Druid", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Investiture of Ice",
@@ -3373,7 +3373,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Transmutation",
-  "class":"Druid, Sorcerer, Warlock, Wizard"
+  "class":["Druid", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Investiture of Stone",
@@ -3387,7 +3387,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Transmutation",
-  "class":"Druid, Sorcerer, Warlock, Wizard"
+  "class":["Druid", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Investiture of Wind",
@@ -3401,7 +3401,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Transmutation",
-  "class":"Druid, Sorcerer, Warlock, Wizard"
+  "class":["Druid", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Invisibility",
@@ -3417,7 +3417,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Illusion",
-  "class":"Bard, Druid, Sorcerer, Warlock, Wizard",
+  "class":["Bard", "Druid", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Druid: Grassland",
   "circles":"Grassland"
 },
@@ -3434,7 +3434,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Transmutation",
-  "class":"Druid, Ranger, Sorcerer, Wizard"
+  "class":["Druid", "Ranger", "Sorcerer", "Wizard"]
 },
 {
   "name":"Knock",
@@ -3448,7 +3448,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Transmutation",
-  "class":"Bard, Sorcerer, Wizard"
+  "class":["Bard", "Sorcerer", "Wizard"]
 },
 {
   "name":"Legend Lore",
@@ -3463,7 +3463,7 @@
   "casting_time":"10 minutes",
   "level": 5,
   "school":"Divination",
-  "class":"Bard, Cleric, Wizard",
+  "class":["Bard", "Cleric", "Wizard"],
   "domains":"Knowledge"
 },
 {
@@ -3479,9 +3479,8 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Conjuration",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
-
 {
   "name":"Leomund's Tiny Hut",
   "desc":"A 10-foot-radius immobile dome of force springs into existence around and above you and remains stationary for the duration. The spell ends if you leave its area.Nine creatures of Medium size or smaller can fit inside the dome with you. The spell fails if its area includes a larger creature or more than nine creatures. Creatures and objects within the dome when you cast this spell can move through it freely. All other creatures and objects are barred from passing through it. Spells and other magical effects can’t extend through the dome or be cast through it. The atmosphere inside the space is comfortable and dry, regardless of the weather outside.Until the spell ends, you can command the interior to become dimly lit or dark. The dome is opaque from the outside, of any color you choose, but it is transparent from the inside.",
@@ -3495,7 +3494,7 @@
   "casting_time":"1 minute",
   "level": 3,
   "school":"Evocation",
-  "class":"Bard, Ritual Caster, Wizard"
+  "class":["Bard", "Ritual Caster", "Wizard"]
 },
 {
   "name":"Lesser Restoration",
@@ -3509,7 +3508,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Abjuration",
-  "class":"Bard, Cleric, Druid, Paladin, Ranger",
+  "class":["Bard", "Cleric", "Druid", "Paladin", "Ranger"],
   "domains":"Life",
   "oaths":"Devotion"
 },
@@ -3526,7 +3525,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Transmutation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Light",
@@ -3541,7 +3540,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Evocation",
-  "class":"Bard, Cleric, Sorcerer, Wizard"
+  "class":["Bard", "Cleric", "Sorcerer", "Wizard"]
 },
 {
   "name":"Lightning Arrow",
@@ -3556,7 +3555,7 @@
   "casting_time":"1 bonus action",
   "level": 3,
   "school":"Transmutation",
-  "class":"Ranger"
+  "class":["Ranger"]
 },
 {
   "name":"Lightning Bolt",
@@ -3572,7 +3571,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Evocation",
-  "class":"Druid, Sorcerer, Wizard",
+  "class":["Druid", "Sorcerer", "Wizard"],
   "archetype":"Druid: Mountain",
   "circles":"Mountain"
 },
@@ -3588,7 +3587,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Evocation",
-  "class":"Sorcerer, Warlock, Wizard"
+  "class":["Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Locate Animals or Plants",
@@ -3603,7 +3602,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Divination",
-  "class":"Bard, Druid, Ranger, Ritual Caster"
+  "class":["Bard", "Druid", "Ranger", "Ritual Caster"]
 },
 {
   "name":"Locate Creature",
@@ -3618,7 +3617,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Divination",
-  "class":"Bard, Cleric, Druid, Paladin, Ranger, Wizard",
+  "class":["Bard", "Cleric", "Druid", "Paladin", "Ranger", "Wizard"],
   "circles":"Swamp"
 },
 {
@@ -3634,7 +3633,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Divination",
-  "class":"Bard, Cleric, Druid, Paladin, Ranger, Wizard"
+  "class":["Bard", "Cleric", "Druid", "Paladin", "Ranger", "Wizard"]
 },
 {
   "name":"Longstrider",
@@ -3650,7 +3649,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Transmutation",
-  "class":"Bard, Druid, Ranger, Wizard"
+  "class":["Bard", "Druid", "Ranger", "Wizard"]
 },
 {
   "name":"Maelstrom",
@@ -3665,7 +3664,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Evocation",
-  "class":"Druid"
+  "class":["Druid"]
 },
 {
   "name":"Mage Armor",
@@ -3680,7 +3679,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Abjuration",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Mage Hand",
@@ -3694,7 +3693,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Conjuration",
-  "class":"Bard, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Magic Circle",
@@ -3710,7 +3709,7 @@
   "casting_time":"1 minute",
   "level": 3,
   "school":"Abjuration",
-  "class":"Cleric, Paladin, Warlock, Wizard"
+  "class":["Cleric", "Paladin", "Warlock", "Wizard"]
 },
 {
   "name":"Magic Jar",
@@ -3725,7 +3724,7 @@
   "casting_time":"1 minute",
   "level": 6,
   "school":"Necromancy",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Magic Missile",
@@ -3740,7 +3739,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Evocation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Magic Mouth",
@@ -3755,7 +3754,7 @@
   "casting_time":"1 minute",
   "level": 2,
   "school":"Illusion",
-  "class":"Bard, Ritual Caster, Wizard"
+  "class":["Bard", "Ritual Caster", "Wizard"]
 },
 {
   "name":"Magic Stone",
@@ -3769,7 +3768,7 @@
   "casting_time":"1 bonus action",
   "level": 0,
   "school":"Transmutation",
-  "class":"Druid, Warlock"
+  "class":["Druid", "Warlock"]
 },
 {
   "name":"Magic Weapon",
@@ -3784,7 +3783,7 @@
   "casting_time":"1 bonus action",
   "level": 2,
   "school":"Transmutation",
-  "class":"Cleric, Paladin, Wizard",
+  "class":["Cleric", "Paladin", "Wizard"],
   "archetype":"Cleric: War",
   "domains":"War"
 },
@@ -3802,7 +3801,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Illusion",
-  "class":"Bard, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Mass Cure Wounds",
@@ -3817,7 +3816,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Conjuration",
-  "class":"Bard, Cleric, Druid",
+  "class":["Bard", "Cleric", "Druid"],
   "domains":"Life"
 },
 {
@@ -3830,9 +3829,9 @@
   "duration":"Instantaneous",
   "concentration":false,
   "casting_time":"1 action",
-  "level":"9th-level",
+  "level": 9,
   "school":"Conjuration",
-  "class":"Cleric"
+  "class":["Cleric"]
 },
 {
   "name":"Mass Healing Word",
@@ -3847,7 +3846,7 @@
   "casting_time":"1 bonus action",
   "level": 3,
   "school":"Evocation",
-  "class":"Cleric"
+  "class":["Cleric"]
 },
 {
   "name":"Mass Suggestion",
@@ -3863,7 +3862,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Enchantment",
-  "class":"Bard, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Maximilian's Earthen Grasp",
@@ -3878,7 +3877,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Transmutation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Maze",
@@ -3892,7 +3891,7 @@
   "casting_time":"1 action",
   "level": 8,
   "school":"Conjuration",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Meld into Stone",
@@ -3906,7 +3905,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Transmutation",
-  "class":"Cleric, Druid, Ritual Caster",
+  "class":["Cleric", "Druid", "Ritual Caster"],
   "archetype":"Druid: Mountain",
   "circles":"Mountain"
 },
@@ -3924,7 +3923,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Evocation",
-  "class":"Druid, Wizard",
+  "class":["Druid", "Wizard"],
   "archetype":"Druid: Swamp",
   "circles":"Swamp"
 },
@@ -3942,7 +3941,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Transmutation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Mending",
@@ -3957,7 +3956,7 @@
   "casting_time":"1 minute",
   "level": 0,
   "school":"Transmutation",
-  "class":"Cleric, Bard, Druid, Sorcerer, Wizard"
+  "class":["Cleric", "Bard", "Druid", "Sorcerer", "Wizard"]
 },
 {
   "name":"Message",
@@ -3972,7 +3971,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Transmutation",
-  "class":"Bard, Sorcerer, Wizard"
+  "class":["Bard", "Sorcerer", "Wizard"]
 },
 {
   "name":"Meteor Swarm",
@@ -3984,9 +3983,9 @@
   "duration":"Instantaneous",
   "concentration":false,
   "casting_time":"1 action",
-  "level":"9th-level",
+  "level": 9,
   "school":"Evocation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Mind Blank",
@@ -4000,7 +3999,7 @@
   "casting_time":"1 action",
   "level": 8,
   "school":"Abjuration",
-  "class":"Bard, Wizard"
+  "class":["Bard", "Wizard"]
 },
 {
   "name":"Minor Illusion",
@@ -4015,7 +4014,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Illusion",
-  "class":"Bard, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Mirage Arcane",
@@ -4029,7 +4028,7 @@
   "casting_time":"10 minutes",
   "level": 7,
   "school":"Illusion",
-  "class":"Bard, Druid, Wizard"
+  "class":["Bard", "Druid", "Wizard"]
 },
 {
   "name":"Mirror Image",
@@ -4043,7 +4042,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Illusion",
-  "class":"Cleric, Druid, Sorcerer, Warlock, Wizard",
+  "class":["Cleric", "Druid", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Cleric: Trickery<br/> Druid: Coast",
   "domains":"Trickery",
   "circles":"Coast"
@@ -4060,7 +4059,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Illusion",
-  "class":"Bard, Wizard"
+  "class":["Bard", "Wizard"]
 },
 {
   "name":"Misty Step",
@@ -4074,7 +4073,7 @@
   "casting_time":"1 bonus action",
   "level": 2,
   "school":"Conjuration",
-  "class":"Druid, Paladin, Sorcerer, Warlock, Wizard",
+  "class":["Druid", "Paladin", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Druid: Coast<br/> Paladin: Ancients, Vengeance",
   "circles":"Coast",
   "oaths":"Ancients, Vengeance"
@@ -4092,7 +4091,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Enchantment",
-  "class":"Bard, Cleric, Wizard",
+  "class":["Bard", "Cleric", "Wizard"],
   "archetype":"Cleric: Trickery",
   "domains":"Trickery"
 },
@@ -4108,7 +4107,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Transmutation",
-  "class":"Druid, Sorcerer, Wizard"
+  "class":["Druid", "Sorcerer", "Wizard"]
 },
 {
   "name":"Moonbeam",
@@ -4124,7 +4123,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Evocation",
-  "class":"Druid, Paladin",
+  "class":["Druid", "Paladin"],
   "archetype":"Paladin: Ancients",
   "oaths":"Ancients"
 },
@@ -4141,7 +4140,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Conjuration",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Mordenkainen's Magnificent Mansion",
@@ -4156,7 +4155,7 @@
   "casting_time":"1 minute",
   "level": 7,
   "school":"Conjuration",
-  "class":"Bard, Wizard"
+  "class":["Bard", "Wizard"]
 },
 {
   "name":"Mordenkainen's Private Sanctum",
@@ -4172,7 +4171,7 @@
   "casting_time":"10 minutes",
   "level": 4,
   "school":"Abjuration",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Mordenkainen's Sword",
@@ -4187,7 +4186,7 @@
   "casting_time":"1 action",
   "level": 7,
   "school":"Evocation",
-  "class":"Bard, Wizard"
+  "class":["Bard", "Wizard"]
 },
 {
   "name":"Move Earth",
@@ -4202,7 +4201,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Transmutation",
-  "class":"Druid, Sorcerer, Wizard"
+  "class":["Druid", "Sorcerer", "Wizard"]
 },
 {
   "name":"Nondetection",
@@ -4217,7 +4216,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Abjuration",
-  "class":"Bard, Cleric, Ranger, Wizard",
+  "class":["Bard", "Cleric", "Ranger", "Wizard"],
   "archetype":"Cleric: Knowledge",
   "domains":"Knowledge"
 },
@@ -4234,7 +4233,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Illusion",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Otiluke's Freezing Sphere",
@@ -4250,7 +4249,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Evocation",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Otiluke's Resilient Sphere",
@@ -4265,7 +4264,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Evocation",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Otto's Irresistible Dance",
@@ -4279,7 +4278,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Enchantment",
-  "class":"Bard, Wizard"
+  "class":["Bard", "Wizard"]
 },
 {
   "name":"Pass without Trace",
@@ -4294,7 +4293,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Abjuration",
-  "class":"Cleric, Druid, Ranger",
+  "class":["Cleric", "Druid", "Ranger"],
   "archetype":"Cleric: Trickery",
   "domains":"Trickery",
   "circles":"Grassland"
@@ -4312,7 +4311,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Transmutation",
-  "class":"Druid, Wizard",
+  "class":["Druid", "Wizard"],
   "archetype":"Druid: Mountain",
   "circles":"Mountain"
 },
@@ -4329,7 +4328,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Illusion",
-  "class":"Bard, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Phantasmal Force",
@@ -4344,7 +4343,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Illusion",
-  "class":"Bard, Sorcerer, Warlock, Wizard",
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Warlock: Archfey, Great Old One",
   "patrons":"Archfey, Great Old One"
 },
@@ -4361,7 +4360,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Illusion",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Phantom Steed",
@@ -4375,7 +4374,7 @@
   "casting_time":"1 minute",
   "level": 3,
   "school":"Illusion",
-  "class":"Ritual Caster, Wizard"
+  "class":["Ritual Caster", "Wizard"]
 },
 {
   "name":"Planar Ally",
@@ -4389,7 +4388,7 @@
   "casting_time":"10 minutes",
   "level": 6,
   "school":"Conjuration",
-  "class":"Cleric"
+  "class":["Cleric"]
 },
 {
   "name":"Planar Binding",
@@ -4405,7 +4404,7 @@
   "casting_time":"1 hour",
   "level": 5,
   "school":"Abjuration",
-  "class":"Bard, Cleric, Druid, Wizard"
+  "class":["Bard", "Cleric", "Druid", "Wizard"]
 },
 {
   "name":"Plane Shift",
@@ -4420,7 +4419,7 @@
   "casting_time":"1 action",
   "level": 7,
   "school":"Conjuration",
-  "class":"Cleric, Sorcerer, Warlock, Wizard"
+  "class":["Cleric", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Plant Growth",
@@ -4434,7 +4433,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Transmutation",
-  "class":"Bard, Cleric, Druid, Paladin, Ranger, Warlock",
+  "class":["Bard", "Cleric", "Druid", "Paladin", "Ranger", "Warlock"],
   "archetype":"Cleric: Nature<br/> Paladin: Ancients<br/> Warlock: Archfey",
   "domains":"Nature",
   "circles":"Forest",
@@ -4453,7 +4452,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Conjuration",
-  "class":"Sorcerer, Warlock, Wizard"
+  "class":["Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Polymorph",
@@ -4468,7 +4467,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Transmutation",
-  "class":"Bard, Cleric, Druid, Sorcerer, Wizard",
+  "class":["Bard", "Cleric", "Druid", "Sorcerer", "Wizard"],
   "archetype":"Cleric: Trickery",
   "domains":"Trickery"
 },
@@ -4482,9 +4481,9 @@
   "duration":"Instantaneous",
   "concentration":false,
   "casting_time":"1 action",
-  "level":"9th-level",
+  "level": 9,
   "school":"Evocation",
-  "class":"Bard"
+  "class":["Bard"]
 },
 {
   "name":"Power Word Kill",
@@ -4496,9 +4495,9 @@
   "duration":"Instantaneous",
   "concentration":false,
   "casting_time":"1 action",
-  "level":"9th-level",
+  "level": 9,
   "school":"Enchantment",
-  "class":"Bard, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Power Word Stun",
@@ -4512,7 +4511,7 @@
   "casting_time":"1 action",
   "level": 8,
   "school":"Enchantment",
-  "class":"Bard, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Prayer of Healing",
@@ -4527,7 +4526,7 @@
   "casting_time":"10 minutes",
   "level": 2,
   "school":"Evocation",
-  "class":"Cleric"
+  "class":["Cleric"]
 },
 {
   "name":"Prestidigitation",
@@ -4541,7 +4540,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Transmutation",
-  "class":"Bard, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Primordial Ward",
@@ -4555,7 +4554,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Abjuration",
-  "class":"Druid"
+  "class":["Druid"]
 },
 {
   "name":"Prismatic Spray",
@@ -4569,7 +4568,7 @@
   "casting_time":"1 action",
   "level": 7,
   "school":"Evocation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Prismatic Wall",
@@ -4581,9 +4580,9 @@
   "duration":"10 minutes",
   "concentration":false,
   "casting_time":"1 action",
-  "level":"9th-level",
+  "level": 9,
   "school":"Abjuration",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Produce Flame",
@@ -4597,7 +4596,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Conjuration",
-  "class":"Druid"
+  "class":["Druid"]
 },
 {
   "name":"Programmed Illusion",
@@ -4612,7 +4611,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Illusion",
-  "class":"Bard, Wizard"
+  "class":["Bard", "Wizard"]
 },
 {
   "name":"Project Image",
@@ -4627,7 +4626,7 @@
   "casting_time":"1 action",
   "level": 7,
   "school":"Illusion",
-  "class":"Bard, Wizard"
+  "class":["Bard", "Wizard"]
 },
 {
   "name":"Protection from Energy",
@@ -4641,7 +4640,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Abjuration",
-  "class":"Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard",
+  "class":["Cleric", "Druid", "Paladin", "Ranger", "Sorcerer", "Wizard"],
   "archetype":"Paladin: Ancients, Vengeance",
   "circles":"Desert",
   "oaths":"Ancients, Vengeance"
@@ -4659,7 +4658,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Abjuration",
-  "class":"Cleric, Paladin, Warlock, Wizard",
+  "class":["Cleric", "Paladin", "Warlock", "Wizard"],
   "oaths":"Devotion"
 },
 {
@@ -4674,7 +4673,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Abjuration",
-  "class":"Cleric, Druid, Paladin, Ranger"
+  "class":["Cleric", "Druid", "Paladin", "Ranger"]
 },
 {
   "name":"Purify Food and Drink",
@@ -4688,7 +4687,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Transmutation",
-  "class":"Cleric, Druid, Paladin, Ritual Caster"
+  "class":["Cleric", "Druid", "Paladin", "Ritual Caster"]
 },
 {
   "name":"Pyrotechnics",
@@ -4702,7 +4701,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Transmutation",
-  "class":"Bard, Sorcerer, Wizard"
+  "class":["Bard", "Sorcerer", "Wizard"]
 },
 {
   "name":"Raise Dead",
@@ -4717,7 +4716,7 @@
   "casting_time":"1 hour",
   "level": 5,
   "school":"Necromancy",
-  "class":"Bard, Cleric, Paladin",
+  "class":["Bard", "Cleric", "Paladin"],
   "domains":"Life"
 },
 {
@@ -4733,7 +4732,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Divination",
-  "class":"Ritual Caster, Wizard"
+  "class":["Ritual Caster", "Wizard"]
 },
 {
   "name":"Ray of Enfeeblement",
@@ -4747,7 +4746,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Necromancy",
-  "class":"Warlock, Wizard"
+  "class":["Warlock", "Wizard"]
 },
 {
   "name":"Ray of Frost",
@@ -4761,7 +4760,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Evocation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Ray of Sickness",
@@ -4776,7 +4775,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Necromancy",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Regenerate",
@@ -4791,7 +4790,7 @@
   "casting_time":"1 minute",
   "level": 7,
   "school":"Transmutation",
-  "class":"Bard, Cleric, Druid"
+  "class":["Bard", "Cleric", "Druid"]
 },
 {
   "name":"Reincarnate",
@@ -4806,7 +4805,7 @@
   "casting_time":"1 hour",
   "level": 5,
   "school":"Transmutation",
-  "class":"Druid"
+  "class":["Druid"]
 },
 {
   "name":"Remove Curse",
@@ -4820,7 +4819,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Abjuration",
-  "class":"Cleric, Paladin, Warlock, Wizard"
+  "class":["Cleric", "Paladin", "Warlock", "Wizard"]
 },
 {
   "name":"Resistance",
@@ -4835,7 +4834,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Abjuration",
-  "class":"Cleric, Druid"
+  "class":["Cleric", "Druid"]
 },
 {
   "name":"Resurrection",
@@ -4850,7 +4849,7 @@
   "casting_time":"1 hour",
   "level": 7,
   "school":"Necromancy",
-  "class":"Bard, Cleric"
+  "class":["Bard", "Cleric"]
 },
 {
   "name":"Reverse Gravity",
@@ -4865,7 +4864,7 @@
   "casting_time":"1 action",
   "level": 7,
   "school":"Transmutation",
-  "class":"Druid, Sorcerer, Wizard"
+  "class":["Druid", "Sorcerer", "Wizard"]
 },
 {
   "name":"Revivify",
@@ -4880,7 +4879,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Conjuration",
-  "class":"Cleric, Paladin",
+  "class":["Cleric", "Paladin"],
   "domains":"Life"
 },
 {
@@ -4896,7 +4895,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Transmutation",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Sacred Flame",
@@ -4910,7 +4909,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Evocation",
-  "class":"Cleric"
+  "class":["Cleric"]
 },
 {
   "name":"Sanctuary",
@@ -4925,7 +4924,7 @@
   "casting_time":"1 bonus action",
   "level": 1,
   "school":"Abjuration",
-  "class":"Cleric, Paladin",
+  "class":["Cleric", "Paladin"],
   "archetype":"Paladin: Devotion",
   "oaths":"Devotion"
 },
@@ -4942,7 +4941,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Evocation",
-  "class":"Cleric, Sorcerer, Warlock, Wizard",
+  "class":["Cleric", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Cleric: Light<br/> Warlock: Fiend",
   "domains":"Light",
   "patrons":"Fiend"
@@ -4960,7 +4959,7 @@
   "casting_time":"10 minutes",
   "level": 5,
   "school":"Divination",
-  "class":"Bard, Cleric, Druid, Paladin, Warlock, Wizard",
+  "class":["Bard", "Cleric", "Druid", "Paladin", "Warlock", "Wizard"],
   "archetype":"Paladin: Vengeance",
   "domains":"Knowledge, Light",
   "circles":"Coast, Swamp",
@@ -4979,7 +4978,7 @@
   "casting_time":"1 bonus action",
   "level": 1,
   "school":"Evocation",
-  "class":"Paladin"
+  "class":["Paladin"]
 },
 {
   "name":"See Invisibility",
@@ -4994,7 +4993,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Divination",
-  "class":"Bard, Sorcerer, Wizard"
+  "class":["Bard", "Sorcerer", "Wizard"]
 },
 {
   "name":"Seeming",
@@ -5008,7 +5007,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Illusion",
-  "class":"Bard, Sorcerer, Warlock, Wizard",
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Warlock: Archfey",
   "patrons":"Archfey"
 },
@@ -5025,7 +5024,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Evocation",
-  "class":"Bard, Cleric, Warlock, Wizard",
+  "class":["Bard", "Cleric", "Warlock", "Wizard"],
   "archetype":"Warlock: Great Old One",
   "patrons":"Great Old One"
 },
@@ -5042,7 +5041,7 @@
   "casting_time":"1 action",
   "level": 7,
   "school":"Transmutation",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Shape Water",
@@ -5056,7 +5055,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Transmutation",
-  "class":"Druid, Sorcerer, Wizard"
+  "class":["Druid", "Sorcerer", "Wizard"]
 },
 {
   "name":"Shapechange",
@@ -5069,9 +5068,9 @@
   "duration":"Up to 1 hour",
   "concentration":true,
   "casting_time":"1 action",
-  "level":"9th-level",
+  "level": 9,
   "school":"Transmutation",
-  "class":"Druid, Wizard"
+  "class":["Druid", "Wizard"]
 },
 {
   "name":"Shatter",
@@ -5087,7 +5086,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Evocation",
-  "class":"Bard, Cleric, Sorcerer, Warlock, Wizard",
+  "class":["Bard", "Cleric", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Cleric: Tempest",
   "domains":"Tempest"
 },
@@ -5103,7 +5102,7 @@
   "casting_time":"1 reaction",
   "level": 1,
   "school":"Abjuration",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Shield of Faith",
@@ -5118,7 +5117,7 @@
   "casting_time":"1 bonus action",
   "level": 1,
   "school":"Abjuration",
-  "class":"Cleric, Paladin",
+  "class":["Cleric", "Paladin"],
   "domains":"War"
 },
 {
@@ -5134,7 +5133,7 @@
   "casting_time":"1 bonus action",
   "level": 0,
   "school":"Transmutation",
-  "class":"Druid"
+  "class":["Druid"]
 },
 {
   "name":"Shocking Grasp",
@@ -5148,7 +5147,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Evocation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Silence",
@@ -5162,7 +5161,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Illusion",
-  "class":"Bard, Cleric, Druid, Ranger, Ritual Caster",
+  "class":["Bard", "Cleric", "Druid", "Ranger", "Ritual Caster"],
   "archetype":"Druid: Desert",
   "circles":"Desert"
 },
@@ -5179,7 +5178,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Illusion",
-  "class":"Bard, Sorcerer, Wizard"
+  "class":["Bard", "Sorcerer", "Wizard"]
 },
 {
   "name":"Simulacrum",
@@ -5194,7 +5193,7 @@
   "casting_time":"12 hours",
   "level": 7,
   "school":"Illusion",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Skywrite",
@@ -5208,7 +5207,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Transmutation",
-  "class":"Bard, Druid, Ritual Caster, Wizard"
+  "class":["Bard", "Druid", "Ritual Caster", "Wizard"]
 },
 {
   "name":"Sleep",
@@ -5224,7 +5223,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Enchantment",
-  "class":"Bard, Sorcerer, Warlock, Wizard",
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Warlock: Archfey",
   "patrons":"Archfey"
 },
@@ -5241,7 +5240,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Conjuration",
-  "class":"Cleric, Druid, Sorcerer, Wizard",
+  "class":["Cleric", "Druid", "Sorcerer", "Wizard"],
   "archetype":"Cleric: Tempest",
   "domains":"Tempest",
   "circles":"Arctic"
@@ -5259,7 +5258,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Transmutation",
-  "class":"Druid, Sorcerer, Wizard",
+  "class":["Druid", "Sorcerer", "Wizard"],
   "archetype":"Druid: Arctic",
   "circles":"Arctic"
 },
@@ -5277,7 +5276,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Evocation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Spare the Dying",
@@ -5291,7 +5290,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Necromancy",
-  "class":"Cleric"
+  "class":["Cleric"]
 },
 {
   "name":"Speak with Animals",
@@ -5305,7 +5304,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Divination",
-  "class":"Bard, Cleric, Druid, Paladin, Ranger, Ritual Caster",
+  "class":["Bard", "Cleric", "Druid", "Paladin", "Ranger", "Ritual Caster"],
   "archetype":"Cleric: Nature<br/> Paladin: Ancients",
   "domains":"Nature",
   "oaths":"Ancients"
@@ -5323,7 +5322,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Necromancy",
-  "class":"Bard, Cleric",
+  "class":["Bard", "Cleric"],
   "domains":"Knowledge"
 },
 {
@@ -5338,7 +5337,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Transmutation",
-  "class":"Bard, Druid, Ranger"
+  "class":["Bard", "Druid", "Ranger"]
 },
 {
   "name":"Spider Climb",
@@ -5353,7 +5352,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Transmutation",
-  "class":"Druid, Sorcerer, Warlock, Wizard",
+  "class":["Druid", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Druid: Forest, Mountain, Underdark",
   "circles":"Forest, Mountain, Underdark"
 },
@@ -5370,7 +5369,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Transmutation",
-  "class":"Cleric, Druid, Ranger",
+  "class":["Cleric", "Druid", "Ranger"],
   "archetype":"Cleric: Nature",
   "domains":"Nature",
   "circles":"Arctic, Mountain"
@@ -5389,7 +5388,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Conjuration",
-  "class":"Cleric",
+  "class":["Cleric"],
   "domains":"War"
 },
 {
@@ -5405,7 +5404,7 @@
   "casting_time":"1 bonus action",
   "level": 2,
   "school":"Evocation",
-  "class":"Cleric",
+  "class":["Cleric"],
   "domains":"Life, War"
 },
 {
@@ -5420,7 +5419,7 @@
   "casting_time":"1 bonus action",
   "level": 4,
   "school":"Evocation",
-  "class":"Paladin"
+  "class":["Paladin"]
 },
 {
   "name":"Stinking Cloud",
@@ -5435,7 +5434,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Conjuration",
-  "class":"Bard, Druid, Sorcerer, Warlock, Wizard",
+  "class":["Bard", "Druid", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Druid: Swamp, Underdark<br/> Warlock: Fiend",
   "circles":"Swamp, Underdark",
   "patrons":"Fiend"
@@ -5453,7 +5452,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Transmutation",
-  "class":"Cleric, Druid, Wizard",
+  "class":["Cleric", "Druid", "Wizard"],
   "circles":"Mountain, Underdark"
 },
 {
@@ -5469,7 +5468,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Abjuration",
-  "class":"Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard",
+  "class":["Cleric", "Druid", "Paladin", "Ranger", "Sorcerer", "Wizard"],
   "archetype":"Cleric: War<br/> Paladin: Ancients",
   "domains":"War",
   "circles":"Mountain",
@@ -5485,9 +5484,9 @@
   "duration":"Up to 1 minute",
   "concentration":true,
   "casting_time":"1 action",
-  "level":"9th-level",
+  "level": 9,
   "school":"Conjuration",
-  "class":"Druid"
+  "class":["Druid"]
 },
 {
   "name":"Storm Sphere",
@@ -5502,7 +5501,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Evocation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Suggestion",
@@ -5517,7 +5516,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Enchantment",
-  "class":"Bard, Cleric, Sorcerer, Warlock, Wizard",
+  "class":["Bard", "Cleric", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Cleric: Knowledge",
   "domains":"Knowledge"
 },
@@ -5534,7 +5533,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Evocation",
-  "class":"Druid, Sorcerer, Wizard"
+  "class":["Druid", "Sorcerer", "Wizard"]
 },
 {
   "name":"Sunburst",
@@ -5549,7 +5548,7 @@
   "casting_time":"1 action",
   "level": 8,
   "school":"Evocation",
-  "class":"Druid, Sorcerer, Wizard"
+  "class":["Druid", "Sorcerer", "Wizard"]
 },
 {
   "name":"Swift Quiver",
@@ -5564,7 +5563,7 @@
   "casting_time":"1 bonus action",
   "level": 5,
   "school":"Transmutation",
-  "class":"Ranger"
+  "class":["Ranger"]
 },
 {
   "name":"Sword Burst",
@@ -5578,7 +5577,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Conjuration",
-  "class":"Sorcerer, Warlock, Wizard"
+  "class":["Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Symbol",
@@ -5593,7 +5592,7 @@
   "casting_time":"1 minute",
   "level": 7,
   "school":"Abjuration",
-  "class":"Bard, Cleric, Wizard"
+  "class":["Bard", "Cleric", "Wizard"]
 },
 {
   "name":"Tasha's Hideous Laughter",
@@ -5608,7 +5607,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Enchantment",
-  "class":"Bard, Warlock, Wizard",
+  "class":["Bard", "Warlock", "Wizard"],
   "archetype":"Warlock: Great Old One",
   "patrons":"Great Old One"
 },
@@ -5624,7 +5623,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Transmutation",
-  "class":"Sorcerer, Warlock, Wizard",
+  "class":["Sorcerer", "Warlock", "Wizard"],
   "archetype":"Warlock: Great Old One",
   "patrons":"Great Old One"
 },
@@ -5641,7 +5640,7 @@
   "casting_time":"1 action",
   "level": 8,
   "school":"Evocation",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Teleport",
@@ -5655,7 +5654,7 @@
   "casting_time":"1 action",
   "level": 7,
   "school":"Conjuration",
-  "class":"Bard, Sorcerer, Wizard"
+  "class":["Bard", "Sorcerer", "Wizard"]
 },
 {
   "name":"Teleportation Circle",
@@ -5670,7 +5669,7 @@
   "casting_time":"1 minute",
   "level": 5,
   "school":"Conjuration",
-  "class":"Bard, Sorcerer, Wizard"
+  "class":["Bard", "Sorcerer", "Wizard"]
 },
 {
   "name":"Tenser's Floating Disk",
@@ -5685,7 +5684,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Conjuration",
-  "class":"Ritual Caster, Wizard"
+  "class":["Ritual Caster", "Wizard"]
 },
 {
   "name":"Thaumaturgy",
@@ -5699,7 +5698,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Transmutation",
-  "class":"Cleric"
+  "class":["Cleric"]
 },
 {
   "name":"Thorn Whip",
@@ -5714,7 +5713,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Transmutation",
-  "class":"Druid"
+  "class":["Druid"]
 },
 {
   "name":"Thunderous Smite",
@@ -5728,7 +5727,7 @@
   "casting_time":"1 bonus action",
   "level": 1,
   "school":"Evocation",
-  "class":"Paladin"
+  "class":["Paladin"]
 },
 {
   "name":"Thunderclap",
@@ -5742,7 +5741,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Evocation",
-  "class":"Bard, Druid, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Druid", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Thunderwave",
@@ -5757,7 +5756,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Evocation",
-  "class":"Bard, Cleric, Druid, Sorcerer, Wizard",
+  "class":["Bard", "Cleric", "Druid", "Sorcerer", "Wizard"],
   "archetype":"Cleric: Tempest",
   "domains":"Tempest"
 },
@@ -5774,7 +5773,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Conjuration",
-  "class":"Druid, Wizard"
+  "class":["Druid", "Wizard"]
 },
 {
   "name":"Time Stop",
@@ -5786,9 +5785,9 @@
   "duration":"Instantaneous",
   "concentration":false,
   "casting_time":"1 action",
-  "level":"9th-level",
+  "level": 9,
   "school":"Transmutation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Tongues",
@@ -5803,7 +5802,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Divination",
-  "class":"Bard, Cleric, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Cleric", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Transmute Rock",
@@ -5818,7 +5817,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Transmutation",
-  "class":"Druid, Wizard"
+  "class":["Druid", "Wizard"]
 },
 {
   "name":"Transport via Plants",
@@ -5832,9 +5831,8 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Conjuration",
-  "class":"Druid"
+  "class":["Druid"]
 },
-
 {
   "name":"Trap the Soul",
   "desc":"This spell name was added as an error and does not exist. Refer to the spell named \"imprisonment\" for information on what this spell was intended to be.",
@@ -5847,9 +5845,8 @@
   "casting_time":"1 minute",
   "level": 8,
   "school":"Conjuration",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
-
 {
   "name":"Tree Stride",
   "desc":"You gain the ability to enter a tree and move from inside it to inside another tree of the same kind within 500 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You instantly know the location of all other trees of the same kind within 500 feet and, as part of the move used to enter the tree, can either pass into one of those trees or step out of the tree you’re in. You appear in a spot of your choice within 5 feet of the destination tree, using another 5 feet of movement. If you have no movement left, you appear within 5 feet of the tree you entered.You can use this transportation ability once per round for the duration. You must end each turn outside a tree.",
@@ -5862,7 +5859,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Conjuration",
-  "class":"Cleric, Druid, Paladin, Ranger",
+  "class":["Cleric", "Druid", "Paladin", "Ranger"],
   "archetype":"Cleric: Nature<br/> Paladin: Ancients",
   "domains":"Nature",
   "circles":"Forest",
@@ -5879,9 +5876,9 @@
   "duration":"Up to 1 hour",
   "concentration":true,
   "casting_time":"1 action",
-  "level":"9th-level",
+  "level": 9,
   "school":"Transmutation",
-  "class":"Bard, Warlock, Wizard"
+  "class":["Bard", "Warlock", "Wizard"]
 },
 {
   "name":"True Resurrection",
@@ -5894,9 +5891,9 @@
   "duration":"Instantaneous",
   "concentration":false,
   "casting_time":"1 hour",
-  "level":"9th-level",
+  "level": 9,
   "school":"Necromancy",
-  "class":"Cleric, Druid"
+  "class":["Cleric", "Druid"]
 },
 {
   "name":"True Seeing",
@@ -5911,7 +5908,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Divination",
-  "class":"Bard, Cleric, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Cleric", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"True Strike",
@@ -5925,7 +5922,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Divination",
-  "class":"Bard, Sorcerer, Warlock, Wizard"
+  "class":["Bard", "Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Tsunami",
@@ -5939,7 +5936,7 @@
   "casting_time":"1 minute",
   "level": 8,
   "school":"Conjuration",
-  "class":"Druid"
+  "class":["Druid"]
 },
 {
   "name":"Unseen Servant",
@@ -5954,7 +5951,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Conjuration",
-  "class":"Bard, Ritual Caster, Warlock, Wizard"
+  "class":["Bard", "Ritual Caster", "Warlock", "Wizard"]
 },
 {
   "name":"Vampiric Touch",
@@ -5969,7 +5966,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Necromancy",
-  "class":"Warlock, Wizard"
+  "class":["Warlock", "Wizard"]
 },
 {
   "name":"Vicious Mockery",
@@ -5983,7 +5980,7 @@
   "casting_time":"1 action",
   "level": 0,
   "school":"Enchantment",
-  "class":"Bard"
+  "class":["Bard"]
 },
 {
   "name":"Vitriolic Sphere",
@@ -5999,7 +5996,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Evocation",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Wall of Fire",
@@ -6015,7 +6012,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Evocation",
-  "class":"Cleric, Druid, Sorcerer, Warlock, Wizard",
+  "class":["Cleric", "Druid", "Sorcerer", "Warlock", "Wizard"],
   "archetype":"Cleric: Light<br/> Warlock: Fiend",
   "domains":"Light",
   "patrons":"Fiend"
@@ -6033,7 +6030,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Evocation",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Wall of Ice",
@@ -6049,7 +6046,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Evocation",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Wall of Sand",
@@ -6064,7 +6061,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Evocation",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Wall of Stone",
@@ -6079,7 +6076,7 @@
   "casting_time":"1 action",
   "level": 5,
   "school":"Evocation",
-  "class":"Druid, Sorcerer, Wizard",
+  "class":["Druid", "Sorcerer", "Wizard"],
   "circles":"Desert, Mountain"
 },
 {
@@ -6096,7 +6093,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Conjuration",
-  "class":"Druid"
+  "class":["Druid"]
 },
 {
   "name":"Wall of Water",
@@ -6111,7 +6108,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Evocation",
-  "class":"Druid, Sorcerer, Wizard"
+  "class":["Druid", "Sorcerer", "Wizard"]
 },
 {
   "name":"Warding Bond",
@@ -6126,7 +6123,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Abjuration",
-  "class":"Cleric"
+  "class":["Cleric"]
 },
 {
   "name":"Warding Wind",
@@ -6140,7 +6137,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Evocation",
-  "class":"Bard, Druid, Sorcerer"
+  "class":["Bard", "Druid", "Sorcerer"]
 },
 {
   "name":"Water Breathing",
@@ -6155,7 +6152,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Transmutation",
-  "class":"Druid, Ranger, Ritual Caster, Sorcerer, Wizard",
+  "class":["Druid", "Ranger", "Ritual Caster", "Sorcerer", "Wizard"],
   "circles":"Coast"
 },
 {
@@ -6170,7 +6167,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Transmutation",
-  "class":"Cleric, Druid, Ranger, Ritual Caster, Sorcerer",
+  "class":["Cleric", "Druid", "Ranger", "Ritual Caster", "Sorcerer"],
   "circles":"Coast, Swamp"
 },
 {
@@ -6186,7 +6183,7 @@
   "casting_time":"1 action",
   "level": 4,
   "school":"Conjuration",
-  "class":"Druid, Sorcerer, Wizard"
+  "class":["Druid", "Sorcerer", "Wizard"]
 },
 {
   "name":"Web",
@@ -6201,7 +6198,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Conjuration",
-  "class":"Druid, Sorcerer, Wizard",
+  "class":["Druid", "Sorcerer", "Wizard"],
   "archetype":"Druid: Underdark",
   "circles":"Underdark"
 },
@@ -6215,9 +6212,9 @@
   "duration":"Up to 1 minute",
   "concentration":true,
   "casting_time":"1 action",
-  "level":"9th-level",
+  "level": 9,
   "school":"Illusion",
-  "class":"Wizard"
+  "class":["Wizard"]
 },
 {
   "name":"Whirlwind",
@@ -6232,7 +6229,7 @@
   "casting_time":"1 action",
   "level": 7,
   "school":"Evocation",
-  "class":"Druid, Wizard"
+  "class":["Druid", "Wizard"]
 },
 {
   "name":"Wind Walk",
@@ -6247,9 +6244,8 @@
   "casting_time":"1 minute",
   "level": 6,
   "school":"Transmutation",
-  "class":"Druid"
+  "class":["Druid"]
 },
-
 {
   "name":"Wind Wall",
   "desc":"A wall of strong wind rises from the ground at a point you choose within range. You can make the wall up to 50 feet long, 15 feet high, and 1 foot thick. You can shape the wall in any way you choose so long as it makes one continuous path along the ground. The wall lasts for the duration.When the wall appears, each creature within its area must make a strength saving throw. A creature takes 3d8 bludgeoning damage on a failed save, or half as much damage on a successful one.The strong wind keeps fog, smoke, and other gases at bay. Small or smaller flying creatures or objects can’t pass through the wall. Loose, lightweight materials brought into the wall fly upward. Arrows, bolts, and other ordinary projectiles launched at targets behind the wall are deflected upward and automatically miss. (Boulders hurled by giants or siege engines, and similar projectiles, are unaffected.) Creatures in gaseous form can’t pass through it.",
@@ -6263,7 +6259,7 @@
   "casting_time":"1 action",
   "level": 3,
   "school":"Evocation",
-  "class":"Cleric, Druid, Ranger",
+  "class":["Cleric", "Druid", "Ranger"],
   "archetype":"Cleric: Nature",
   "domains":"Nature"
 },
@@ -6277,9 +6273,9 @@
   "duration":"Instantaneous",
   "concentration":false,
   "casting_time":"1 action",
-  "level":"9th-level",
+  "level": 9,
   "school":"Conjuration",
-  "class":"Sorcerer, Wizard"
+  "class":["Sorcerer", "Wizard"]
 },
 {
   "name":"Witch Bolt",
@@ -6295,7 +6291,7 @@
   "casting_time":"1 action",
   "level": 1,
   "school":"Evocation",
-  "class":"Sorcerer, Warlock, Wizard"
+  "class":["Sorcerer", "Warlock", "Wizard"]
 },
 {
   "name":"Word of Recall",
@@ -6309,7 +6305,7 @@
   "casting_time":"1 action",
   "level": 6,
   "school":"Conjuration",
-  "class":"Cleric"
+  "class":["Cleric"]
 },
 {
   "name":"Wrathful Smite",
@@ -6323,7 +6319,7 @@
   "casting_time":"1 bonus action",
   "level": 1,
   "school":"Evocation",
-  "class":"Paladin"
+  "class":["Paladin"]
 },
 {
   "name":"Zone of Truth",
@@ -6337,7 +6333,7 @@
   "casting_time":"1 action",
   "level": 2,
   "school":"Enchantment",
-  "class":"Bard, Cleric, Paladin",
+  "class":["Bard", "Cleric", "Paladin"],
   "oaths":"Devotion"
 }
 ]
