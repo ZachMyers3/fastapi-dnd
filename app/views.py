@@ -125,3 +125,14 @@ def get_all_spells():
     results = list(mongo.db.spells.find())
 
     return jsonify(ok=True, data=results)
+
+@views.route('/api/v1/spell', methods=['GET'])
+def get_monster():
+    _id = request.args.get('_id', default=None, type=str)
+    if not _id:
+        return jsonify(ok=False, msg='_id field required'), 400
+    data = mongo.db.spells.find_one({'_id': ObjectId(_id)})
+    if data:
+        return jsonify(ok=True, data=data)
+    else:
+        return jsonify(ok=False, msg='Spell not found'), 404
