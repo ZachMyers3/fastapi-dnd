@@ -14,17 +14,23 @@ def main():
                 oaths = tryValue(_o, 'oaths')
                 circles = tryValue(_o, 'circles')
                 classes = _o['classes']
+                # create objects for all classes in list
                 for i in range(len(classes)):
                     classes[i] = {
                         "class": classes[i]
                     }
-
+                # go through all of the subclass lists and add if needed
                 classes = add_subclass('Warlock', patrons, classes)
                 classes = add_subclass('Cleric', domains, classes)
                 classes = add_subclass('Paladin', oaths, classes)
                 classes = add_subclass('Druid', circles, classes)
-
+                # set objects classes attribute to new data
                 _o['classes'] = classes
+                # remove old attributes
+                _o.pop('patrons', None)
+                _o.pop('domains', None)
+                _o.pop('oaths', None)
+                _o.pop('circles', None)
 
             json.dump(_json, _w, indent=2)
 

@@ -14,8 +14,12 @@
     "level": 8,
     "school": "Necromancy",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 150,
@@ -47,9 +51,15 @@
     "level": 1,
     "school": "Abjuration",
     "classes": [
-      "Druid",
-      "Ranger",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -80,8 +90,12 @@
     "level": 0,
     "school": "Conjuration",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -113,8 +127,12 @@
     "level": 2,
     "school": "Evocation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -146,8 +164,12 @@
     "level": 2,
     "school": "Abjuration",
     "classes": [
-      "Cleric",
-      "Paladin"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Paladin"
+      }
     ],
     "casting": {
       "range": 30,
@@ -178,9 +200,15 @@
     "level": 1,
     "school": "Abjuration",
     "classes": [
-      "Ranger",
-      "Ritual Caster",
-      "Wizard"
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Ritual Caster"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -211,8 +239,12 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -244,13 +276,23 @@
     "level": 1,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Ranger"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Nature"
+        ]
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      }
     ],
     "archetype": "Cleric: Nature",
-    "domains": "Nature",
     "casting": {
       "range": 30,
       "affected": false,
@@ -281,10 +323,18 @@
     "level": 2,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Druid",
-      "Ranger",
-      "Ritual Caster"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Ritual Caster"
+      }
     ],
     "casting": {
       "range": 30,
@@ -315,7 +365,9 @@
     "level": 8,
     "school": "Transmutation",
     "classes": [
-      "Druid"
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 30,
@@ -347,8 +399,12 @@
     "level": 3,
     "school": "Necromancy",
     "classes": [
-      "Cleric",
-      "Wizard"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 10,
@@ -380,9 +436,15 @@
     "level": 5,
     "school": "Transmutation",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -413,7 +475,9 @@
     "level": 5,
     "school": "Abjuration",
     "classes": [
-      "Druid"
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 0,
@@ -444,8 +508,12 @@
     "level": 8,
     "school": "Abjuration",
     "classes": [
-      "Cleric",
-      "Wizard"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -476,8 +544,12 @@
     "level": 8,
     "school": "Enchantment",
     "classes": [
-      "Druid",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -508,11 +580,17 @@
     "level": 4,
     "school": "Divination",
     "classes": [
-      "Cleric",
-      "Wizard"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Knowledge"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Knowledge",
-    "domains": "Knowledge",
     "casting": {
       "range": 30,
       "affected": false,
@@ -542,9 +620,15 @@
     "level": 6,
     "school": "Conjuration",
     "classes": [
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 500,
@@ -575,7 +659,9 @@
     "level": 2,
     "school": "Abjuration",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -607,7 +693,9 @@
     "level": 1,
     "school": "Abjuration",
     "classes": [
-      "Warlock"
+      {
+        "class": "Warlock"
+      }
     ],
     "casting": {
       "range": 0,
@@ -639,7 +727,9 @@
     "level": 1,
     "school": "Conjuration",
     "classes": [
-      "Warlock"
+      {
+        "class": "Warlock"
+      }
     ],
     "casting": {
       "range": 0,
@@ -670,9 +760,15 @@
     "level": 9,
     "school": "Necromancy",
     "classes": [
-      "Cleric",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 10,
@@ -703,10 +799,16 @@
     "level": 2,
     "school": "Divination",
     "classes": [
-      "Cleric",
-      "Ritual Caster"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Knowledge"
+        ]
+      },
+      {
+        "class": "Ritual Caster"
+      }
     ],
-    "domains": "Knowledge",
     "casting": {
       "range": 0,
       "affected": false,
@@ -736,7 +838,9 @@
     "level": 4,
     "school": "Abjuration",
     "classes": [
-      "Paladin"
+      {
+        "class": "Paladin"
+      }
     ],
     "casting": {
       "range": 0,
@@ -767,7 +871,9 @@
     "level": 4,
     "school": "Abjuration",
     "classes": [
-      "Paladin"
+      {
+        "class": "Paladin"
+      }
     ],
     "casting": {
       "range": 0,
@@ -798,7 +904,9 @@
     "level": 3,
     "school": "Evocation",
     "classes": [
-      "Paladin"
+      {
+        "class": "Paladin"
+      }
     ],
     "casting": {
       "range": 0,
@@ -829,8 +937,12 @@
     "level": 5,
     "school": "Transmutation",
     "classes": [
-      "Bard",
-      "Druid"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 5,
@@ -862,12 +974,20 @@
     "level": 1,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Paladin"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Vengeance"
+        ]
+      }
     ],
     "archetype": "Paladin: Vengeance",
-    "oaths": "Vengeance",
     "casting": {
       "range": 30,
       "affected": false,
@@ -897,7 +1017,9 @@
     "level": 5,
     "school": "Abjuration",
     "classes": [
-      "Paladin"
+      {
+        "class": "Paladin"
+      }
     ],
     "casting": {
       "range": 0,
@@ -929,13 +1051,25 @@
     "level": 4,
     "school": "Abjuration",
     "classes": [
-      "Cleric",
-      "Paladin",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Vengeance"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
-    "oaths": "Vengeance",
     "casting": {
       "range": 60,
       "affected": false,
@@ -965,13 +1099,23 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Ranger"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Nature"
+        ]
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Forest"
+        ]
+      },
+      {
+        "class": "Ranger"
+      }
     ],
     "archetype": "Cleric: Nature",
-    "domains": "Nature",
-    "circles": "Forest",
     "casting": {
       "range": 5,
       "affected": true,
@@ -1001,12 +1145,20 @@
     "level": 3,
     "school": "Abjuration",
     "classes": [
-      "Cleric",
-      "Paladin"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Life"
+        ]
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Devotion"
+        ]
+      }
     ],
     "archetype": "Paladin: Devotion",
-    "domains": "Life",
-    "oaths": "Devotion",
     "casting": {
       "range": 30,
       "affected": false,
@@ -1036,9 +1188,15 @@
     "level": 1,
     "school": "Divination",
     "classes": [
-      "Druid",
-      "Ranger",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -1069,9 +1227,15 @@
     "level": 2,
     "school": "Divination",
     "classes": [
-      "Druid",
-      "Ranger",
-      "Ritual Caster"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Ritual Caster"
+      }
     ],
     "casting": {
       "range": 5,
@@ -1103,9 +1267,15 @@
     "level": 3,
     "school": "Necromancy",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -1137,7 +1307,9 @@
     "level": 5,
     "school": "Evocation",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -1168,7 +1340,9 @@
     "level": 6,
     "school": "Evocation",
     "classes": [
-      "Cleric"
+      {
+        "class": "Cleric"
+      }
     ],
     "casting": {
       "range": 90,
@@ -1199,10 +1373,18 @@
     "level": 0,
     "school": "Abjuration",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -1234,10 +1416,16 @@
     "level": 1,
     "school": "Enchantment",
     "classes": [
-      "Cleric",
-      "Paladin"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Life"
+        ]
+      },
+      {
+        "class": "Paladin"
+      }
     ],
-    "domains": "Life",
     "casting": {
       "range": 30,
       "affected": false,
@@ -1268,12 +1456,22 @@
     "level": 4,
     "school": "Necromancy",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Desert"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
-    "circles": "Desert",
     "casting": {
       "range": 30,
       "affected": false,
@@ -1303,7 +1501,9 @@
     "level": 3,
     "school": "Evocation",
     "classes": [
-      "Paladin"
+      {
+        "class": "Paladin"
+      }
     ],
     "casting": {
       "range": 0,
@@ -1335,14 +1535,26 @@
     "level": 2,
     "school": "Necromancy",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Fiend"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Warlock: Fiend",
-    "patrons": "Fiend",
     "casting": {
       "range": 30,
       "affected": false,
@@ -1372,14 +1584,26 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
-      "Cleric",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Trickery"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Archfey"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Trickery<br/> Warlock: Archfey",
-    "domains": "Trickery",
-    "patrons": "Archfey",
     "casting": {
       "range": 0,
       "affected": false,
@@ -1409,12 +1633,20 @@
     "level": 2,
     "school": "Illusion",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Desert"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Druid: Desert",
-    "circles": "Desert",
     "casting": {
       "range": 0,
       "affected": false,
@@ -1445,7 +1677,9 @@
     "level": 6,
     "school": "Transmutation",
     "classes": [
-      "Druid"
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 120,
@@ -1476,9 +1710,15 @@
     "level": 0,
     "school": "Evocation",
     "classes": [
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -1510,7 +1750,9 @@
     "level": 2,
     "school": "Evocation",
     "classes": [
-      "Paladin"
+      {
+        "class": "Paladin"
+      }
     ],
     "casting": {
       "range": 0,
@@ -1542,14 +1784,26 @@
     "level": 1,
     "school": "Evocation",
     "classes": [
-      "Cleric",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Light"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Fiend"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Light<br/> Warlock: Fiend",
-    "domains": "Light",
-    "patrons": "Fiend",
     "casting": {
       "range": 0,
       "affected": false,
@@ -1580,12 +1834,20 @@
     "level": 3,
     "school": "Conjuration",
     "classes": [
-      "Cleric",
-      "Druid"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Tempest"
+        ]
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Forest"
+        ]
+      }
     ],
     "archetype": "Cleric: Tempest",
-    "domains": "Tempest",
-    "circles": "Forest",
     "casting": {
       "range": 120,
       "affected": false,
@@ -1615,12 +1877,20 @@
     "level": 2,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Warlock"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Archfey"
+        ]
+      }
     ],
     "archetype": "Warlock: Archfey",
-    "patrons": "Archfey",
     "casting": {
       "range": 60,
       "affected": false,
@@ -1651,8 +1921,12 @@
     "level": 1,
     "school": "Transmutation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 150,
@@ -1684,8 +1958,12 @@
     "level": 6,
     "school": "Evocation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 150,
@@ -1717,15 +1995,29 @@
     "level": 1,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Trickery"
+        ]
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Trickery",
-    "domains": "Trickery",
     "casting": {
       "range": 30,
       "affected": false,
@@ -1755,9 +2047,15 @@
     "level": 0,
     "school": "Necromancy",
     "classes": [
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -1789,8 +2087,12 @@
     "level": 1,
     "school": "Evocation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 90,
@@ -1822,9 +2124,15 @@
     "level": 6,
     "school": "Necromancy",
     "classes": [
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 150,
@@ -1855,7 +2163,9 @@
     "level": 5,
     "school": "Abjuration",
     "classes": [
-      "Paladin"
+      {
+        "class": "Paladin"
+      }
     ],
     "casting": {
       "range": 0,
@@ -1886,14 +2196,26 @@
     "level": 3,
     "school": "Divination",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Great Old One"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Warlock: Great Old One",
-    "patrons": "Great Old One",
     "casting": {
       "range": 5280,
       "affected": false,
@@ -1923,7 +2245,9 @@
     "level": 8,
     "school": "Necromancy",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -1955,10 +2279,18 @@
     "level": 2,
     "school": "Conjuration",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -1990,12 +2322,20 @@
     "level": 5,
     "school": "Conjuration",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Underdark"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Druid: Underdark",
-    "circles": "Underdark",
     "casting": {
       "range": 120,
       "affected": false,
@@ -2026,8 +2366,12 @@
     "level": 1,
     "school": "Illusion",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -2059,13 +2403,23 @@
     "level": 1,
     "school": "Enchantment",
     "classes": [
-      "Cleric",
-      "Paladin",
-      "Warlock"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Knowledge"
+        ]
+      },
+      {
+        "class": "Paladin"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Fiend"
+        ]
+      }
     ],
     "archetype": "Warlock: Fiend",
-    "domains": "Knowledge",
-    "patrons": "Fiend",
     "casting": {
       "range": 60,
       "affected": false,
@@ -2095,12 +2449,20 @@
     "level": 5,
     "school": "Divination",
     "classes": [
-      "Cleric",
-      "Paladin",
-      "Ritual Caster"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Devotion"
+        ]
+      },
+      {
+        "class": "Ritual Caster"
+      }
     ],
     "archetype": "Paladin: Devotion",
-    "oaths": "Devotion",
     "casting": {
       "range": 0,
       "affected": false,
@@ -2130,14 +2492,27 @@
     "level": 5,
     "school": "Divination",
     "classes": [
-      "Druid",
-      "Paladin",
-      "Ranger",
-      "Ritual Caster"
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Arctic",
+          "Forest"
+        ]
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Ancients"
+        ]
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Ritual Caster"
+      }
     ],
     "archetype": "Paladin: Ancients",
-    "circles": "Arctic, Forest",
-    "oaths": "Ancients",
     "casting": {
       "range": 0,
       "affected": false,
@@ -2167,7 +2542,9 @@
     "level": 1,
     "school": "Enchantment",
     "classes": [
-      "Paladin"
+      {
+        "class": "Paladin"
+      }
     ],
     "casting": {
       "range": 30,
@@ -2198,11 +2575,21 @@
     "level": 1,
     "school": "Divination",
     "classes": [
-      "Bard",
-      "Ritual Caster",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Ritual Caster"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -2233,7 +2620,9 @@
     "level": 4,
     "school": "Enchantment",
     "classes": [
-      "Bard"
+      {
+        "class": "Bard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -2265,12 +2654,20 @@
     "level": 5,
     "school": "Evocation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Arctic"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Druid: Arctic",
-    "circles": "Arctic",
     "casting": {
       "range": 0,
       "affected": false,
@@ -2301,14 +2698,26 @@
     "level": 4,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Knowledge"
+        ]
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Knowledge",
-    "domains": "Knowledge",
     "casting": {
       "range": 90,
       "affected": false,
@@ -2339,8 +2748,12 @@
     "level": 3,
     "school": "Conjuration",
     "classes": [
-      "Druid",
-      "Ranger"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      }
     ],
     "casting": {
       "range": 60,
@@ -2371,7 +2784,9 @@
     "level": 3,
     "school": "Conjuration",
     "classes": [
-      "Ranger"
+      {
+        "class": "Ranger"
+      }
     ],
     "casting": {
       "range": 0,
@@ -2403,7 +2818,9 @@
     "level": 7,
     "school": "Conjuration",
     "classes": [
-      "Cleric"
+      {
+        "class": "Cleric"
+      }
     ],
     "casting": {
       "range": 90,
@@ -2435,10 +2852,16 @@
     "level": 5,
     "school": "Conjuration",
     "classes": [
-      "Druid",
-      "Wizard"
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Coast"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
-    "circles": "Coast",
     "casting": {
       "range": 90,
       "affected": false,
@@ -2469,8 +2892,12 @@
     "level": 6,
     "school": "Conjuration",
     "classes": [
-      "Druid",
-      "Warlock"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Warlock"
+      }
     ],
     "casting": {
       "range": 90,
@@ -2502,8 +2929,12 @@
     "level": 4,
     "school": "Conjuration",
     "classes": [
-      "Druid",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 90,
@@ -2534,7 +2965,9 @@
     "level": 5,
     "school": "Conjuration",
     "classes": [
-      "Ranger"
+      {
+        "class": "Ranger"
+      }
     ],
     "casting": {
       "range": 150,
@@ -2566,8 +2999,12 @@
     "level": 4,
     "school": "Conjuration",
     "classes": [
-      "Druid",
-      "Ranger"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      }
     ],
     "casting": {
       "range": 60,
@@ -2598,9 +3035,15 @@
     "level": 5,
     "school": "Divination",
     "classes": [
-      "Ritual Caster",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Ritual Caster"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -2631,8 +3074,12 @@
     "level": 5,
     "school": "Necromancy",
     "classes": [
-      "Cleric",
-      "Druid"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 5,
@@ -2663,7 +3110,9 @@
     "level": 6,
     "school": "Evocation",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -2694,8 +3143,12 @@
     "level": 2,
     "school": "Evocation",
     "classes": [
-      "Cleric",
-      "Wizard"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -2726,9 +3179,15 @@
     "level": 0,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -2760,9 +3219,15 @@
     "level": 4,
     "school": "Transmutation",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Wizard"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 300,
@@ -2793,12 +3258,22 @@
     "level": 8,
     "school": "Transmutation",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Wizard"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Tempest"
+        ]
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Coast"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
-    "domains": "Tempest",
-    "circles": "Coast",
     "casting": {
       "range": 0,
       "affected": false,
@@ -2828,9 +3303,15 @@
     "level": 5,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 300,
@@ -2862,7 +3343,9 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
-      "Ranger"
+      {
+        "class": "Ranger"
+      }
     ],
     "casting": {
       "range": 5,
@@ -2894,9 +3377,15 @@
     "level": 3,
     "school": "Abjuration",
     "classes": [
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -2927,10 +3416,18 @@
     "level": 0,
     "school": "Conjuration",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -2961,12 +3458,20 @@
     "level": 3,
     "school": "Conjuration",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Paladin"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Desert"
+        ]
+      },
+      {
+        "class": "Paladin"
+      }
     ],
     "archetype": "Druid: Desert",
-    "circles": "Desert",
     "casting": {
       "range": 30,
       "affected": false,
@@ -2997,8 +3502,12 @@
     "level": 1,
     "school": "Transmutation",
     "classes": [
-      "Cleric",
-      "Druid"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 30,
@@ -3030,9 +3539,15 @@
     "level": 6,
     "school": "Necromancy",
     "classes": [
-      "Cleric",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 10,
@@ -3064,8 +3579,12 @@
     "level": 5,
     "school": "Illusion",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -3096,10 +3615,18 @@
     "level": 2,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -3130,11 +3657,17 @@
     "level": 3,
     "school": "Evocation",
     "classes": [
-      "Cleric",
-      "Paladin"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "War"
+        ]
+      },
+      {
+        "class": "Paladin"
+      }
     ],
     "archetype": "Cleric: War",
-    "domains": "War",
     "casting": {
       "range": 0,
       "affected": false,
@@ -3165,13 +3698,25 @@
     "level": 1,
     "school": "Evocation",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Ranger"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Life"
+        ]
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Paladin"
+      },
+      {
+        "class": "Ranger"
+      }
     ],
-    "domains": "Life",
     "casting": {
       "range": 5,
       "affected": true,
@@ -3201,9 +3746,15 @@
     "level": 0,
     "school": "Evocation",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -3234,13 +3785,23 @@
     "level": 2,
     "school": "Evocation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Swamp"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Druid: Swamp",
-    "circles": "Swamp",
     "casting": {
       "range": 60,
       "affected": false,
@@ -3270,10 +3831,18 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Ranger",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -3304,14 +3873,28 @@
     "level": 3,
     "school": "Evocation",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Ranger",
-      "Sorcerer"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Light"
+        ]
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Grassland"
+        ]
+      },
+      {
+        "class": "Paladin"
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Sorcerer"
+      }
     ],
-    "domains": "Light",
-    "circles": "Grassland",
     "casting": {
       "range": 60,
       "affected": false,
@@ -3341,10 +3924,16 @@
     "level": 4,
     "school": "Abjuration",
     "classes": [
-      "Cleric",
-      "Paladin"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Life"
+        ]
+      },
+      {
+        "class": "Paladin"
+      }
     ],
-    "domains": "Life",
     "casting": {
       "range": 5,
       "affected": true,
@@ -3375,8 +3964,12 @@
     "level": 7,
     "school": "Evocation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 150,
@@ -3407,8 +4000,12 @@
     "level": 8,
     "school": "Conjuration",
     "classes": [
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -3439,11 +4036,17 @@
     "level": 5,
     "school": "Evocation",
     "classes": [
-      "Cleric",
-      "Paladin"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Tempest"
+        ]
+      },
+      {
+        "class": "Paladin"
+      }
     ],
     "archetype": "Cleric: Tempest",
-    "domains": "Tempest",
     "casting": {
       "range": 0,
       "affected": false,
@@ -3473,8 +4076,12 @@
     "level": 1,
     "school": "Divination",
     "classes": [
-      "Cleric",
-      "Paladin"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Paladin"
+      }
     ],
     "casting": {
       "range": 0,
@@ -3505,14 +4112,30 @@
     "level": 1,
     "school": "Divination",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Ranger",
-      "Ritual Caster",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Paladin"
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Ritual Caster"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -3543,11 +4166,21 @@
     "level": 1,
     "school": "Divination",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Ranger",
-      "Ritual Caster"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Paladin"
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Ritual Caster"
+      }
     ],
     "casting": {
       "range": 0,
@@ -3578,13 +4211,23 @@
     "level": 2,
     "school": "Divination",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Great Old One"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Warlock: Great Old One",
-    "patrons": "Great Old One",
     "casting": {
       "range": 0,
       "affected": false,
@@ -3614,16 +4257,32 @@
     "level": 4,
     "school": "Conjuration",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Paladin",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Trickery"
+        ]
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Vengeance"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Trickery<br/> Paladin: Vengeance",
-    "domains": "Trickery",
-    "oaths": "Vengeance",
     "casting": {
       "range": 500,
       "affected": false,
@@ -3653,13 +4312,23 @@
     "level": 1,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Trickery"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Trickery",
-    "domains": "Trickery",
     "casting": {
       "range": 0,
       "affected": false,
@@ -3690,8 +4359,12 @@
     "level": 6,
     "school": "Transmutation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -3722,8 +4395,12 @@
     "level": 5,
     "school": "Abjuration",
     "classes": [
-      "Cleric",
-      "Paladin"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Paladin"
+      }
     ],
     "casting": {
       "range": 0,
@@ -3755,17 +4432,35 @@
     "level": 3,
     "school": "Abjuration",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Trickery"
+        ]
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Devotion"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Trickery",
-    "domains": "Trickery",
-    "oaths": "Devotion",
     "casting": {
       "range": 120,
       "affected": false,
@@ -3796,11 +4491,17 @@
     "level": 1,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Warlock"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Great Old One"
+        ]
+      }
     ],
     "archetype": "Warlock: Great Old One",
-    "patrons": "Great Old One",
     "casting": {
       "range": 60,
       "affected": false,
@@ -3830,12 +4531,21 @@
     "level": 4,
     "school": "Divination",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Ritual Caster"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Forest",
+          "Grassland"
+        ]
+      },
+      {
+        "class": "Ritual Caster"
+      }
     ],
     "archetype": "Druid: Forest, Grassland",
-    "circles": "Forest, Grassland",
     "casting": {
       "range": 0,
       "affected": false,
@@ -3865,11 +4575,17 @@
     "level": 1,
     "school": "Evocation",
     "classes": [
-      "Cleric",
-      "Paladin"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "War"
+        ]
+      },
+      {
+        "class": "Paladin"
+      }
     ],
     "archetype": "Cleric: War",
-    "domains": "War",
     "casting": {
       "range": 0,
       "affected": false,
@@ -3899,7 +4615,9 @@
     "level": 7,
     "school": "Evocation",
     "classes": [
-      "Cleric"
+      {
+        "class": "Cleric"
+      }
     ],
     "casting": {
       "range": 30,
@@ -3931,14 +4649,27 @@
     "level": 4,
     "school": "Enchantment",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Sorcerer",
-      "Warlock"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Nature"
+        ]
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Archfey",
+          "Great Old One"
+        ]
+      }
     ],
     "archetype": "Cleric: Nature<br/> Warlock: Archfey, Great Old One",
-    "domains": "Nature",
-    "patrons": "Archfey, Great Old One",
     "casting": {
       "range": 60,
       "affected": false,
@@ -3968,8 +4699,12 @@
     "level": 6,
     "school": "Conjuration",
     "classes": [
-      "Ritual Caster",
-      "Wizard"
+      {
+        "class": "Ritual Caster"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -4001,10 +4736,18 @@
     "level": 8,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -4036,15 +4779,30 @@
     "level": 5,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Trickery"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Archfey",
+          "Great Old One"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Trickery<br/> Warlock: Archfey, Great Old One",
-    "domains": "Trickery",
-    "patrons": "Archfey, Great Old One",
     "casting": {
       "range": 60,
       "affected": false,
@@ -4074,13 +4832,23 @@
     "level": 5,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Druid",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Grassland"
+        ]
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Druid: Grassland",
-    "circles": "Grassland",
     "casting": {
       "range": 10000000000,
       "affected": false,
@@ -4110,7 +4878,9 @@
     "level": 0,
     "school": "Transmutation",
     "classes": [
-      "Druid"
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 30,
@@ -4142,9 +4912,15 @@
     "level": 2,
     "school": "Conjuration",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -4176,10 +4952,18 @@
     "level": 1,
     "school": "Evocation",
     "classes": [
-      "Bard",
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -4210,10 +4994,18 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 300,
@@ -4244,9 +5036,15 @@
     "level": 8,
     "school": "Evocation",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Sorcerer"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      }
     ],
     "casting": {
       "range": 500,
@@ -4277,7 +5075,9 @@
     "level": 0,
     "school": "Evocation",
     "classes": [
-      "Warlock"
+      {
+        "class": "Warlock"
+      }
     ],
     "casting": {
       "range": 120,
@@ -4309,9 +5109,15 @@
     "level": 4,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 90,
@@ -4343,7 +5149,9 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
-      "Paladin"
+      {
+        "class": "Paladin"
+      }
     ],
     "casting": {
       "range": 5,
@@ -4375,10 +5183,18 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Sorcerer"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      }
     ],
     "casting": {
       "range": 5,
@@ -4409,8 +5225,12 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -4442,11 +5262,17 @@
     "level": 1,
     "school": "Conjuration",
     "classes": [
-      "Paladin",
-      "Ranger"
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Ancients"
+        ]
+      },
+      {
+        "class": "Ranger"
+      }
     ],
     "archetype": "Paladin: Ancients",
-    "oaths": "Ancients",
     "casting": {
       "range": 0,
       "affected": false,
@@ -4476,7 +5302,9 @@
     "level": 1,
     "school": "Conjuration",
     "classes": [
-      "Druid"
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 90,
@@ -4507,8 +5335,12 @@
     "level": 2,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Warlock"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Warlock"
+      }
     ],
     "casting": {
       "range": 60,
@@ -4540,9 +5372,15 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -4574,11 +5412,21 @@
     "level": 7,
     "school": "Transmutation",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -4609,11 +5457,17 @@
     "level": 4,
     "school": "Conjuration",
     "classes": [
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Great Old One"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Warlock: Great Old One",
-    "patrons": "Great Old One",
     "casting": {
       "range": 90,
       "affected": false,
@@ -4643,9 +5497,15 @@
     "level": 1,
     "school": "Transmutation",
     "classes": [
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -4676,10 +5536,18 @@
     "level": 6,
     "school": "Necromancy",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -4710,7 +5578,9 @@
     "level": 4,
     "school": "Transmutation",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -4741,14 +5611,26 @@
     "level": 1,
     "school": "Evocation",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Warlock"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Light"
+        ]
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Archfey"
+        ]
+      }
     ],
     "archetype": "Cleric: Light<br/> Warlock: Archfey",
-    "domains": "Light",
-    "patrons": "Archfey",
     "casting": {
       "range": 60,
       "affected": false,
@@ -4779,8 +5661,12 @@
     "level": 1,
     "school": "Necromancy",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -4811,10 +5697,18 @@
     "level": 3,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -4845,9 +5739,15 @@
     "level": 1,
     "school": "Transmutation",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -4878,10 +5778,18 @@
     "level": 8,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Druid",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 150,
@@ -4912,11 +5820,21 @@
     "level": 3,
     "school": "Necromancy",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Ritual Caster",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ritual Caster"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -4947,8 +5865,12 @@
     "level": 1,
     "school": "Conjuration",
     "classes": [
-      "Ritual Caster",
-      "Wizard"
+      {
+        "class": "Ritual Caster"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 10,
@@ -4979,7 +5901,9 @@
     "level": 2,
     "school": "Conjuration",
     "classes": [
-      "Paladin"
+      {
+        "class": "Paladin"
+      }
     ],
     "casting": {
       "range": 30,
@@ -5010,9 +5934,15 @@
     "level": 6,
     "school": "Divination",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 0,
@@ -5043,9 +5973,15 @@
     "level": 2,
     "school": "Divination",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Ranger"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      }
     ],
     "casting": {
       "range": 120,
@@ -5076,9 +6012,15 @@
     "level": 7,
     "school": "Necromancy",
     "classes": [
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -5110,14 +6052,26 @@
     "level": 3,
     "school": "Evocation",
     "classes": [
-      "Cleric",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Light"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Fiend"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Light<br/> Warlock: Fiend",
-    "domains": "Light",
-    "patrons": "Fiend",
     "casting": {
       "range": 150,
       "affected": false,
@@ -5147,8 +6101,12 @@
     "level": 0,
     "school": "Evocation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -5179,11 +6137,17 @@
     "level": 4,
     "school": "Evocation",
     "classes": [
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Fiend"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Warlock: Fiend",
-    "patrons": "Fiend",
     "casting": {
       "range": 0,
       "affected": false,
@@ -5213,9 +6177,15 @@
     "level": 7,
     "school": "Evocation",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Sorcerer"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      }
     ],
     "casting": {
       "range": 150,
@@ -5247,10 +6217,18 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Ranger",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -5282,7 +6260,9 @@
     "level": 2,
     "school": "Evocation",
     "classes": [
-      "Druid"
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 0,
@@ -5314,14 +6294,27 @@
     "level": 5,
     "school": "Evocation",
     "classes": [
-      "Cleric",
-      "Paladin",
-      "Warlock"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Light",
+          "War"
+        ]
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Devotion"
+        ]
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Fiend"
+        ]
+      }
     ],
     "archetype": "Paladin: Devotion<br/> Warlock: Fiend",
-    "domains": "Light, War",
-    "oaths": "Devotion",
-    "patrons": "Fiend",
     "casting": {
       "range": 60,
       "affected": false,
@@ -5352,12 +6345,20 @@
     "level": 2,
     "school": "Conjuration",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Wizard"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Light"
+        ]
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Light",
-    "domains": "Light",
     "casting": {
       "range": 60,
       "affected": false,
@@ -5387,8 +6388,12 @@
     "level": 6,
     "school": "Transmutation",
     "classes": [
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -5420,9 +6425,15 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -5454,14 +6465,26 @@
     "level": 1,
     "school": "Conjuration",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Ranger",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Tempest"
+        ]
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Tempest",
-    "domains": "Tempest",
     "casting": {
       "range": 120,
       "affected": false,
@@ -5491,8 +6514,12 @@
     "level": 6,
     "school": "Abjuration",
     "classes": [
-      "Cleric",
-      "Ritual Caster"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Ritual Caster"
+      }
     ],
     "casting": {
       "range": 5,
@@ -5523,9 +6550,15 @@
     "level": 7,
     "school": "Evocation",
     "classes": [
-      "Bard",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 100,
@@ -5556,10 +6589,18 @@
     "level": 9,
     "school": "Divination",
     "classes": [
-      "Bard",
-      "Druid",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -5590,16 +6631,36 @@
     "level": 4,
     "school": "Abjuration",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Ranger"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "War"
+        ]
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Arctic",
+          "Coast",
+          "Forest",
+          "Grassland",
+          "Swamp"
+        ]
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Devotion"
+        ]
+      },
+      {
+        "class": "Ranger"
+      }
     ],
     "archetype": "Paladin: Devotion",
-    "domains": "War",
-    "circles": "Arctic, Coast, Forest, Grassland, Swamp",
-    "oaths": "Devotion",
     "casting": {
       "range": 5,
       "affected": true,
@@ -5629,10 +6690,18 @@
     "level": 0,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -5663,10 +6732,18 @@
     "level": 0,
     "school": "Evocation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -5697,13 +6774,23 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Underdark"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Druid: Underdark",
-    "circles": "Underdark",
     "casting": {
       "range": 5,
       "affected": true,
@@ -5733,9 +6820,15 @@
     "level": 9,
     "school": "Conjuration",
     "classes": [
-      "Cleric",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -5767,11 +6860,21 @@
     "level": 5,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Paladin"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -5802,9 +6905,15 @@
     "level": 2,
     "school": "Necromancy",
     "classes": [
-      "Cleric",
-      "Ritual Caster",
-      "Wizard"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Ritual Caster"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -5835,7 +6944,9 @@
     "level": 4,
     "school": "Transmutation",
     "classes": [
-      "Druid"
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 30,
@@ -5866,8 +6977,12 @@
     "level": 8,
     "school": "Transmutation",
     "classes": [
-      "Bard",
-      "Warlock"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Warlock"
+      }
     ],
     "casting": {
       "range": 0,
@@ -5899,8 +7014,12 @@
     "level": 6,
     "school": "Abjuration",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -5932,9 +7051,15 @@
     "level": 3,
     "school": "Abjuration",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -5965,8 +7090,12 @@
     "level": 1,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Ranger"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      }
     ],
     "casting": {
       "range": 5,
@@ -5997,12 +7126,20 @@
     "level": 4,
     "school": "Conjuration",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Ranger"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Nature"
+        ]
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      }
     ],
     "archetype": "Cleric: Nature",
-    "domains": "Nature",
     "casting": {
       "range": 30,
       "affected": false,
@@ -6032,7 +7169,9 @@
     "level": 1,
     "school": "Conjuration",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -6063,15 +7202,29 @@
     "level": 4,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Druid",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Underdark"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Archfey"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Druid: Underdark<br/> Warlock: Archfey",
-    "circles": "Underdark",
-    "patrons": "Archfey",
     "casting": {
       "range": 5,
       "affected": true,
@@ -6101,9 +7254,15 @@
     "level": 5,
     "school": "Abjuration",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 5,
@@ -6134,9 +7293,15 @@
     "level": 0,
     "school": "Evocation",
     "classes": [
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -6167,12 +7332,21 @@
     "level": 4,
     "school": "Conjuration",
     "classes": [
-      "Cleric",
-      "Paladin"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Life",
+          "Light"
+        ]
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Devotion"
+        ]
+      }
     ],
     "archetype": "Paladin: Devotion",
-    "domains": "Life, Light",
-    "oaths": "Devotion",
     "casting": {
       "range": 30,
       "affected": false,
@@ -6202,8 +7376,12 @@
     "level": 6,
     "school": "Abjuration",
     "classes": [
-      "Bard",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -6234,8 +7412,12 @@
     "level": 0,
     "school": "Divination",
     "classes": [
-      "Cleric",
-      "Druid"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 5,
@@ -6267,7 +7449,9 @@
     "level": 1,
     "school": "Evocation",
     "classes": [
-      "Cleric"
+      {
+        "class": "Cleric"
+      }
     ],
     "casting": {
       "range": 120,
@@ -6298,9 +7482,15 @@
     "level": 0,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -6331,13 +7521,23 @@
     "level": 2,
     "school": "Evocation",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Tempest"
+        ]
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Tempest",
-    "domains": "Tempest",
     "casting": {
       "range": 0,
       "affected": false,
@@ -6368,7 +7568,9 @@
     "level": 1,
     "school": "Conjuration",
     "classes": [
-      "Ranger"
+      {
+        "class": "Ranger"
+      }
     ],
     "casting": {
       "range": 0,
@@ -6399,11 +7601,17 @@
     "level": 5,
     "school": "Evocation",
     "classes": [
-      "Cleric",
-      "Warlock"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Fiend"
+        ]
+      }
     ],
     "archetype": "Warlock: Fiend",
-    "patrons": "Fiend",
     "casting": {
       "range": 5,
       "affected": true,
@@ -6433,12 +7641,22 @@
     "level": 4,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Druid",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Desert"
+        ]
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
-    "circles": "Desert",
     "casting": {
       "range": 300,
       "affected": false,
@@ -6468,7 +7686,9 @@
     "level": 6,
     "school": "Necromancy",
     "classes": [
-      "Cleric"
+      {
+        "class": "Cleric"
+      }
     ],
     "casting": {
       "range": 60,
@@ -6499,14 +7719,26 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Paladin",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Grassland"
+        ]
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Vengeance"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Druid: Grassland<br/> Paladin: Vengeance",
-    "circles": "Grassland",
-    "oaths": "Vengeance",
     "casting": {
       "range": 30,
       "affected": false,
@@ -6537,8 +7769,12 @@
     "level": 6,
     "school": "Evocation",
     "classes": [
-      "Cleric",
-      "Druid"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 60,
@@ -6570,9 +7806,15 @@
     "level": 1,
     "school": "Evocation",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 60,
@@ -6604,8 +7846,12 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
-      "Bard",
-      "Druid"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 60,
@@ -6637,7 +7883,9 @@
     "level": 1,
     "school": "Evocation",
     "classes": [
-      "Warlock"
+      {
+        "class": "Warlock"
+      }
     ],
     "casting": {
       "range": 60,
@@ -6668,8 +7916,12 @@
     "level": 6,
     "school": "Conjuration",
     "classes": [
-      "Cleric",
-      "Druid"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 30,
@@ -6700,8 +7952,12 @@
     "level": 1,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Paladin"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Paladin"
+      }
     ],
     "casting": {
       "range": 5,
@@ -6733,7 +7989,9 @@
     "level": 1,
     "school": "Enchantment",
     "classes": [
-      "Warlock"
+      {
+        "class": "Warlock"
+      }
     ],
     "casting": {
       "range": 90,
@@ -6765,16 +8023,32 @@
     "level": 5,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Paladin",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "War"
+        ]
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Vengeance"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: War<br/> Paladin: Vengeance",
-    "domains": "War",
-    "oaths": "Vengeance",
     "casting": {
       "range": 90,
       "affected": false,
@@ -6805,17 +8079,35 @@
     "level": 2,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Arctic"
+        ]
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Vengeance"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Paladin: Vengeance",
-    "circles": "Arctic",
-    "oaths": "Vengeance",
     "casting": {
       "range": 60,
       "affected": false,
@@ -6845,7 +8137,9 @@
     "level": 8,
     "school": "Abjuration",
     "classes": [
-      "Cleric"
+      {
+        "class": "Cleric"
+      }
     ],
     "casting": {
       "range": 0,
@@ -6876,7 +8170,9 @@
     "level": 3,
     "school": "Conjuration",
     "classes": [
-      "Warlock"
+      {
+        "class": "Warlock"
+      }
     ],
     "casting": {
       "range": 150,
@@ -6908,11 +8204,17 @@
     "level": 1,
     "school": "Divination",
     "classes": [
-      "Paladin",
-      "Ranger"
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Vengeance"
+        ]
+      },
+      {
+        "class": "Ranger"
+      }
     ],
     "archetype": "Paladin: Vengeance",
-    "oaths": "Vengeance",
     "casting": {
       "range": 90,
       "affected": false,
@@ -6942,10 +8244,18 @@
     "level": 3,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -6976,9 +8286,15 @@
     "level": 0,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -7010,16 +8326,32 @@
     "level": 4,
     "school": "Evocation",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Tempest"
+        ]
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Arctic"
+        ]
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Ancients"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Tempest<br/> Paladin: Ancients",
-    "domains": "Tempest",
-    "circles": "Arctic",
-    "oaths": "Ancients",
     "casting": {
       "range": 300,
       "affected": false,
@@ -7049,13 +8381,23 @@
     "level": 1,
     "school": "Divination",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Ritual Caster",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Knowledge"
+        ]
+      },
+      {
+        "class": "Ritual Caster"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Knowledge",
-    "domains": "Knowledge",
     "casting": {
       "range": 5,
       "affected": true,
@@ -7085,10 +8427,18 @@
     "level": 1,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Ritual Caster",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Ritual Caster"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -7120,9 +8470,15 @@
     "level": 1,
     "school": "Conjuration",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -7153,8 +8509,12 @@
     "level": 9,
     "school": "Abjuration",
     "classes": [
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -7185,8 +8545,12 @@
     "level": 8,
     "school": "Conjuration",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 150,
@@ -7218,7 +8582,9 @@
     "level": 1,
     "school": "Necromancy",
     "classes": [
-      "Cleric"
+      {
+        "class": "Cleric"
+      }
     ],
     "casting": {
       "range": 5,
@@ -7250,12 +8616,26 @@
     "level": 5,
     "school": "Conjuration",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Sorcerer"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Nature",
+          "Tempest"
+        ]
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Desert",
+          "Grassland",
+          "Swamp",
+          "Underdark"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      }
     ],
-    "domains": "Nature, Tempest",
-    "circles": "Desert, Grassland, Swamp, Underdark",
     "casting": {
       "range": 300,
       "affected": false,
@@ -7285,10 +8665,18 @@
     "level": 6,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -7319,10 +8707,18 @@
     "level": 6,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -7353,10 +8749,18 @@
     "level": 6,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -7387,10 +8791,18 @@
     "level": 6,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -7422,14 +8834,26 @@
     "level": 2,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Druid",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Grassland"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Druid: Grassland",
-    "circles": "Grassland",
     "casting": {
       "range": 5,
       "affected": true,
@@ -7459,10 +8883,18 @@
     "level": 1,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Ranger",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -7493,9 +8925,15 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -7526,11 +8964,19 @@
     "level": 5,
     "school": "Divination",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Knowledge"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
-    "domains": "Knowledge",
     "casting": {
       "range": 0,
       "affected": false,
@@ -7560,7 +9006,9 @@
     "level": 4,
     "school": "Conjuration",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -7591,9 +9039,15 @@
     "level": 3,
     "school": "Evocation",
     "classes": [
-      "Bard",
-      "Ritual Caster",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Ritual Caster"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -7624,14 +9078,28 @@
     "level": 2,
     "school": "Abjuration",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Ranger"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Life"
+        ]
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Devotion"
+        ]
+      },
+      {
+        "class": "Ranger"
+      }
     ],
-    "domains": "Life",
-    "oaths": "Devotion",
     "casting": {
       "range": 5,
       "affected": true,
@@ -7661,8 +9129,12 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -7693,10 +9165,18 @@
     "level": 0,
     "school": "Evocation",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -7728,7 +9208,9 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
-      "Ranger"
+      {
+        "class": "Ranger"
+      }
     ],
     "casting": {
       "range": 0,
@@ -7760,12 +9242,20 @@
     "level": 3,
     "school": "Evocation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Mountain"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Druid: Mountain",
-    "circles": "Mountain",
     "casting": {
       "range": 0,
       "affected": false,
@@ -7795,9 +9285,15 @@
     "level": 0,
     "school": "Evocation",
     "classes": [
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 15,
@@ -7828,10 +9324,18 @@
     "level": 2,
     "school": "Divination",
     "classes": [
-      "Bard",
-      "Druid",
-      "Ranger",
-      "Ritual Caster"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Ritual Caster"
+      }
     ],
     "casting": {
       "range": 0,
@@ -7862,14 +9366,28 @@
     "level": 4,
     "school": "Divination",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Ranger",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Swamp"
+        ]
+      },
+      {
+        "class": "Paladin"
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
-    "circles": "Swamp",
     "casting": {
       "range": 0,
       "affected": false,
@@ -7899,12 +9417,24 @@
     "level": 2,
     "school": "Divination",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Ranger",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Paladin"
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -7936,10 +9466,18 @@
     "level": 1,
     "school": "Transmutation",
     "classes": [
-      "Bard",
-      "Druid",
-      "Ranger",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -7970,7 +9508,9 @@
     "level": 5,
     "school": "Evocation",
     "classes": [
-      "Druid"
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 120,
@@ -8001,8 +9541,12 @@
     "level": 1,
     "school": "Abjuration",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -8033,10 +9577,18 @@
     "level": 0,
     "school": "Conjuration",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -8068,10 +9620,18 @@
     "level": 3,
     "school": "Abjuration",
     "classes": [
-      "Cleric",
-      "Paladin",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Paladin"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 10,
@@ -8102,7 +9662,9 @@
     "level": 6,
     "school": "Necromancy",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -8134,8 +9696,12 @@
     "level": 1,
     "school": "Evocation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -8166,9 +9732,15 @@
     "level": 2,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Ritual Caster",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Ritual Caster"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -8199,8 +9771,12 @@
     "level": 0,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Warlock"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Warlock"
+      }
     ],
     "casting": {
       "range": 5,
@@ -8232,12 +9808,20 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
-      "Cleric",
-      "Paladin",
-      "Wizard"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "War"
+        ]
+      },
+      {
+        "class": "Paladin"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: War",
-    "domains": "War",
     "casting": {
       "range": 5,
       "affected": true,
@@ -8268,10 +9852,18 @@
     "level": 3,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -8303,11 +9895,19 @@
     "level": 5,
     "school": "Conjuration",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Life"
+        ]
+      },
+      {
+        "class": "Druid"
+      }
     ],
-    "domains": "Life",
     "casting": {
       "range": 60,
       "affected": false,
@@ -8337,7 +9937,9 @@
     "level": 9,
     "school": "Conjuration",
     "classes": [
-      "Cleric"
+      {
+        "class": "Cleric"
+      }
     ],
     "casting": {
       "range": 60,
@@ -8369,7 +9971,9 @@
     "level": 3,
     "school": "Evocation",
     "classes": [
-      "Cleric"
+      {
+        "class": "Cleric"
+      }
     ],
     "casting": {
       "range": 60,
@@ -8401,10 +10005,18 @@
     "level": 6,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -8435,8 +10047,12 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -8467,7 +10083,9 @@
     "level": 8,
     "school": "Conjuration",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -8498,12 +10116,20 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Ritual Caster"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Mountain"
+        ]
+      },
+      {
+        "class": "Ritual Caster"
+      }
     ],
     "archetype": "Druid: Mountain",
-    "circles": "Mountain",
     "casting": {
       "range": 5,
       "affected": true,
@@ -8534,11 +10160,17 @@
     "level": 2,
     "school": "Evocation",
     "classes": [
-      "Druid",
-      "Wizard"
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Swamp"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Druid: Swamp",
-    "circles": "Swamp",
     "casting": {
       "range": 90,
       "affected": false,
@@ -8569,8 +10201,12 @@
     "level": 3,
     "school": "Evocation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -8601,11 +10237,21 @@
     "level": 0,
     "school": "Transmutation",
     "classes": [
-      "Cleric",
-      "Bard",
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -8636,9 +10282,15 @@
     "level": 0,
     "school": "Transmutation",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -8669,8 +10321,12 @@
     "level": 9,
     "school": "Evocation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5280,
@@ -8701,8 +10357,12 @@
     "level": 8,
     "school": "Abjuration",
     "classes": [
-      "Bard",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -8733,10 +10393,18 @@
     "level": 0,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -8767,9 +10435,15 @@
     "level": 7,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Druid",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 100,
@@ -8800,15 +10474,29 @@
     "level": 2,
     "school": "Illusion",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Trickery"
+        ]
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Coast"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Trickery<br/> Druid: Coast",
-    "domains": "Trickery",
-    "circles": "Coast",
     "casting": {
       "range": 0,
       "affected": false,
@@ -8838,8 +10526,12 @@
     "level": 5,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -8870,15 +10562,30 @@
     "level": 2,
     "school": "Conjuration",
     "classes": [
-      "Druid",
-      "Paladin",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Coast"
+        ]
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Ancients",
+          "Vengeance"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Druid: Coast<br/> Paladin: Ancients, Vengeance",
-    "circles": "Coast",
-    "oaths": "Ancients, Vengeance",
     "casting": {
       "range": 0,
       "affected": false,
@@ -8909,12 +10616,20 @@
     "level": 5,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Trickery"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Trickery",
-    "domains": "Trickery",
     "casting": {
       "range": 30,
       "affected": false,
@@ -8944,9 +10659,15 @@
     "level": 0,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -8979,11 +10700,17 @@
     "level": 2,
     "school": "Evocation",
     "classes": [
-      "Druid",
-      "Paladin"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Ancients"
+        ]
+      }
     ],
     "archetype": "Paladin: Ancients",
-    "oaths": "Ancients",
     "casting": {
       "range": 120,
       "affected": false,
@@ -9013,7 +10740,9 @@
     "level": 4,
     "school": "Conjuration",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -9044,8 +10773,12 @@
     "level": 7,
     "school": "Conjuration",
     "classes": [
-      "Bard",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 300,
@@ -9077,7 +10810,9 @@
     "level": 4,
     "school": "Abjuration",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -9108,8 +10843,12 @@
     "level": 7,
     "school": "Evocation",
     "classes": [
-      "Bard",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -9140,9 +10879,15 @@
     "level": 6,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -9173,13 +10918,23 @@
     "level": 3,
     "school": "Abjuration",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Ranger",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Knowledge"
+        ]
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Knowledge",
-    "domains": "Knowledge",
     "casting": {
       "range": 5,
       "affected": true,
@@ -9209,7 +10964,9 @@
     "level": 2,
     "school": "Illusion",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -9241,7 +10998,9 @@
     "level": 6,
     "school": "Evocation",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 300,
@@ -9272,7 +11031,9 @@
     "level": 4,
     "school": "Evocation",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -9303,8 +11064,12 @@
     "level": 6,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -9335,13 +11100,23 @@
     "level": 2,
     "school": "Abjuration",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Ranger"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Trickery"
+        ]
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Grassland"
+        ]
+      },
+      {
+        "class": "Ranger"
+      }
     ],
     "archetype": "Cleric: Trickery",
-    "domains": "Trickery",
-    "circles": "Grassland",
     "casting": {
       "range": 0,
       "affected": false,
@@ -9371,11 +11146,17 @@
     "level": 5,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Wizard"
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Mountain"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Druid: Mountain",
-    "circles": "Mountain",
     "casting": {
       "range": 30,
       "affected": false,
@@ -9404,10 +11185,18 @@
     "level": 6,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -9438,13 +11227,24 @@
     "level": 2,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Archfey",
+          "Great Old One"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Warlock: Archfey, Great Old One",
-    "patrons": "Archfey, Great Old One",
     "casting": {
       "range": 60,
       "affected": false,
@@ -9475,7 +11275,9 @@
     "level": 4,
     "school": "Illusion",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -9506,8 +11308,12 @@
     "level": 3,
     "school": "Illusion",
     "classes": [
-      "Ritual Caster",
-      "Wizard"
+      {
+        "class": "Ritual Caster"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -9538,7 +11344,9 @@
     "level": 6,
     "school": "Conjuration",
     "classes": [
-      "Cleric"
+      {
+        "class": "Cleric"
+      }
     ],
     "casting": {
       "range": 60,
@@ -9570,10 +11378,18 @@
     "level": 5,
     "school": "Abjuration",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -9604,10 +11420,18 @@
     "level": 7,
     "school": "Conjuration",
     "classes": [
-      "Cleric",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -9638,18 +11462,38 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Ranger",
-      "Warlock"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Nature"
+        ]
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Forest"
+        ]
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Ancients"
+        ]
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Archfey"
+        ]
+      }
     ],
     "archetype": "Cleric: Nature<br/> Paladin: Ancients<br/> Warlock: Archfey",
-    "domains": "Nature",
-    "circles": "Forest",
-    "oaths": "Ancients",
-    "patrons": "Archfey",
     "casting": {
       "range": 150,
       "affected": false,
@@ -9679,9 +11523,15 @@
     "level": 0,
     "school": "Conjuration",
     "classes": [
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 10,
@@ -9712,14 +11562,26 @@
     "level": 4,
     "school": "Transmutation",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Trickery"
+        ]
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Trickery",
-    "domains": "Trickery",
     "casting": {
       "range": 60,
       "affected": false,
@@ -9749,7 +11611,9 @@
     "level": 9,
     "school": "Evocation",
     "classes": [
-      "Bard"
+      {
+        "class": "Bard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -9780,10 +11644,18 @@
     "level": 9,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -9814,10 +11686,18 @@
     "level": 8,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -9849,7 +11729,9 @@
     "level": 2,
     "school": "Evocation",
     "classes": [
-      "Cleric"
+      {
+        "class": "Cleric"
+      }
     ],
     "casting": {
       "range": 30,
@@ -9880,10 +11762,18 @@
     "level": 0,
     "school": "Transmutation",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 10,
@@ -9914,7 +11804,9 @@
     "level": 6,
     "school": "Abjuration",
     "classes": [
-      "Druid"
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 0,
@@ -9945,8 +11837,12 @@
     "level": 7,
     "school": "Evocation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -9977,7 +11873,9 @@
     "level": 9,
     "school": "Abjuration",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -10008,7 +11906,9 @@
     "level": 0,
     "school": "Conjuration",
     "classes": [
-      "Druid"
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 0,
@@ -10039,8 +11939,12 @@
     "level": 6,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -10071,8 +11975,12 @@
     "level": 7,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 2640000,
@@ -10103,16 +12011,33 @@
     "level": 3,
     "school": "Abjuration",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Ranger",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Desert"
+        ]
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Ancients",
+          "Vengeance"
+        ]
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Paladin: Ancients, Vengeance",
-    "circles": "Desert",
-    "oaths": "Ancients, Vengeance",
     "casting": {
       "range": 5,
       "affected": true,
@@ -10142,12 +12067,22 @@
     "level": 1,
     "school": "Abjuration",
     "classes": [
-      "Cleric",
-      "Paladin",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Devotion"
+        ]
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
-    "oaths": "Devotion",
     "casting": {
       "range": 5,
       "affected": true,
@@ -10177,10 +12112,18 @@
     "level": 2,
     "school": "Abjuration",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Ranger"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Paladin"
+      },
+      {
+        "class": "Ranger"
+      }
     ],
     "casting": {
       "range": 5,
@@ -10211,10 +12154,18 @@
     "level": 1,
     "school": "Transmutation",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Ritual Caster"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Paladin"
+      },
+      {
+        "class": "Ritual Caster"
+      }
     ],
     "casting": {
       "range": 10,
@@ -10245,9 +12196,15 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -10278,11 +12235,19 @@
     "level": 5,
     "school": "Necromancy",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Paladin"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Life"
+        ]
+      },
+      {
+        "class": "Paladin"
+      }
     ],
-    "domains": "Life",
     "casting": {
       "range": 5,
       "affected": true,
@@ -10312,8 +12277,12 @@
     "level": 5,
     "school": "Divination",
     "classes": [
-      "Ritual Caster",
-      "Wizard"
+      {
+        "class": "Ritual Caster"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -10344,8 +12313,12 @@
     "level": 2,
     "school": "Necromancy",
     "classes": [
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -10376,8 +12349,12 @@
     "level": 0,
     "school": "Evocation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -10409,8 +12386,12 @@
     "level": 1,
     "school": "Necromancy",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -10441,9 +12422,15 @@
     "level": 7,
     "school": "Transmutation",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 5,
@@ -10474,7 +12461,9 @@
     "level": 5,
     "school": "Transmutation",
     "classes": [
-      "Druid"
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 5,
@@ -10505,10 +12494,18 @@
     "level": 3,
     "school": "Abjuration",
     "classes": [
-      "Cleric",
-      "Paladin",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Paladin"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -10539,8 +12536,12 @@
     "level": 0,
     "school": "Abjuration",
     "classes": [
-      "Cleric",
-      "Druid"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 5,
@@ -10571,8 +12572,12 @@
     "level": 7,
     "school": "Necromancy",
     "classes": [
-      "Bard",
-      "Cleric"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      }
     ],
     "casting": {
       "range": 5,
@@ -10603,9 +12608,15 @@
     "level": 7,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 100,
@@ -10636,10 +12647,16 @@
     "level": 3,
     "school": "Conjuration",
     "classes": [
-      "Cleric",
-      "Paladin"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Life"
+        ]
+      },
+      {
+        "class": "Paladin"
+      }
     ],
-    "domains": "Life",
     "casting": {
       "range": 5,
       "affected": true,
@@ -10669,7 +12686,9 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -10700,7 +12719,9 @@
     "level": 0,
     "school": "Evocation",
     "classes": [
-      "Cleric"
+      {
+        "class": "Cleric"
+      }
     ],
     "casting": {
       "range": 60,
@@ -10731,11 +12752,17 @@
     "level": 1,
     "school": "Abjuration",
     "classes": [
-      "Cleric",
-      "Paladin"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Devotion"
+        ]
+      }
     ],
     "archetype": "Paladin: Devotion",
-    "oaths": "Devotion",
     "casting": {
       "range": 30,
       "affected": false,
@@ -10766,14 +12793,26 @@
     "level": 2,
     "school": "Evocation",
     "classes": [
-      "Cleric",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Light"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Fiend"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Light<br/> Warlock: Fiend",
-    "domains": "Light",
-    "patrons": "Fiend",
     "casting": {
       "range": 120,
       "affected": false,
@@ -10803,17 +12842,37 @@
     "level": 5,
     "school": "Divination",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Knowledge",
+          "Light"
+        ]
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Coast",
+          "Swamp"
+        ]
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Vengeance"
+        ]
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Paladin: Vengeance",
-    "domains": "Knowledge, Light",
-    "circles": "Coast, Swamp",
-    "oaths": "Vengeance",
     "casting": {
       "range": 0,
       "affected": false,
@@ -10844,7 +12903,9 @@
     "level": 1,
     "school": "Evocation",
     "classes": [
-      "Paladin"
+      {
+        "class": "Paladin"
+      }
     ],
     "casting": {
       "range": 0,
@@ -10875,9 +12936,15 @@
     "level": 2,
     "school": "Divination",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -10908,13 +12975,23 @@
     "level": 5,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Archfey"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Warlock: Archfey",
-    "patrons": "Archfey",
     "casting": {
       "range": 30,
       "affected": false,
@@ -10944,13 +13021,23 @@
     "level": 3,
     "school": "Evocation",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Great Old One"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Warlock: Great Old One",
-    "patrons": "Great Old One",
     "casting": {
       "range": 10000000000,
       "affected": false,
@@ -10980,7 +13067,9 @@
     "level": 7,
     "school": "Transmutation",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -11011,9 +13100,15 @@
     "level": 0,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -11045,8 +13140,12 @@
     "level": 9,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -11078,14 +13177,26 @@
     "level": 2,
     "school": "Evocation",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Tempest"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Tempest",
-    "domains": "Tempest",
     "casting": {
       "range": 60,
       "affected": false,
@@ -11115,8 +13226,12 @@
     "level": 1,
     "school": "Abjuration",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -11147,10 +13262,16 @@
     "level": 1,
     "school": "Abjuration",
     "classes": [
-      "Cleric",
-      "Paladin"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "War"
+        ]
+      },
+      {
+        "class": "Paladin"
+      }
     ],
-    "domains": "War",
     "casting": {
       "range": 60,
       "affected": false,
@@ -11180,7 +13301,9 @@
     "level": 0,
     "school": "Transmutation",
     "classes": [
-      "Druid"
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 5,
@@ -11211,8 +13334,12 @@
     "level": 0,
     "school": "Evocation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -11243,14 +13370,26 @@
     "level": 2,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Ranger",
-      "Ritual Caster"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Desert"
+        ]
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Ritual Caster"
+      }
     ],
     "archetype": "Druid: Desert",
-    "circles": "Desert",
     "casting": {
       "range": 120,
       "affected": false,
@@ -11280,9 +13419,15 @@
     "level": 1,
     "school": "Illusion",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -11313,7 +13458,9 @@
     "level": 7,
     "school": "Illusion",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -11344,10 +13491,18 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
-      "Bard",
-      "Druid",
-      "Ritual Caster",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ritual Caster"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 100,
@@ -11379,13 +13534,23 @@
     "level": 1,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Archfey"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Warlock: Archfey",
-    "patrons": "Archfey",
     "casting": {
       "range": 90,
       "affected": false,
@@ -11415,14 +13580,26 @@
     "level": 3,
     "school": "Conjuration",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Tempest"
+        ]
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Arctic"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Tempest",
-    "domains": "Tempest",
-    "circles": "Arctic",
     "casting": {
       "range": 150,
       "affected": false,
@@ -11452,12 +13629,20 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Arctic"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Druid: Arctic",
-    "circles": "Arctic",
     "casting": {
       "range": 120,
       "affected": false,
@@ -11488,8 +13673,12 @@
     "level": 2,
     "school": "Evocation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 90,
@@ -11520,7 +13709,9 @@
     "level": 0,
     "school": "Necromancy",
     "classes": [
-      "Cleric"
+      {
+        "class": "Cleric"
+      }
     ],
     "casting": {
       "range": 5,
@@ -11551,16 +13742,32 @@
     "level": 1,
     "school": "Divination",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Ranger",
-      "Ritual Caster"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Nature"
+        ]
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Ancients"
+        ]
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Ritual Caster"
+      }
     ],
     "archetype": "Cleric: Nature<br/> Paladin: Ancients",
-    "domains": "Nature",
-    "oaths": "Ancients",
     "casting": {
       "range": 0,
       "affected": false,
@@ -11590,10 +13797,16 @@
     "level": 3,
     "school": "Necromancy",
     "classes": [
-      "Bard",
-      "Cleric"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Knowledge"
+        ]
+      }
     ],
-    "domains": "Knowledge",
     "casting": {
       "range": 10,
       "affected": false,
@@ -11623,9 +13836,15 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
-      "Bard",
-      "Druid",
-      "Ranger"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      }
     ],
     "casting": {
       "range": 0,
@@ -11656,13 +13875,25 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Forest",
+          "Mountain",
+          "Underdark"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Druid: Forest, Mountain, Underdark",
-    "circles": "Forest, Mountain, Underdark",
     "casting": {
       "range": 5,
       "affected": true,
@@ -11692,13 +13923,24 @@
     "level": 2,
     "school": "Transmutation",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Ranger"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Nature"
+        ]
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Arctic",
+          "Mountain"
+        ]
+      },
+      {
+        "class": "Ranger"
+      }
     ],
     "archetype": "Cleric: Nature",
-    "domains": "Nature",
-    "circles": "Arctic, Mountain",
     "casting": {
       "range": 150,
       "affected": false,
@@ -11729,9 +13971,13 @@
     "level": 3,
     "school": "Conjuration",
     "classes": [
-      "Cleric"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "War"
+        ]
+      }
     ],
-    "domains": "War",
     "casting": {
       "range": 0,
       "affected": false,
@@ -11762,9 +14008,14 @@
     "level": 2,
     "school": "Evocation",
     "classes": [
-      "Cleric"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Life",
+          "War"
+        ]
+      }
     ],
-    "domains": "Life, War",
     "casting": {
       "range": 60,
       "affected": false,
@@ -11794,7 +14045,9 @@
     "level": 4,
     "school": "Evocation",
     "classes": [
-      "Paladin"
+      {
+        "class": "Paladin"
+      }
     ],
     "casting": {
       "range": 0,
@@ -11825,15 +14078,30 @@
     "level": 3,
     "school": "Conjuration",
     "classes": [
-      "Bard",
-      "Druid",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Swamp",
+          "Underdark"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Fiend"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Druid: Swamp, Underdark<br/> Warlock: Fiend",
-    "circles": "Swamp, Underdark",
-    "patrons": "Fiend",
     "casting": {
       "range": 90,
       "affected": false,
@@ -11863,11 +14131,20 @@
     "level": 4,
     "school": "Transmutation",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Wizard"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Mountain",
+          "Underdark"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
-    "circles": "Mountain, Underdark",
     "casting": {
       "range": 5,
       "affected": true,
@@ -11897,17 +14174,35 @@
     "level": 4,
     "school": "Abjuration",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Ranger",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "War"
+        ]
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Mountain"
+        ]
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Ancients"
+        ]
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: War<br/> Paladin: Ancients",
-    "domains": "War",
-    "circles": "Mountain",
-    "oaths": "Ancients",
     "casting": {
       "range": 5,
       "affected": true,
@@ -11937,7 +14232,9 @@
     "level": 9,
     "school": "Conjuration",
     "classes": [
-      "Druid"
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 100,
@@ -11969,8 +14266,12 @@
     "level": 4,
     "school": "Evocation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 150,
@@ -12001,14 +14302,26 @@
     "level": 2,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Knowledge"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Knowledge",
-    "domains": "Knowledge",
     "casting": {
       "range": 30,
       "affected": false,
@@ -12038,9 +14351,15 @@
     "level": 6,
     "school": "Evocation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -12071,9 +14390,15 @@
     "level": 8,
     "school": "Evocation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 150,
@@ -12104,7 +14429,9 @@
     "level": 5,
     "school": "Transmutation",
     "classes": [
-      "Ranger"
+      {
+        "class": "Ranger"
+      }
     ],
     "casting": {
       "range": 5,
@@ -12135,9 +14462,15 @@
     "level": 0,
     "school": "Conjuration",
     "classes": [
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -12168,9 +14501,15 @@
     "level": 7,
     "school": "Abjuration",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -12201,12 +14540,20 @@
     "level": 1,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Great Old One"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Warlock: Great Old One",
-    "patrons": "Great Old One",
     "casting": {
       "range": 30,
       "affected": false,
@@ -12236,12 +14583,20 @@
     "level": 5,
     "school": "Transmutation",
     "classes": [
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Great Old One"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Warlock: Great Old One",
-    "patrons": "Great Old One",
     "casting": {
       "range": 60,
       "affected": false,
@@ -12271,7 +14626,9 @@
     "level": 8,
     "school": "Evocation",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 10000000000,
@@ -12302,9 +14659,15 @@
     "level": 7,
     "school": "Conjuration",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 10,
@@ -12335,9 +14698,15 @@
     "level": 5,
     "school": "Conjuration",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 10,
@@ -12368,8 +14737,12 @@
     "level": 1,
     "school": "Conjuration",
     "classes": [
-      "Ritual Caster",
-      "Wizard"
+      {
+        "class": "Ritual Caster"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -12400,7 +14773,9 @@
     "level": 0,
     "school": "Transmutation",
     "classes": [
-      "Cleric"
+      {
+        "class": "Cleric"
+      }
     ],
     "casting": {
       "range": 30,
@@ -12431,7 +14806,9 @@
     "level": 0,
     "school": "Transmutation",
     "classes": [
-      "Druid"
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 30,
@@ -12462,7 +14839,9 @@
     "level": 1,
     "school": "Evocation",
     "classes": [
-      "Paladin"
+      {
+        "class": "Paladin"
+      }
     ],
     "casting": {
       "range": 0,
@@ -12493,11 +14872,21 @@
     "level": 0,
     "school": "Evocation",
     "classes": [
-      "Bard",
-      "Druid",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -12529,14 +14918,26 @@
     "level": 1,
     "school": "Evocation",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Tempest"
+        ]
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Tempest",
-    "domains": "Tempest",
     "casting": {
       "range": 0,
       "affected": false,
@@ -12566,8 +14967,12 @@
     "level": 3,
     "school": "Conjuration",
     "classes": [
-      "Druid",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -12598,8 +15003,12 @@
     "level": 9,
     "school": "Transmutation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -12630,11 +15039,21 @@
     "level": 3,
     "school": "Divination",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -12665,8 +15084,12 @@
     "level": 5,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -12697,7 +15120,9 @@
     "level": 6,
     "school": "Conjuration",
     "classes": [
-      "Druid"
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 10,
@@ -12728,15 +15153,29 @@
     "level": 5,
     "school": "Conjuration",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Paladin",
-      "Ranger"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Nature"
+        ]
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Forest"
+        ]
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Ancients"
+        ]
+      },
+      {
+        "class": "Ranger"
+      }
     ],
     "archetype": "Cleric: Nature<br/> Paladin: Ancients",
-    "domains": "Nature",
-    "circles": "Forest",
-    "oaths": "Ancients",
     "casting": {
       "range": 0,
       "affected": false,
@@ -12766,9 +15205,15 @@
     "level": 9,
     "school": "Transmutation",
     "classes": [
-      "Bard",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -12799,8 +15244,12 @@
     "level": 9,
     "school": "Necromancy",
     "classes": [
-      "Cleric",
-      "Druid"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 5,
@@ -12831,11 +15280,21 @@
     "level": 6,
     "school": "Divination",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 5,
@@ -12866,10 +15325,18 @@
     "level": 0,
     "school": "Divination",
     "classes": [
-      "Bard",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -12900,7 +15367,9 @@
     "level": 8,
     "school": "Conjuration",
     "classes": [
-      "Druid"
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 100,
@@ -12931,10 +15400,18 @@
     "level": 1,
     "school": "Conjuration",
     "classes": [
-      "Bard",
-      "Ritual Caster",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Ritual Caster"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -12966,8 +15443,12 @@
     "level": 3,
     "school": "Necromancy",
     "classes": [
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -12998,7 +15479,9 @@
     "level": 0,
     "school": "Enchantment",
     "classes": [
-      "Bard"
+      {
+        "class": "Bard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -13030,8 +15513,12 @@
     "level": 4,
     "school": "Evocation",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 150,
@@ -13063,15 +15550,29 @@
     "level": 4,
     "school": "Evocation",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Light"
+        ]
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock",
+        "subclasses": [
+          "Fiend"
+        ]
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Cleric: Light<br/> Warlock: Fiend",
-    "domains": "Light",
-    "patrons": "Fiend",
     "casting": {
       "range": 120,
       "affected": false,
@@ -13101,7 +15602,9 @@
     "level": 5,
     "school": "Evocation",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -13133,7 +15636,9 @@
     "level": 6,
     "school": "Evocation",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -13164,7 +15669,9 @@
     "level": 3,
     "school": "Evocation",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 90,
@@ -13195,11 +15702,20 @@
     "level": 5,
     "school": "Evocation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Desert",
+          "Mountain"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
-    "circles": "Desert, Mountain",
     "casting": {
       "range": 120,
       "affected": false,
@@ -13230,7 +15746,9 @@
     "level": 6,
     "school": "Conjuration",
     "classes": [
-      "Druid"
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 120,
@@ -13261,9 +15779,15 @@
     "level": 3,
     "school": "Evocation",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 60,
@@ -13294,7 +15818,9 @@
     "level": 2,
     "school": "Abjuration",
     "classes": [
-      "Cleric"
+      {
+        "class": "Cleric"
+      }
     ],
     "casting": {
       "range": 5,
@@ -13325,9 +15851,15 @@
     "level": 2,
     "school": "Evocation",
     "classes": [
-      "Bard",
-      "Druid",
-      "Sorcerer"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      }
     ],
     "casting": {
       "range": 0,
@@ -13358,13 +15890,25 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
-      "Druid",
-      "Ranger",
-      "Ritual Caster",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Coast"
+        ]
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Ritual Caster"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
-    "circles": "Coast",
     "casting": {
       "range": 30,
       "affected": false,
@@ -13394,13 +15938,26 @@
     "level": 3,
     "school": "Transmutation",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Ranger",
-      "Ritual Caster",
-      "Sorcerer"
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Coast",
+          "Swamp"
+        ]
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Ritual Caster"
+      },
+      {
+        "class": "Sorcerer"
+      }
     ],
-    "circles": "Coast, Swamp",
     "casting": {
       "range": 30,
       "affected": false,
@@ -13430,9 +15987,15 @@
     "level": 4,
     "school": "Conjuration",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 90,
@@ -13463,12 +16026,20 @@
     "level": 2,
     "school": "Conjuration",
     "classes": [
-      "Druid",
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Druid",
+        "subclasses": [
+          "Underdark"
+        ]
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "archetype": "Druid: Underdark",
-    "circles": "Underdark",
     "casting": {
       "range": 60,
       "affected": false,
@@ -13498,7 +16069,9 @@
     "level": 9,
     "school": "Illusion",
     "classes": [
-      "Wizard"
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 120,
@@ -13529,8 +16102,12 @@
     "level": 7,
     "school": "Evocation",
     "classes": [
-      "Druid",
-      "Wizard"
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 300,
@@ -13561,7 +16138,9 @@
     "level": 6,
     "school": "Transmutation",
     "classes": [
-      "Druid"
+      {
+        "class": "Druid"
+      }
     ],
     "casting": {
       "range": 30,
@@ -13592,12 +16171,20 @@
     "level": 3,
     "school": "Evocation",
     "classes": [
-      "Cleric",
-      "Druid",
-      "Ranger"
+      {
+        "class": "Cleric",
+        "subclasses": [
+          "Nature"
+        ]
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      }
     ],
     "archetype": "Cleric: Nature",
-    "domains": "Nature",
     "casting": {
       "range": 120,
       "affected": false,
@@ -13627,8 +16214,12 @@
     "level": 9,
     "school": "Conjuration",
     "classes": [
-      "Sorcerer",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 0,
@@ -13660,9 +16251,15 @@
     "level": 1,
     "school": "Evocation",
     "classes": [
-      "Sorcerer",
-      "Warlock",
-      "Wizard"
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
     ],
     "casting": {
       "range": 30,
@@ -13693,7 +16290,9 @@
     "level": 6,
     "school": "Conjuration",
     "classes": [
-      "Cleric"
+      {
+        "class": "Cleric"
+      }
     ],
     "casting": {
       "range": 5,
@@ -13724,7 +16323,9 @@
     "level": 1,
     "school": "Evocation",
     "classes": [
-      "Paladin"
+      {
+        "class": "Paladin"
+      }
     ],
     "casting": {
       "range": 0,
@@ -13755,11 +16356,19 @@
     "level": 2,
     "school": "Enchantment",
     "classes": [
-      "Bard",
-      "Cleric",
-      "Paladin"
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Paladin",
+        "subclasses": [
+          "Devotion"
+        ]
+      }
     ],
-    "oaths": "Devotion",
     "casting": {
       "range": 60,
       "affected": false,
