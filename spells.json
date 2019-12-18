@@ -9,9 +9,7 @@
       "verbal": true,
       "somatic": true,
       "material": true,
-      "materials_needed": [
-        "a bit of sponge"
-      ],
+      "materials_needed": "a bit of sponge",
       "raw": "V, S, M (a bit of sponge)"
     },
     "ritual": false,
@@ -78,9 +76,7 @@
       "verbal": true,
       "somatic": true,
       "material": true,
-      "materials_needed": [
-        "a red dragon's scale"
-      ],
+      "materials_needed": "a red dragon's scale",
       "raw": "V, S, M (a red dragon's scale)"
     },
     "ritual": false,
@@ -606,9 +602,7 @@
       "verbal": true,
       "somatic": true,
       "material": true,
-      "materials_needed": [
-        "a bit of fur wrapped in a cloth"
-      ],
+      "materials_needed": "a bit of fur wrapped in a cloth",
       "raw": "V, S, M (a bit of fur wrapped in a cloth)"
     },
     "ritual": false,
@@ -2422,9 +2416,7 @@
       "verbal": true,
       "somatic": true,
       "material": true,
-      "materials_needed": [
-        "a pinch of dust"
-      ],
+      "materials_needed": "a pinch of dust",
       "raw": "V, S, M (a bit of dust)"
     },
     "ritual": false,
@@ -2670,9 +2662,7 @@
       "verbal": true,
       "somatic": true,
       "material": true,
-      "materials_needed": [
-        "a piece of obsidian"
-      ],
+      "materials_needed": "a piece of obsidian",
       "raw": "V, S, M (a pice of obsidian)"
     },
     "ritual": false,
@@ -4096,9 +4086,7 @@
       "verbal": false,
       "somatic": true,
       "material": true,
-      "materials_needed": [
-        "a drop of water or piece of ice"
-      ],
+      "materials_needed": "a drop of water or piece of ice",
       "raw": "S, M (a drop of water or piece of ice)"
     },
     "ritual": false,
@@ -4709,9 +4697,7 @@
       "verbal": true,
       "somatic": true,
       "material": true,
-      "materials_needed": [
-        "paper or leaf in the shape of a funnel"
-      ],
+      "materials_needed": "paper or leaf in the shape of a funnel",
       "raw": "V, S, M (paper or leaf in the shape of a funnel)"
     },
     "ritual": false,
@@ -4985,9 +4971,7 @@
       "verbal": true,
       "somatic": true,
       "material": true,
-      "materials_needed": [
-        "a miniature hand sculpted from clay"
-      ],
+      "materials_needed": "a miniature hand sculpted from clay",
       "raw": "V, S, M (a miniature hand sculpted from clay)"
     },
     "ritual": false,
@@ -5069,11 +5053,7 @@
       "verbal": true,
       "somatic": true,
       "material": true,
-      "materials_needed": [
-        "niter",
-        "sulfur",
-        "pine tar formed into a bead"
-      ],
+      "materials_needed": "niter, sulfur, and pine tar formed into a bead",
       "raw": "V, S, M (niter, sulfur, and pine tar formed into a bead)"
     },
     "ritual": false,
@@ -6769,9 +6749,7 @@
       "verbal": true,
       "somatic": true,
       "material": true,
-      "materials_needed": [
-        "a piece of ice or a small white rock chip"
-      ],
+      "materials_needed": "a piece of ice or a small white rock chip",
       "raw": "V, S, M (a piece of ice or a small white rock chip)"
     },
     "ritual": false,
@@ -7405,9 +7383,7 @@
       "verbal": true,
       "somatic": true,
       "material": true,
-      "materials_needed": [
-        "a drop of water"
-      ],
+      "materials_needed": "a drop of water",
       "raw": "V, S, M (a drop of water)"
     },
     "ritual": false,
@@ -7469,10 +7445,7 @@
       "verbal": true,
       "somatic": true,
       "material": true,
-      "materials_needed": [
-        "clay",
-        "water"
-      ],
+      "materials_needed": "clay and water",
       "raw": "V, S, M (clay and water)"
     },
     "ritual": false,
@@ -7699,9 +7672,7 @@
       "verbal": true,
       "somatic": true,
       "material": true,
-      "materials_needed": [
-        "a drop of giant slug bile"
-      ],
+      "materials_needed": "a drop of giant slug bile",
       "raw": "V, S, M (a drop of giant slug bile)"
     },
     "ritual": false,
@@ -7785,9 +7756,7 @@
       "verbal": true,
       "somatic": true,
       "material": true,
-      "materials_needed": [
-        "a handful of sand"
-      ],
+      "materials_needed": "a handful of sand",
       "raw": "V, S, M (a handful of sand)"
     },
     "ritual": false,
@@ -7848,9 +7817,7 @@
       "verbal": true,
       "somatic": true,
       "material": true,
-      "materials_needed": [
-        "a drop of water"
-      ],
+      "materials_needed": "a drop of water",
       "raw": "V, S, M (a drop of water)"
     },
     "ritual": false,
@@ -7959,9 +7926,7 @@
       "verbal": true,
       "somatic": true,
       "material": true,
-      "materials_needed": [
-        "a droplet of water"
-      ],
+      "materials_needed": "a droplet of water",
       "raw": "V, S, M (a droplet of water)"
     },
     "ritual": false,
@@ -8023,9 +7988,7 @@
       "verbal": true,
       "somatic": false,
       "material": true,
-      "materials_needed": [
-        "a piece of straw"
-      ],
+      "materials_needed": "a piece of straw",
       "raw": "V, M (a piece of straw)"
     },
     "ritual": false,
