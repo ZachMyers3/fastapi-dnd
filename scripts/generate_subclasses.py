@@ -8,21 +8,37 @@ def main():
         with open(NEW_FILE, 'w', encoding='utf-8') as _w:
             _json = json.load(_f)
             for _o in _json:
-                # archetype = tryValue(_o, 'archetype')
+                # gather all the subclass information into lists
                 patrons = tryValue(_o, 'patrons')
-                school = tryValue(_o, 'school')
                 domains = tryValue(_o, 'domains')
                 oaths = tryValue(_o, 'oaths')
                 circles = tryValue(_o, 'circles')
-                print(f'{patrons=}\n{school=}\n{domains=}\n{oaths=}\n{circles=}')
-                print('============================')
+                classes = _o['classes']
+                for i in range(len(classes)):
+                    classes[i] = {
+                        "class": classes[i]
+                    }
 
-                
-                new_json = {
-                    
-                }
-                _o['components'] = new_json
+                classes = add_subclass('Warlock', patrons, classes)
+                classes = add_subclass('Cleric', domains, classes)
+                classes = add_subclass('Paladin', oaths, classes)
+                classes = add_subclass('Druid', circles, classes)
+
+                _o['classes'] = classes
+
             json.dump(_json, _w, indent=2)
+
+def add_subclass(inName, inSubClass, classList ):
+    # exit if the list is empty
+    if not inSubClass:
+        return classList
+    
+    for i in range(len(classList)):
+        if classList[i]['class'].lower() == inName.lower():
+            classList[i]['subclasses'] = inSubClass
+
+    return classList
+
 
 def tryValue(jsonObject, inKey):
     # try and find key value from jsonObject
