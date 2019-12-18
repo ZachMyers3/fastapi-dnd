@@ -37,7 +37,7 @@
   },
   {
     "name": "Absorb Elements",
-    "desc": "The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends.",
+    "desc": "When you take acid, cold, fire, lightning, or thunder damage the spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends.",
     "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, the extra damage increases by 1d6 for each slot level above 1st.",
     "book": "Elemental Evil Player's Companion",
     "page": 15,
@@ -114,7 +114,7 @@
   {
     "name": "Aganazzar's Scorcher",
     "desc": "A line of roaring flame 30 feet long and 5 feet wide emanates from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 3d8 fire damage on a failed save, or half as much damage on a successful one.",
-    "higher_level": "When you cast this spell using a spell slot of 3nd level or higher, the damage increases by 1d8 for each slot level above 2nd.",
+    "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.",
     "book": "Elemental Evil Player's Companion",
     "page": 15,
     "components": {
@@ -1193,9 +1193,6 @@
       },
       {
         "class": "Ranger"
-      },
-      {
-        "class": "Wizard"
       }
     ],
     "casting": {
@@ -3403,7 +3400,7 @@
   },
   {
     "name": "Create Bonfire",
-    "desc": "<p>You create a bonfire on ground that you can see within range. Until the spells ends, the bonfire fills a 5-foot cube. Any creature in the bonfire's space when you cast the spell must succeed on a Dexterity saving throw or take 1d8 fire damage. A creature must also make the saving throw when it enters the bonfire's space for the first time on a turn or ends its turn there.</p><p>The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).<p>",
+    "desc": "<p>You create a bonfire on ground that you can see within range. Until the spells ends, the bonfire fills a 5-foot cube. Any creature in the bonfire's space when you cast the spell must succeed on a Dexterity saving throw or take 1d8 fire damage. A creature must also make the saving throw when it enters the bonfire's space for the first time on a turn or ends its turn there.</p><p>The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>",
     "book": "Elemental Evil Player's Companion",
     "page": 16,
     "components": {
@@ -8495,6 +8492,42 @@
     }
   },
   {
+    "name": "Immolation",
+    "desc": "<p>Flames wreathe one creature you can see within range. The target must make a Dexterity saving throw. It takes 7d6 fire damage on a failed save, or half as much damage on a successful one. On a failed save, the target also burns for the spell's duration. The burning target sheds bright light in a 30-foot radius and dim light fro an additional 30 feet. At the end of each of its turns, the target repeats the saving throw. It takes 3d6 fire damage on a failed save, and the spell ends on a successful one. These magical flames can't be extinguished through nonmagical means.</p><p>If damage from this spell reduces a target to 0 hit points, the target is turned to ash.</p>",
+    "book": "Elemental Evil Player's Companion",
+    "page": 19,
+    "components": {
+      "material": false,
+      "materials_needed": "",
+      "raw": "V",
+      "somatic": false,
+      "verbal": true
+    },
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": 90,
+      "affected": false,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        60
+      ],
+      "ritual": false,
+      "concentration": true,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
     "name": "Imprisonment",
     "desc": "You create a magical restraint to hold a creature that you can see within range. The target must succeed on a wisdom saving throw or be bound by the spell; if it succeeds, it is immune to this spell if you cast it again. While affected by this spell, the creature doesn\u2019t need to breathe, eat, or drink, and it doesn\u2019t age. Divination spells can\u2019t locate or perceive the target.When you cast the spell, you choose one of the following forms of imprisonment.Burial. The target is entombed far beneath the earth in a sphere of magical force that is just large enough to contain the target. Nothing can pass through the sphere, nor can any creature teleport or use planar travel to get into or out of it.The special component for this version of the spell is a small mithral orb.Chaining. Heavy chains, firmly rooted in the ground, hold the target in place. The target is restrained until the spell ends, and it can\u2019t move or be moved by any means until then.The special component for this version of the spell is a fine chain of precious metal.Hedged Prison. The spell transports the target into a tiny demiplane that is warded against teleportation and planar travel. The demiplane can be a labyrinth, a cage, a tower, or any similar confined structure or area of your choice.The special component for this version of the spell is a miniature representation of the prison made from jade.Minimus Containment. The target shrinks to a height of 1 inch and is imprisoned inside a gemstone or similar object. Light can pass through the gemstone normally (allowing the target to see out and other creatures to see in), but nothing else can pass through, even by means of teleportation or planar travel. The gemstone can\u2019t be cut or broken while the spell remains in effect.The special component for this version of the spell is a large, transparent gemstone, such as a corundum, diamond, or ruby.Slumber. The target falls asleep and can\u2019t be awoken.The special component for this version of the spell consists of rare soporific herbs.Ending the Spell. During the casting of the spell, in any of its versions, you can specify a condition that will cause the spell to end and release the target. The condition can be as specific or as elaborate as you choose, but the DM must agree that the condition is reasonable and has a likelihood of coming to pass. The conditions can be based on a creature\u2019s name, identity, or deity but otherwise must be based on observable actions or qualities and not based on intangibles such as level, class, or hit points.A dispel magic spell can end the spell only if it is cast as a 9th-level spell, targeting either the prison or the special component used to create it.You can use a particular special component to create only one prison at a time. If you cast the spell again using the same component, the target of the first casting is immediately freed from its binding.",
     "book": "Player's Handbook",
@@ -8652,7 +8685,7 @@
   },
   {
     "name": "Investiture of Flame",
-    "desc": "<p>Flames race across your body, shedding bright light in a 30-foot radius and dim light for an additional 30 feet for the spell's duration. The flames don't harm you. Until the spell ends, you gain the following benefits:</p><ul><li>You are immune to fire damage and have resistance to cold damage.<li><li>Any creature that moves within 5 feet of you for the first time on a turn or ends its turn there takes 1d10 fire damage.</li><li>You can use your action to create a line of fire 15 feet long and 5 feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 4d8 fire damage on a failed save, or half as much damage on a successful one.</li></ul>",
+    "desc": "<p>Flames race across your body, shedding bright light in a 30-foot radius and dim light for an additional 30 feet for the spell's duration. The flames don't harm you. Until the spell ends, you gain the following benefits:</p><ul><li>You are immune to fire damage and have resistance to cold damage.</li><li>Any creature that moves within 5 feet of you for the first time on a turn or ends its turn there takes 1d10 fire damage.</li><li>You can use your action to create a line of fire 15 feet long and 5 feet wide extending from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 4d8 fire damage on a failed save, or half as much damage on a successful one.</li></ul>",
     "book": "Elemental Evil Player's Companion",
     "page": 19,
     "components": {
@@ -13686,7 +13719,7 @@
       "casting_time": 6,
       "action_type": "action",
       "duration": [
-        3600
+        0
       ],
       "ritual": false,
       "concentration": true,
@@ -15071,7 +15104,7 @@
   },
   {
     "name": "Transmute Rock",
-    "desc": "<p>You choose an area of stone or mud that you can see that fits within a 40-foot cube and that is within range, and choose one of the following effects.</p><dl><dt><b>Transmute Rock to Mud</b></dt><dd><p>Nonmagical rock of any sort in the area becomes an equal volume of thick and flowing mud that remains for the spell's duration.</p><p>If you cast the spell on an area of ground, it becomes muddy enough that creatures can sink into it. Each foot that a creature moves through the mud costs 4 feet of movement, and any creature on the ground when you cast the spell must make a Strength saving throw. A creature must also make this save the first time it enters the area on a turn or ends its turn there. On a failed save, a creature sinks into the mud and is restrained, though it can use an action to end the restrained condition on itself by pulling itself free of the mud.</p><p>If you cast the spell on a ceiling, the mud falls. Any creature under the mud when it falls must make a Dexterity saving throw. A creature takes 4d8 bludgeoning damage on a failed save, or half as much damage on a successful one.</dd><dt><b>Transmute Mud to Rock</b></dt><dd>Nonmagical mud or quicksand in the area no more than 10 feet deep transforms into soft stone for the spell's duration. Any creature in the mud when it transforms must make a Dexterity saving throw. On a failed save, a creature becomes restrained by the rock. The restrained creature can use an action to try to break free by succeeding on a Strength check (DC 20) or by dealing 25 damage to the rock around it. On a successful save, a creature is shunted safely to the surface to an unoccupied space.</dd></dl>",
+    "desc": "<p>You choose an area of stone or mud that you can see that fits within a 40-foot cube and that is within range, and choose one of the following effects.</p><dl><dt><b>Transmute Rock to Mud</b></dt><dd><p>Nonmagical rock of any sort in the area becomes an equal volume of thick and flowing mud that remains for the spell's duration.</p><p>If you cast the spell on an area of ground, it becomes muddy enough that creatures can sink into it. Each foot that a creature moves through the mud costs 4 feet of movement, and any creature on the ground when you cast the spell must make a Strength saving throw. A creature must also make this save the first time it enters the area on a turn or ends its turn there. On a failed save, a creature sinks into the mud and is restrained, though it can use an action to end the restrained condition on itself by pulling itself free of the mud.</p><p>If you cast the spell on a ceiling, the mud falls. Any creature under the mud when it falls must make a Dexterity saving throw. A creature takes 4d8 bludgeoning damage on a failed save, or half as much damage on a successful one.</p></dd><dt><b>Transmute Mud to Rock</b></dt><dd>Nonmagical mud or quicksand in the area no more than 10 feet deep transforms into soft stone for the spell's duration. Any creature in the mud when it transforms must make a Dexterity saving throw. On a failed save, a creature becomes restrained by the rock. The restrained creature can use an action to try to break free by succeeding on a Strength check (DC 20) or by dealing 25 damage to the rock around it. On a successful save, a creature is shunted safely to the surface to an unoccupied space.</dd></dl>",
     "book": "Elemental Evil Player's Companion",
     "page": 22,
     "components": {
