@@ -63,7 +63,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Conjuration",
     "classes": [
@@ -112,7 +112,7 @@
     "ritual": false,
     "duration": "8 hours",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Abjuration",
     "classes": [
@@ -159,7 +159,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Transmutation",
     "classes": [
@@ -183,7 +183,7 @@
     "ritual": false,
     "duration": "24 hours",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Enchantment",
     "classes": [
@@ -211,7 +211,7 @@
     "ritual": true,
     "duration": "24 hours",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Enchantment",
     "classes": [
@@ -236,7 +236,7 @@
     "ritual": false,
     "duration": "Up to 24 hours",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 8,
     "school": "Transmutation",
     "classes": [
@@ -283,7 +283,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Transmutation",
     "classes": [
@@ -307,7 +307,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Abjuration",
     "classes": [
@@ -329,7 +329,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 8,
     "school": "Abjuration",
     "classes": [
@@ -375,7 +375,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Divination",
     "classes": [
@@ -400,7 +400,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Conjuration",
     "classes": [
@@ -424,7 +424,7 @@
     "ritual": false,
     "duration": "Until dispelled",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Abjuration",
     "classes": [
@@ -447,7 +447,7 @@
     "ritual": false,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Abjuration",
     "classes": [
@@ -470,7 +470,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Conjuration",
     "classes": [
@@ -540,7 +540,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Abjuration",
     "classes": [
@@ -562,7 +562,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Abjuration",
     "classes": [
@@ -584,7 +584,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Evocation",
     "classes": [
@@ -630,7 +630,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Enchantment",
     "classes": [
@@ -656,7 +656,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 5,
     "school": "Abjuration",
     "classes": [
@@ -679,7 +679,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Abjuration",
     "classes": [
@@ -706,7 +706,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Transmutation",
     "classes": [
@@ -733,7 +733,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Abjuration",
     "classes": [
@@ -784,7 +784,7 @@
     "ritual": true,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Divination",
     "classes": [
@@ -809,7 +809,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Necromancy",
     "classes": [
@@ -834,7 +834,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Evocation",
     "classes": [
@@ -856,7 +856,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Evocation",
     "classes": [
@@ -878,7 +878,7 @@
     "ritual": false,
     "duration": "1 round",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Abjuration",
     "classes": [
@@ -904,7 +904,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Enchantment",
     "classes": [
@@ -929,7 +929,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Necromancy",
     "classes": [
@@ -955,7 +955,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 3,
     "school": "Evocation",
     "classes": [
@@ -978,7 +978,7 @@
     "ritual": false,
     "duration": "1 minute",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Necromancy",
     "classes": [
@@ -1006,7 +1006,7 @@
     "ritual": false,
     "duration": "1 minute",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Transmutation",
     "classes": [
@@ -1034,7 +1034,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Illusion",
     "classes": [
@@ -1083,7 +1083,7 @@
     "ritual": false,
     "duration": "1 round",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Evocation",
     "classes": [
@@ -1108,7 +1108,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 2,
     "school": "Evocation",
     "classes": [
@@ -1131,7 +1131,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Evocation",
     "classes": [
@@ -1160,7 +1160,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Conjuration",
     "classes": [
@@ -1186,7 +1186,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Enchantment",
     "classes": [
@@ -1237,7 +1237,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Evocation",
     "classes": [
@@ -1261,7 +1261,7 @@
     "ritual": false,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Enchantment",
     "classes": [
@@ -1290,7 +1290,7 @@
     "ritual": false,
     "duration": "1 round",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Necromancy",
     "classes": [
@@ -1315,7 +1315,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Evocation",
     "classes": [
@@ -1339,7 +1339,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Necromancy",
     "classes": [
@@ -1363,7 +1363,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Abjuration",
     "classes": [
@@ -1436,7 +1436,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Conjuration",
     "classes": [
@@ -1462,7 +1462,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Conjuration",
     "classes": [
@@ -1489,7 +1489,7 @@
     "ritual": false,
     "duration": "1 round",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Illusion",
     "classes": [
@@ -1513,7 +1513,7 @@
     "ritual": false,
     "duration": "1 round",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Enchantment",
     "classes": [
@@ -1594,7 +1594,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 1,
     "school": "Enchantment",
     "classes": [
@@ -1616,7 +1616,7 @@
     "ritual": true,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Divination",
     "classes": [
@@ -1642,7 +1642,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Enchantment",
     "classes": [
@@ -1665,7 +1665,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Evocation",
     "classes": [
@@ -1692,7 +1692,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Enchantment",
     "classes": [
@@ -1721,7 +1721,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Conjuration",
     "classes": [
@@ -1744,7 +1744,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Conjuration",
     "classes": [
@@ -1862,7 +1862,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Conjuration",
     "classes": [
@@ -1885,7 +1885,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Conjuration",
     "classes": [
@@ -1932,7 +1932,7 @@
     "ritual": false,
     "duration": "7 days",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Necromancy",
     "classes": [
@@ -1942,7 +1942,7 @@
   },
   {
     "name": "Contingency",
-    "desc": "Choose a spell of 5th level or lower that you can cast, that has a casting time of 1 action, and that can target you. You cast that spell\u2014called the contingent spell\u2014as part of casting contingency, expending spell slots for both, but the contingent spell doesn't come into effect. Instead, it takes effect when a certain circumstance occurs. You describe that circumstance when you cast the two spells. For example, a contingency cast with water breathing might stipulate that water breathing comes into effect when you are engulfed in water or a similar liquid. The contingent spell takes effect immediately after the circumstance is met for the first time, whether or not you want it to. and then contingency ends.The contingent spell takes effect only on you, even if it can normally target others. You can use only one contingency spell at a time. If you cast this spell again, the effect of another contingency spell on you ends. Also, contingency ends on you if its material component is ever not on your person.",
+    "desc": "Choose a spell of 5th level or lower that you can cast, that has a casting time of Action, and that can target you. You cast that spell\u2014called the contingent spell\u2014as part of casting contingency, expending spell slots for both, but the contingent spell doesn't come into effect. Instead, it takes effect when a certain circumstance occurs. You describe that circumstance when you cast the two spells. For example, a contingency cast with water breathing might stipulate that water breathing comes into effect when you are engulfed in water or a similar liquid. The contingent spell takes effect immediately after the circumstance is met for the first time, whether or not you want it to. and then contingency ends.The contingent spell takes effect only on you, even if it can normally target others. You can use only one contingency spell at a time. If you cast this spell again, the effect of another contingency spell on you ends. Also, contingency ends on you if its material component is ever not on your person.",
     "page": "phb 227",
     "range": "Self",
     "components": {
@@ -1977,7 +1977,7 @@
     "ritual": false,
     "duration": "Until dispelled",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Evocation",
     "classes": [
@@ -2024,7 +2024,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Transmutation",
     "classes": [
@@ -2099,7 +2099,7 @@
     "ritual": false,
     "duration": "8 hours",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Transmutation",
     "classes": [
@@ -2122,7 +2122,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 reaction",
+    "casting_time": "Reaction",
     "level": 3,
     "school": "Abjuration",
     "classes": [
@@ -2171,7 +2171,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Conjuration",
     "classes": [
@@ -2198,7 +2198,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Transmutation",
     "classes": [
@@ -2270,7 +2270,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Enchantment",
     "classes": [
@@ -2295,7 +2295,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Evocation",
     "classes": [
@@ -2321,7 +2321,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Evocation",
     "classes": [
@@ -2348,7 +2348,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Evocation",
     "classes": [
@@ -2372,7 +2372,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Evocation",
     "classes": [
@@ -2399,7 +2399,7 @@
     "ritual": false,
     "duration": "8 hours",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Transmutation",
     "classes": [
@@ -2424,7 +2424,7 @@
     "ritual": false,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Evocation",
     "classes": [
@@ -2452,7 +2452,7 @@
     "ritual": false,
     "duration": "8 hours",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Abjuration",
     "classes": [
@@ -2477,7 +2477,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 7,
     "school": "Evocation",
     "classes": [
@@ -2500,7 +2500,7 @@
     "ritual": false,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 8,
     "school": "Conjuration",
     "classes": [
@@ -2523,7 +2523,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Evocation",
     "classes": [
@@ -2548,7 +2548,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Divination",
     "classes": [
@@ -2571,7 +2571,7 @@
     "ritual": true,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Divination",
     "classes": [
@@ -2600,7 +2600,7 @@
     "ritual": true,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Divination",
     "classes": [
@@ -2626,7 +2626,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Divination",
     "classes": [
@@ -2653,7 +2653,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Conjuration",
     "classes": [
@@ -2683,7 +2683,7 @@
     "ritual": false,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Illusion",
     "classes": [
@@ -2711,7 +2711,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Transmutation",
     "classes": [
@@ -2734,7 +2734,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Abjuration",
     "classes": [
@@ -2758,7 +2758,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Abjuration",
     "classes": [
@@ -2790,7 +2790,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Enchantment",
     "classes": [
@@ -2815,7 +2815,7 @@
     "ritual": true,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Divination",
     "classes": [
@@ -2841,7 +2841,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 1,
     "school": "Evocation",
     "classes": [
@@ -2866,7 +2866,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 7,
     "school": "Evocation",
     "classes": [
@@ -2889,7 +2889,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Enchantment",
     "classes": [
@@ -2941,7 +2941,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 8,
     "school": "Enchantment",
     "classes": [
@@ -2967,7 +2967,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Enchantment",
     "classes": [
@@ -3023,7 +3023,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Transmutation",
     "classes": [
@@ -3122,7 +3122,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 8,
     "school": "Evocation",
     "classes": [
@@ -3146,7 +3146,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Evocation",
     "classes": [
@@ -3194,7 +3194,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Transmutation",
     "classes": [
@@ -3217,7 +3217,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Transmutation",
     "classes": [
@@ -3242,7 +3242,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Transmutation",
     "classes": [
@@ -3266,7 +3266,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 1,
     "school": "Conjuration",
     "classes": [
@@ -3291,7 +3291,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Conjuration",
     "classes": [
@@ -3313,7 +3313,7 @@
     "ritual": false,
     "duration": "1 minute",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Enchantment",
     "classes": [
@@ -3363,7 +3363,7 @@
     "ritual": false,
     "duration": "8 hours",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 7,
     "school": "Transmutation",
     "classes": [
@@ -3389,7 +3389,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Conjuration",
     "classes": [
@@ -3414,7 +3414,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 1,
     "school": "Transmutation",
     "classes": [
@@ -3438,7 +3438,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Necromancy",
     "classes": [
@@ -3485,7 +3485,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Evocation",
     "classes": [
@@ -3514,7 +3514,7 @@
     "ritual": false,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Necromancy",
     "classes": [
@@ -3537,7 +3537,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Illusion",
     "classes": [
@@ -3562,7 +3562,7 @@
     "ritual": false,
     "duration": "1 minute",
     "concentration": false,
-    "casting_time": "1 reaction",
+    "casting_time": "Reaction",
     "level": 1,
     "school": "Transmutation",
     "classes": [
@@ -3586,7 +3586,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 8,
     "school": "Enchantment",
     "classes": [
@@ -3611,7 +3611,7 @@
     "ritual": true,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Necromancy",
     "classes": [
@@ -3706,7 +3706,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Divination",
     "classes": [
@@ -3730,7 +3730,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 7,
     "school": "Necromancy",
     "classes": [
@@ -3755,7 +3755,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Evocation",
     "classes": [
@@ -3783,7 +3783,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Evocation",
     "classes": [
@@ -3806,7 +3806,7 @@
     "ritual": false,
     "duration": "10 minutes",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Evocation",
     "classes": [
@@ -3831,7 +3831,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 7,
     "school": "Evocation",
     "classes": [
@@ -3882,7 +3882,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 2,
     "school": "Evocation",
     "classes": [
@@ -3905,7 +3905,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Evocation",
     "classes": [
@@ -3934,7 +3934,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Conjuration",
     "classes": [
@@ -3960,7 +3960,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Transmutation",
     "classes": [
@@ -3984,7 +3984,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Transmutation",
     "classes": [
@@ -4009,7 +4009,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Conjuration",
     "classes": [
@@ -4060,7 +4060,7 @@
     "ritual": false,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 7,
     "school": "Evocation",
     "classes": [
@@ -4109,7 +4109,7 @@
     "ritual": false,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Abjuration",
     "classes": [
@@ -4139,7 +4139,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Enchantment",
     "classes": [
@@ -4189,7 +4189,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Transmutation",
     "classes": [
@@ -4216,7 +4216,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 9,
     "school": "Conjuration",
     "classes": [
@@ -4267,7 +4267,7 @@
     "ritual": true,
     "duration": "10 days",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Necromancy",
     "classes": [
@@ -4291,7 +4291,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Transmutation",
     "classes": [
@@ -4313,7 +4313,7 @@
     "ritual": false,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 8,
     "school": "Transmutation",
     "classes": [
@@ -4337,7 +4337,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Abjuration",
     "classes": [
@@ -4385,7 +4385,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Transmutation",
     "classes": [
@@ -4408,7 +4408,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 4,
     "school": "Conjuration",
     "classes": [
@@ -4434,7 +4434,7 @@
     "ritual": false,
     "duration": "1 minute",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Conjuration",
     "classes": [
@@ -4456,7 +4456,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Illusion",
     "classes": [
@@ -4485,7 +4485,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Abjuration",
     "classes": [
@@ -4509,7 +4509,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Evocation",
     "classes": [
@@ -4533,7 +4533,7 @@
     "ritual": false,
     "duration": "8 hours",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Conjuration",
     "classes": [
@@ -4582,7 +4582,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Divination",
     "classes": [
@@ -4606,7 +4606,7 @@
     "ritual": false,
     "duration": "1 round",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Evocation",
     "classes": [
@@ -4652,7 +4652,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Evocation",
     "classes": [
@@ -4680,7 +4680,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 1,
     "school": "Conjuration",
     "classes": [
@@ -4753,7 +4753,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Necromancy",
     "classes": [
@@ -4775,7 +4775,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Transmutation",
     "classes": [
@@ -4804,7 +4804,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Evocation",
     "classes": [
@@ -4828,7 +4828,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 1,
     "school": "Evocation",
     "classes": [
@@ -4853,7 +4853,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Transmutation",
     "classes": [
@@ -4877,7 +4877,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 reaction",
+    "casting_time": "Reaction",
     "level": 1,
     "school": "Evocation",
     "classes": [
@@ -4922,7 +4922,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Enchantment",
     "classes": [
@@ -4946,7 +4946,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 1,
     "school": "Enchantment",
     "classes": [
@@ -4969,7 +4969,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Enchantment",
     "classes": [
@@ -5000,7 +5000,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Enchantment",
     "classes": [
@@ -5031,7 +5031,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 8,
     "school": "Abjuration",
     "classes": [
@@ -5053,7 +5053,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Conjuration",
     "classes": [
@@ -5076,7 +5076,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 1,
     "school": "Divination",
     "classes": [
@@ -5101,7 +5101,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Illusion",
     "classes": [
@@ -5151,7 +5151,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Evocation",
     "classes": [
@@ -5282,7 +5282,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 8,
     "school": "Conjuration",
     "classes": [
@@ -5306,7 +5306,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Necromancy",
     "classes": [
@@ -5329,7 +5329,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Conjuration",
     "classes": [
@@ -5456,7 +5456,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Illusion",
     "classes": [
@@ -5484,7 +5484,7 @@
     "ritual": false,
     "duration": "1 minute",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Transmutation",
     "classes": [
@@ -5509,7 +5509,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Transmutation",
     "classes": [
@@ -5558,7 +5558,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Conjuration",
     "classes": [
@@ -5604,7 +5604,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Abjuration",
     "classes": [
@@ -5632,7 +5632,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Transmutation",
     "classes": [
@@ -5655,7 +5655,7 @@
     "ritual": false,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Evocation",
     "classes": [
@@ -5681,7 +5681,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 3,
     "school": "Transmutation",
     "classes": [
@@ -5704,7 +5704,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Evocation",
     "classes": [
@@ -5730,7 +5730,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Evocation",
     "classes": [
@@ -5754,7 +5754,7 @@
     "ritual": true,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Divination",
     "classes": [
@@ -5779,7 +5779,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Divination",
     "classes": [
@@ -5807,7 +5807,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Divination",
     "classes": [
@@ -5835,7 +5835,7 @@
     "ritual": false,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Transmutation",
     "classes": [
@@ -5883,7 +5883,7 @@
     "ritual": false,
     "duration": "8 hours",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Abjuration",
     "classes": [
@@ -5906,7 +5906,7 @@
     "ritual": false,
     "duration": "1 minute",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Conjuration",
     "classes": [
@@ -5980,7 +5980,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Evocation",
     "classes": [
@@ -6051,7 +6051,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 2,
     "school": "Transmutation",
     "classes": [
@@ -6078,7 +6078,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Illusion",
     "classes": [
@@ -6104,7 +6104,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Conjuration",
     "classes": [
@@ -6129,7 +6129,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 9,
     "school": "Conjuration",
     "classes": [
@@ -6152,7 +6152,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 3,
     "school": "Evocation",
     "classes": [
@@ -6175,7 +6175,7 @@
     "ritual": false,
     "duration": "24 hours",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Enchantment",
     "classes": [
@@ -6224,7 +6224,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 8,
     "school": "Conjuration",
     "classes": [
@@ -6246,7 +6246,7 @@
     "ritual": true,
     "duration": "8 hours",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Transmutation",
     "classes": [
@@ -6273,7 +6273,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Evocation",
     "classes": [
@@ -6349,7 +6349,7 @@
     "ritual": false,
     "duration": "1 round",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Transmutation",
     "classes": [
@@ -6373,7 +6373,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 9,
     "school": "Evocation",
     "classes": [
@@ -6396,7 +6396,7 @@
     "ritual": false,
     "duration": "24 hours",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 8,
     "school": "Abjuration",
     "classes": [
@@ -6419,7 +6419,7 @@
     "ritual": false,
     "duration": "1 minute",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Illusion",
     "classes": [
@@ -6468,7 +6468,7 @@
     "ritual": false,
     "duration": "1 minute",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Illusion",
     "classes": [
@@ -6497,7 +6497,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Illusion",
     "classes": [
@@ -6520,7 +6520,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 2,
     "school": "Conjuration",
     "classes": [
@@ -6550,7 +6550,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Enchantment",
     "classes": [
@@ -6601,7 +6601,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Evocation",
     "classes": [
@@ -6626,7 +6626,7 @@
     "ritual": false,
     "duration": "8 hours",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Conjuration",
     "classes": [
@@ -6694,7 +6694,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 7,
     "school": "Evocation",
     "classes": [
@@ -6717,7 +6717,7 @@
     "ritual": false,
     "duration": "Up to 2 hours",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Transmutation",
     "classes": [
@@ -6741,7 +6741,7 @@
     "ritual": false,
     "duration": "8 hours",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Abjuration",
     "classes": [
@@ -6768,7 +6768,7 @@
     "ritual": false,
     "duration": "24 hours",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Illusion",
     "classes": [
@@ -6791,7 +6791,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Evocation",
     "classes": [
@@ -6813,7 +6813,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Evocation",
     "classes": [
@@ -6835,7 +6835,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Enchantment",
     "classes": [
@@ -6858,7 +6858,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Abjuration",
     "classes": [
@@ -6885,7 +6885,7 @@
     "ritual": false,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Transmutation",
     "classes": [
@@ -6910,7 +6910,7 @@
     "ritual": false,
     "duration": "Until dispelled",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Illusion",
     "classes": [
@@ -6935,7 +6935,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Illusion",
     "classes": [
@@ -6963,7 +6963,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Illusion",
     "classes": [
@@ -7056,7 +7056,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 7,
     "school": "Conjuration",
     "classes": [
@@ -7068,7 +7068,7 @@
   },
   {
     "name": "Plant Growth",
-    "desc": "This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits.If you cast this spell using 1 action, choose a point within range. All normal plants in a 100-foot radius centered on that point become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.You can exclude one or more areas of any size within the spell\u2019s area from being affected.If you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. The plants yield twice the normal amount of food when harvested.",
+    "desc": "This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits.If you cast this spell using Action, choose a point within range. All normal plants in a 100-foot radius centered on that point become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.You can exclude one or more areas of any size within the spell\u2019s area from being affected.If you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within range become enriched for 1 year. The plants yield twice the normal amount of food when harvested.",
     "page": "phb 266",
     "range": "150 feet",
     "components": {
@@ -7081,7 +7081,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Transmutation",
     "classes": [
@@ -7113,7 +7113,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Conjuration",
     "classes": [
@@ -7137,7 +7137,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Transmutation",
     "classes": [
@@ -7165,7 +7165,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 9,
     "school": "Evocation",
     "classes": [
@@ -7187,7 +7187,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 9,
     "school": "Enchantment",
     "classes": [
@@ -7212,7 +7212,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 8,
     "school": "Enchantment",
     "classes": [
@@ -7260,7 +7260,7 @@
     "ritual": false,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Transmutation",
     "classes": [
@@ -7307,7 +7307,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 7,
     "school": "Evocation",
     "classes": [
@@ -7330,7 +7330,7 @@
     "ritual": false,
     "duration": "10 minutes",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 9,
     "school": "Abjuration",
     "classes": [
@@ -7352,7 +7352,7 @@
     "ritual": false,
     "duration": "10 minutes",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Conjuration",
     "classes": [
@@ -7374,7 +7374,7 @@
     "ritual": false,
     "duration": "Until dispelled",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Illusion",
     "classes": [
@@ -7397,7 +7397,7 @@
     "ritual": false,
     "duration": "Up to 24 hours",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 7,
     "school": "Illusion",
     "classes": [
@@ -7420,7 +7420,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Abjuration",
     "classes": [
@@ -7450,7 +7450,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Abjuration",
     "classes": [
@@ -7476,7 +7476,7 @@
     "ritual": false,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Abjuration",
     "classes": [
@@ -7501,7 +7501,7 @@
     "ritual": true,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Transmutation",
     "classes": [
@@ -7575,7 +7575,7 @@
     "ritual": true,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Divination",
     "classes": [
@@ -7598,7 +7598,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Necromancy",
     "classes": [
@@ -7621,7 +7621,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Evocation",
     "classes": [
@@ -7645,7 +7645,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Necromancy",
     "classes": [
@@ -7714,7 +7714,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Abjuration",
     "classes": [
@@ -7739,7 +7739,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Abjuration",
     "classes": [
@@ -7785,7 +7785,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 7,
     "school": "Transmutation",
     "classes": [
@@ -7809,7 +7809,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Conjuration",
     "classes": [
@@ -7833,7 +7833,7 @@
     "ritual": false,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Transmutation",
     "classes": [
@@ -7855,7 +7855,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Evocation",
     "classes": [
@@ -7877,7 +7877,7 @@
     "ritual": false,
     "duration": "1 minute",
     "concentration": false,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 1,
     "school": "Abjuration",
     "classes": [
@@ -7903,7 +7903,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Evocation",
     "classes": [
@@ -7963,7 +7963,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 1,
     "school": "Evocation",
     "classes": [
@@ -7985,7 +7985,7 @@
     "ritual": false,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Divination",
     "classes": [
@@ -8009,7 +8009,7 @@
     "ritual": false,
     "duration": "8 hours",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Illusion",
     "classes": [
@@ -8036,7 +8036,7 @@
     "ritual": false,
     "duration": "1 round",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Evocation",
     "classes": [
@@ -8063,7 +8063,7 @@
     "ritual": false,
     "duration": "Until dispelled",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 7,
     "school": "Transmutation",
     "classes": [
@@ -8109,7 +8109,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 9,
     "school": "Transmutation",
     "classes": [
@@ -8133,7 +8133,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Evocation",
     "classes": [
@@ -8161,7 +8161,7 @@
     "ritual": false,
     "duration": "1 round",
     "concentration": false,
-    "casting_time": "1 reaction",
+    "casting_time": "Reaction",
     "level": 1,
     "school": "Abjuration",
     "classes": [
@@ -8184,7 +8184,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 1,
     "school": "Abjuration",
     "classes": [
@@ -8208,7 +8208,7 @@
     "ritual": false,
     "duration": "1 minute",
     "concentration": false,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 0,
     "school": "Transmutation",
     "classes": [
@@ -8230,7 +8230,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Evocation",
     "classes": [
@@ -8253,7 +8253,7 @@
     "ritual": true,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Illusion",
     "classes": [
@@ -8281,7 +8281,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Illusion",
     "classes": [
@@ -8353,7 +8353,7 @@
     "ritual": false,
     "duration": "1 minute",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Enchantment",
     "classes": [
@@ -8380,7 +8380,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Conjuration",
     "classes": [
@@ -8395,7 +8395,7 @@
   },
   {
     "name": "Slow",
-    "desc": "You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a wisdom saving throw or be affected by this spell for the duration.An affected target\u2019s speed is halved, it takes a -2 penalty to AC and dexterity saving throws, and it can\u2019t use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature\u2019s abilities or magic items, it can\u2019t make more than one melee or ranged attack during its turn.If the creature attempts to cast a spell with a casting time of 1 action, roll a d20. On an 11 or higher, the spell doesn\u2019t take effect until the creature\u2019s next turn, and the creature must use its action on that turn to complete the spell. If it can\u2019t, the spell is wasted.A creature affected by this spell makes another wisdom saving throw at the end of its turn. On a successful save, the effect ends for it.",
+    "desc": "You alter time around up to six creatures of your choice in a 40-foot cube within range. Each target must succeed on a wisdom saving throw or be affected by this spell for the duration.An affected target\u2019s speed is halved, it takes a -2 penalty to AC and dexterity saving throws, and it can\u2019t use reactions. On its turn, it can use either an action or a bonus action, not both. Regardless of the creature\u2019s abilities or magic items, it can\u2019t make more than one melee or ranged attack during its turn.If the creature attempts to cast a spell with a casting time of Action, roll a d20. On an 11 or higher, the spell doesn\u2019t take effect until the creature\u2019s next turn, and the creature must use its action on that turn to complete the spell. If it can\u2019t, the spell is wasted.A creature affected by this spell makes another wisdom saving throw at the end of its turn. On a successful save, the effect ends for it.",
     "page": "phb 277",
     "range": "120 feet",
     "components": {
@@ -8408,7 +8408,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Transmutation",
     "classes": [
@@ -8459,7 +8459,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Necromancy",
     "classes": [
@@ -8481,7 +8481,7 @@
     "ritual": true,
     "duration": "10 minutes",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Divination",
     "classes": [
@@ -8511,7 +8511,7 @@
     "ritual": false,
     "duration": "10 minutes",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Necromancy",
     "classes": [
@@ -8535,7 +8535,7 @@
     "ritual": false,
     "duration": "10 minutes",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Transmutation",
     "classes": [
@@ -8559,7 +8559,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Transmutation",
     "classes": [
@@ -8586,7 +8586,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Transmutation",
     "classes": [
@@ -8614,7 +8614,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Conjuration",
     "classes": [
@@ -8638,7 +8638,7 @@
     "ritual": false,
     "duration": "1 minute",
     "concentration": false,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 2,
     "school": "Evocation",
     "classes": [
@@ -8661,7 +8661,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 4,
     "school": "Evocation",
     "classes": [
@@ -8683,7 +8683,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Conjuration",
     "classes": [
@@ -8712,7 +8712,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Transmutation",
     "classes": [
@@ -8737,7 +8737,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Abjuration",
     "classes": [
@@ -8768,7 +8768,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 9,
     "school": "Conjuration",
     "classes": [
@@ -8814,7 +8814,7 @@
     "ritual": false,
     "duration": "Up to 8 hours",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Enchantment",
     "classes": [
@@ -8842,7 +8842,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Evocation",
     "classes": [
@@ -8866,7 +8866,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 8,
     "school": "Evocation",
     "classes": [
@@ -8890,7 +8890,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 5,
     "school": "Transmutation",
     "classes": [
@@ -8912,7 +8912,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Conjuration",
     "classes": [
@@ -8960,7 +8960,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Enchantment",
     "classes": [
@@ -8986,7 +8986,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Transmutation",
     "classes": [
@@ -9012,7 +9012,7 @@
     "ritual": false,
     "duration": "24 hours",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 8,
     "school": "Evocation",
     "classes": [
@@ -9034,7 +9034,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 7,
     "school": "Conjuration",
     "classes": [
@@ -9082,7 +9082,7 @@
     "ritual": true,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Conjuration",
     "classes": [
@@ -9105,7 +9105,7 @@
     "ritual": false,
     "duration": "1 minute",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Transmutation",
     "classes": [
@@ -9127,7 +9127,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Transmutation",
     "classes": [
@@ -9149,7 +9149,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 1,
     "school": "Evocation",
     "classes": [
@@ -9198,7 +9198,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Evocation",
     "classes": [
@@ -9250,7 +9250,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 9,
     "school": "Transmutation",
     "classes": [
@@ -9273,7 +9273,7 @@
     "ritual": false,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Divination",
     "classes": [
@@ -9323,7 +9323,7 @@
     "ritual": false,
     "duration": "1 round",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Conjuration",
     "classes": [
@@ -9367,7 +9367,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Conjuration",
     "classes": [
@@ -9396,7 +9396,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 9,
     "school": "Transmutation",
     "classes": [
@@ -9443,7 +9443,7 @@
     "ritual": false,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Divination",
     "classes": [
@@ -9469,7 +9469,7 @@
     "ritual": false,
     "duration": "Up to 1 round",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Divination",
     "classes": [
@@ -9516,7 +9516,7 @@
     "ritual": true,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Conjuration",
     "classes": [
@@ -9542,7 +9542,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Necromancy",
     "classes": [
@@ -9565,7 +9565,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 0,
     "school": "Enchantment",
     "classes": [
@@ -9613,7 +9613,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 4,
     "school": "Evocation",
     "classes": [
@@ -9642,7 +9642,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Evocation",
     "classes": [
@@ -9665,7 +9665,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Evocation",
     "classes": [
@@ -9710,7 +9710,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 5,
     "school": "Evocation",
     "classes": [
@@ -9736,7 +9736,7 @@
     "ritual": false,
     "duration": "Up to 10 minutes",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Conjuration",
     "classes": [
@@ -9783,7 +9783,7 @@
     "ritual": false,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Abjuration",
     "classes": [
@@ -9829,7 +9829,7 @@
     "ritual": true,
     "duration": "24 hours",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Transmutation",
     "classes": [
@@ -9856,7 +9856,7 @@
     "ritual": true,
     "duration": "1 hour",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Transmutation",
     "classes": [
@@ -9908,7 +9908,7 @@
     "ritual": false,
     "duration": "Up to 1 hour",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Conjuration",
     "classes": [
@@ -9934,7 +9934,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 9,
     "school": "Illusion",
     "classes": [
@@ -10002,7 +10002,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 3,
     "school": "Evocation",
     "classes": [
@@ -10028,7 +10028,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 9,
     "school": "Conjuration",
     "classes": [
@@ -10052,7 +10052,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 1,
     "school": "Evocation",
     "classes": [
@@ -10076,7 +10076,7 @@
     "ritual": false,
     "duration": "Instantaneous",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 6,
     "school": "Conjuration",
     "classes": [
@@ -10098,7 +10098,7 @@
     "ritual": false,
     "duration": "Up to 1 minute",
     "concentration": true,
-    "casting_time": "1 bonus action",
+    "casting_time": "Bonus Action",
     "level": 1,
     "school": "Evocation",
     "classes": [
@@ -10120,7 +10120,7 @@
     "ritual": false,
     "duration": "10 minutes",
     "concentration": false,
-    "casting_time": "1 action",
+    "casting_time": "Action",
     "level": 2,
     "school": "Enchantment",
     "classes": [
