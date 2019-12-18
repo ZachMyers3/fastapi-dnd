@@ -10,7 +10,7 @@
       "somatic": true,
       "material": true,
       "materials_needed": "a bit of sponge",
-      "raw": "V, S, M (a bit of sponge)"
+      "raw": "V, S, M"
     },
     "ritual": false,
     "duration": "Instantaneous",
@@ -34,6 +34,7 @@
       "verbal": false,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "S"
     },
     "ritual": false,
@@ -84,7 +85,7 @@
       "somatic": true,
       "material": true,
       "materials_needed": "a red dragon's scale",
-      "raw": "V, S, M (a red dragon's scale)"
+      "raw": "V, S, M"
     },
     "ritual": false,
     "duration": "Instantaneous",
@@ -783,7 +784,7 @@
       "somatic": true,
       "material": true,
       "materials_needed": "a bit of fur wrapped in a cloth",
-      "raw": "V, S, M (a bit of fur wrapped in a cloth)"
+      "raw": "V, S, M"
     },
     "ritual": false,
     "duration": "Up to 10 minutes",
@@ -1095,6 +1096,7 @@
       "verbal": true,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "V, S"
     },
     "ritual": false,
@@ -1109,12 +1111,13 @@
   },
   {
     "name": "Booming Blade",
-    "desc": "As part of the action used the cast this spell, you must make a melee attack with a weapon against one create within the spell's range otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and it becomes sheathed in booming energy until the start of your next turn. If the target willingly moves before then, it immediately takes 1d8 thunder damage, and the spell ends.This spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 thunder damage to the target, and the damage the target take for moving increases to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level.",
-    "page": "scag 142",
+    "desc": "<p>As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and it becomes sheathed in booming energy until the start of your next turn. If the target willingly moves before then, it immediately takes 1d8 thunder damage, and the spell ends.</p><p>This spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 thunder damage to the target, and the damage the target take for moving increases to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level.</p>",
+    "book": "Sword Coast Adventurer's Guide",
+    "page": 142,
     "range": "5 feet",
     "components": {
       "material": true,
-      "materials_needed": "A weapon.",
+      "materials_needed": "a weapon",
       "raw": "V, M",
       "somatic": false,
       "verbal": true
@@ -1251,6 +1254,7 @@
       "verbal": false,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "S"
     },
     "ritual": false,
@@ -2069,6 +2073,7 @@
       "verbal": false,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "S"
     },
     "ritual": false,
@@ -2145,6 +2150,7 @@
       "verbal": true,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "V, S"
     },
     "ritual": false,
@@ -2219,6 +2225,7 @@
       "verbal": true,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "V, S"
     },
     "ritual": false,
@@ -3154,7 +3161,7 @@
       "somatic": true,
       "material": true,
       "materials_needed": "a pinch of dust",
-      "raw": "V, S, M (a bit of dust)"
+      "raw": "V, S, M"
     },
     "ritual": false,
     "duration": "Up to 1 minute",
@@ -3179,6 +3186,7 @@
       "verbal": true,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "V, S"
     },
     "ritual": false,
@@ -3204,6 +3212,7 @@
       "verbal": true,
       "somatic": false,
       "material": false,
+      "materials_needed": "",
       "raw": "V"
     },
     "ritual": false,
@@ -3278,6 +3287,7 @@
       "verbal": true,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "V, S"
     },
     "ritual": false,
@@ -3453,7 +3463,7 @@
       "somatic": true,
       "material": true,
       "materials_needed": "a piece of obsidian",
-      "raw": "V, S, M (a pice of obsidian)"
+      "raw": "V, S, M"
     },
     "ritual": false,
     "duration": "Instantaneous",
@@ -3991,6 +4001,7 @@
       "verbal": true,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "V, S"
     },
     "ritual": false,
@@ -4310,6 +4321,7 @@
       "verbal": true,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "V, S"
     },
     "ritual": false,
@@ -4660,13 +4672,14 @@
   },
   {
     "name": "Green-Flame Blade",
-    "desc": "As part of the action used the cast this spell, you must make a melee attack with a weapon against one create within the spell's range otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and green fire leaps from the target to a different creature of your choice that you can see within 5 feet of it. The second creature take fire damage equal to your spellcasting modifier.This spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 fire damage to the target, and the fire damage to the second creature increases to 18d + your spellcasting ability modifier. Both damage rolls increase by 1d8 at 11th level and 17th level.",
-    "page": "scag 143",
+    "desc": "<p>As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and green fire leaps from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier.</p><p>This spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 fire damage to the target, and the fire damage to the second creature increases to 1d8 + your spellcasting ability modifier. Both damage rolls increase by 1d8 at 11th level and 17th level.</p>",
+    "book": "Sword Coast Adventurer's Guide",
+    "page": 143,
     "range": "5 feet",
     "components": {
       "material": true,
-      "materials_needed": "A weapon.",
-      "raw": "V, M",
+      "materials_needed": "a weapon",
+      "raw": "V, M (a weapon)",
       "somatic": false,
       "verbal": true
     },
@@ -4791,6 +4804,7 @@
       "verbal": true,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "V, S"
     },
     "ritual": false,
@@ -5308,6 +5322,7 @@
       "verbal": true,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "V, S"
     },
     "ritual": false,
@@ -5420,7 +5435,7 @@
       "somatic": true,
       "material": true,
       "materials_needed": "a drop of water or piece of ice",
-      "raw": "S, M (a drop of water or piece of ice)"
+      "raw": "S, M"
     },
     "ritual": false,
     "duration": "Instantaneous",
@@ -5544,6 +5559,7 @@
       "verbal": true,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "V, S"
     },
     "ritual": false,
@@ -5568,6 +5584,7 @@
     "components": {
       "verbal": true,
       "somatic": true,
+      "materials_needed": "",
       "material": false,
       "raw": "V, S"
     },
@@ -5594,6 +5611,7 @@
       "verbal": true,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "V, S"
     },
     "ritual": false,
@@ -5619,6 +5637,7 @@
       "verbal": true,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "V, S"
     },
     "ritual": false,
@@ -5922,8 +5941,9 @@
   },
   {
     "name": "Lightning Lure",
-    "desc": "You create a lash of lightning energy that strikes at one creature of your choice that you can see within range. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take 1d8 lightning damage if it is within 5 feet of you.This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
-    "page": "scag 143",
+    "desc": "<p>You create a lash of lightning energy that strikes at one creature of your choice that you can see within range. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take 1d8 lightning damage if it is within 5 feet of you.</p><p>This spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>",
+    "book": "Sword Coast Adventurer's Guide",
+    "page": 143,
     "range": "15 feet",
     "components": {
       "material": false,
@@ -6065,7 +6085,7 @@
       "somatic": true,
       "material": true,
       "materials_needed": "paper or leaf in the shape of a funnel",
-      "raw": "V, S, M (paper or leaf in the shape of a funnel)"
+      "raw": "V, S, M"
     },
     "ritual": false,
     "duration": "Up to 1 minute",
@@ -6237,6 +6257,7 @@
       "verbal": true,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "V, S"
     },
     "ritual": false,
@@ -6417,7 +6438,7 @@
       "somatic": true,
       "material": true,
       "materials_needed": "a miniature hand sculpted from clay",
-      "raw": "V, S, M (a miniature hand sculpted from clay)"
+      "raw": "V, S, M"
     },
     "ritual": false,
     "duration": "Up to 1 minute",
@@ -6519,7 +6540,7 @@
       "somatic": true,
       "material": true,
       "materials_needed": "niter, sulfur, and pine tar formed into a bead",
-      "raw": "V, S, M (niter, sulfur, and pine tar formed into a bead)"
+      "raw": "V, S, M"
     },
     "ritual": false,
     "duration": "Up to 10 minutes",
@@ -6805,6 +6826,7 @@
       "verbal": false,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "S"
     },
     "ritual": false,
@@ -7541,6 +7563,7 @@
       "verbal": true,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "V, S"
     },
     "ritual": false,
@@ -7791,6 +7814,7 @@
       "verbal": true,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "V, S"
     },
     "ritual": false,
@@ -8372,6 +8396,7 @@
       "verbal": false,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "S"
     },
     "ritual": false,
@@ -8623,6 +8648,7 @@
       "verbal": true,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "V, S"
     },
     "ritual": true,
@@ -8735,7 +8761,7 @@
       "somatic": true,
       "material": true,
       "materials_needed": "a piece of ice or a small white rock chip",
-      "raw": "V, S, M (a piece of ice or a small white rock chip)"
+      "raw": "V, S, M"
     },
     "ritual": false,
     "duration": "Up to 1 hour",
@@ -9103,6 +9129,7 @@
       "verbal": true,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "V, S"
     },
     "ritual": false,
@@ -9220,8 +9247,9 @@
   },
   {
     "name": "Sword Burst",
-    "desc": "You create a momentary circle of spectral blades that sweep around you. Each creature within range, other than you, must succeed on a Dexterity saving throw or take 1d6 force damage.This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).",
-    "page": "scag 143",
+    "desc": "<p>You create a momentary circle of spectral blades that sweep around you. Each creature within range, other than you, must succeed on a Dexterity saving throw or take 1d6 force damage.</p><p>This spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>",
+    "book": "Sword Coast Adventurer's Guide",
+    "page": 143,
     "range": "5 feet",
     "components": {
       "material": false,
@@ -9497,6 +9525,7 @@
       "verbal": false,
       "somatic": true,
       "material": false,
+      "materials_needed": "",
       "raw": "S"
     },
     "ritual": false,
@@ -9554,7 +9583,7 @@
       "somatic": true,
       "material": true,
       "materials_needed": "a drop of water",
-      "raw": "V, S, M (a drop of water)"
+      "raw": "V, S, M"
     },
     "ritual": false,
     "duration": "Instantaneous",
@@ -9629,7 +9658,7 @@
       "somatic": true,
       "material": true,
       "materials_needed": "clay and water",
-      "raw": "V, S, M (clay and water)"
+      "raw": "V, S, M"
     },
     "ritual": false,
     "duration": "Instantaneous",
@@ -9906,7 +9935,7 @@
       "somatic": true,
       "material": true,
       "materials_needed": "a drop of giant slug bile",
-      "raw": "V, S, M (a drop of giant slug bile)"
+      "raw": "V, S, M"
     },
     "ritual": false,
     "duration": "Instantaneous",
@@ -10008,7 +10037,7 @@
       "somatic": true,
       "material": true,
       "materials_needed": "a handful of sand",
-      "raw": "V, S, M (a handful of sand)"
+      "raw": "V, S, M"
     },
     "ritual": false,
     "duration": "Up to 10 minutes",
@@ -10081,7 +10110,7 @@
       "somatic": true,
       "material": true,
       "materials_needed": "a drop of water",
-      "raw": "V, S, M (a drop of water)"
+      "raw": "V, S, M"
     },
     "ritual": false,
     "duration": "Up to 10 minutes",
@@ -10128,6 +10157,7 @@
       "verbal": true,
       "somatic": false,
       "material": false,
+      "materials_needed": "",
       "raw": "V"
     },
     "ritual": false,
@@ -10209,7 +10239,7 @@
       "somatic": true,
       "material": true,
       "materials_needed": "a droplet of water",
-      "raw": "V, S, M (a droplet of water)"
+      "raw": "V, S, M"
     },
     "ritual": false,
     "duration": "Up to 1 minute",
@@ -10284,7 +10314,7 @@
       "somatic": false,
       "material": true,
       "materials_needed": "a piece of straw",
-      "raw": "V, M (a piece of straw)"
+      "raw": "V, M"
     },
     "ritual": false,
     "duration": "Up to 1 minute",
