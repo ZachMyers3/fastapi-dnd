@@ -1,4 +1,5 @@
 import json
+import sys
 
 JSON_FILE = '../spells.json'
 NEW_FILE = 'spells.json'
@@ -22,38 +23,65 @@ def main():
                 cast_concentration = _o['concentration']
                 cast_duration = duration_parser(cast_duration)
                 cast_time, action_type = time_parser(cast_time)
-                cast_range, touch = range_parser(cast_range)
-                # print(f'{cast_range=}')
-                # print(f'{cast_ritual=}')
-                # print(f'{cast_duration=}')
-                # print(f'{cast_time=}')
+                cast_range, touch, sight, affected = range_parser(cast_range)
 
                 casting = {
                     "range": cast_range,
-                    "affected": None,
+                    "affected": affected,
                     "casting_time": cast_time,
                     "action_type": action_type,
                     "duration": cast_duration,
                     "ritual": cast_ritual,
-                    "concentration": cast_concentration
+                    "concentration": cast_concentration,
+                    "touch": touch,
+                    "sight": sight
                 }
-            # json.dump(_json, _w, indent=2)
+                # add the new object
+                _o['casting'] = casting
+                # remove the old fields
+                _o.pop('range', None)
+                _o.pop('ritual', None)
+                _o.pop('duration', None)
+                _o.pop('casting_time', None)
+                _o.pop('concentration', None)
+
+            json.dump(_json, _w, indent=2)
 
 def range_parser(rg):
     rg = rg.lower()
-    print(f'{rg=}')
+    touch = False
+    sight = False
+    affected = False
 
-    if rg == 'touch':
+    if 'touch' in rg:
         rg = '5'
-        touch = True
+        affected = True
 
-    if rg == 'self':
+    if 'self' in rg:
         rg = '0'
         touch = True
 
-    
+    if 'sight' in rg:
+        rg = '100'
+        sight = True
 
-    return '', True
+    if 'special' in rg:
+        rg = '10000000000'
+
+    if 'unlimited' in rg:
+        rg = '10000000000'
+
+    if 'feet' in rg:
+        rg = rg.replace('feet', '')
+        rg = rg.strip()
+
+    if 'mile' in rg or 'miles' in rg:
+        rg = rg.replace('miles', '')
+        rg = rg.replace('mile', '')
+        rg = rg.strip()
+        rg = str(int(rg) * MILES_TO_FEET)
+
+    return int(rg), touch, sight, affected
 
 def time_parser(in_time):
     in_time = in_time.lower()
@@ -89,7 +117,7 @@ def time_parser(in_time):
         in_time = int(in_time) * HOURS_TO_SECOND
         in_time = str(in_time)
 
-    return in_time, action_type
+    return int(in_time), action_type
 
 
 def duration_parser(in_duration):
