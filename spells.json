@@ -3768,6 +3768,14 @@
         "class": "Wizard"
       }
     ],
+    "races": [
+      {
+        "race": "Elf",
+        "subraces": [
+          "Drow"
+        ]
+      }
+    ],
     "casting": {
       "range": 120,
       "self": false,
@@ -3812,6 +3820,19 @@
       },
       {
         "class": "Wizard"
+      }
+    ],
+    "races": [
+      {
+        "race": "Elf",
+        "subraces": [
+          "Drow"
+        ],
+        "race_level": 5
+      },
+      {
+        "race": "Tiefling",
+        "race_level": 5
       }
     ],
     "casting": {
@@ -5643,6 +5664,15 @@
         "subclasses": [
           "Archfey"
         ]
+      }
+    ],
+    "races": [
+      {
+        "race": "Elf",
+        "subraces": [
+          "Drow"
+        ],
+        "race_level": 3
       }
     ],
     "casting": {
@@ -7903,6 +7933,12 @@
     "classes": [
       {
         "class": "Warlock"
+      }
+    ],
+    "races": [
+      {
+        "race": "Tiefling",
+        "race_level": 3
       }
     ],
     "casting": {
@@ -10469,6 +10505,14 @@
       },
       {
         "class": "Wizard"
+      }
+    ],
+    "races": [
+      {
+        "race": "Gnome",
+        "subraces": [
+          "Forest Gnome"
+        ]
       }
     ],
     "casting": {
@@ -14855,6 +14899,11 @@
     "classes": [
       {
         "class": "Cleric"
+      }
+    ],
+    "races": [
+      {
+        "race": "Tiefling"
       }
     ],
     "casting": {
