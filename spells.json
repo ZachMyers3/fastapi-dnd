@@ -567,12 +567,12 @@
   },
   {
     "name": "Arcane Eye",
-    "desc": "You create an invisible, magical eye within range that hovers in the air for the duration.You mentally receive visual information from the eye, which has normal vision and darkvision out to 30 feet. The eye can look in every direction.As an action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can’t enter another plane of existence. A solid barrier blocks the eye’s movement, but the eye can pass through an opening as small as 1 inch in diameter.",
+    "desc": "<p>You create an invisible, magical eye within range that hovers in the air for the duration.</p><p>You mentally receive visual information from the eye, which has normal vision and darkvision out to 30 feet. The eye can look in every direction.</p><p>As an action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can’t enter another plane of existence. A solid barrier blocks the eye’s movement, but the eye can pass through an opening as small as 1 inch in diameter.</p>",
     "book": "Player's Handbook",
     "page": 214,
     "components": {
       "material": true,
-      "materials_needed": "A bit of bat fur.",
+      "materials_needed": "a bit of bat fur",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -607,7 +607,7 @@
   },
   {
     "name": "Arcane Gate",
-    "desc": "You create linked teleportation portals that remain open for the duration. Choose two points on the ground that you can see, one point within 10 feet of you and one point within 500 feet of you. A circular portal, 10 feet in diameter, opens over each point. If the portal would open in the space occupied by a creature, the spell fails, and the casting is lost.The portals are two-dimensional glowing rings filled with mist, hovering inches from the ground and perpendicular to it at the points you choose. A ring is visible only from one side (your choice), which is the side that functions as a portal.Any creature or object entering the portal exits from the other portal as if the two were adjacent to each other; passing through a portal from the nonportal side has no effect. The mist that fills each portal is opaque and blocks vision through it. On your turn, you can rotate the rings as a bonus action so that the active side faces in a different direction.",
+    "desc": "<p>You create linked teleportation portals that remain open for the duration. Choose two points on the ground that you can see, one point within 10 feet of you and one point within 500 feet of you. A circular portal, 10 feet in diameter, opens over each point. If the portal would open in the space occupied by a creature, the spell fails, and the casting is lost.</p><p>The portals are two-dimensional glowing rings filled with mist, hovering inches from the ground and perpendicular to it at the points you choose. A ring is visible only from one side (your choice), which is the side that functions as a portal.</p><p>Any creature or object entering the portal exits from the other portal as if the two were adjacent to each other; passing through a portal from the nonportal side has no effect. The mist that fills each portal is opaque and blocks vision through it. On your turn, you can rotate the rings as a bonus action so that the active side faces in a different direction.</p>",
     "book": "Player's Handbook",
     "page": 214,
     "components": {
@@ -646,12 +646,12 @@
   },
   {
     "name": "Arcane Lock",
-    "desc": "You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting knock on the object suppresses arcane lock for 10 minutes.While affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10.",
+    "desc": "<p>You touch a closed door, window, gate, chest, or other entryway, and it becomes locked for the duration. You and the creatures you designate when you cast this spell can open the object normally. You can also set a password that, when spoken within 5 feet of the object, suppresses this spell for 1 minute. Otherwise, it is impassable until it is broken or the spell is dispelled or suppressed. Casting <i>knock</i> on the object suppresses <i>arcane lock</i> for 10 minutes.</p><p>While affected by this spell, the object is more difficult to break or force open; the DC to break it or pick any locks on it increases by 10.</p>",
     "book": "Player's Handbook",
     "page": 215,
     "components": {
       "material": true,
-      "materials_needed": "Gold dust worth at least 25gp, which the spell consumes.",
+      "materials_needed": "gold dust worth at least 25gp, which the spell consumes",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
