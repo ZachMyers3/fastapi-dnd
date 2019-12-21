@@ -2736,8 +2736,8 @@
   },
   {
     "name": "Conjure Animals",
-    "desc": "You summon fey spirits that take the form of beasts and appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears:- One beast of challenge rating 2 or lower- Two beasts of challenge rating 1 or lower- Four beasts of challenge rating 1/2 or lower- Eight beasts of challenge rating 1/4 or lower- Each beast is also considered fey, and it disappears when it drops to 0 hit points or when the spell ends.The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.The DM has the creatures’ statistics.",
-    "higher_level": "When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 5th-level slot, three times as many with a 7th-level.",
+    "desc": "<p>You summon fey spirits that take the form of beasts and appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears:</p><p><ul><li>One beast of challenge rating 2 or lower</li><li>Two beasts of challenge rating 1 or lower</li><li>Four beasts of challenge rating 1/2 or lower</li><li>Eight beasts of challenge rating 1/4 or lower</li></ul></p><p>Each beast is also considered fey, and it disappears when it drops to 0 hit points or when the spell ends.</p><p>The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.</p><p>The DM has the creatures’ statistics.</p>",
+    "higher_level": "When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 5th-level slot, three times as many with a 7th-level slot, and four times as many with a 9th-level slot.",
     "book": "Player's Handbook",
     "page": 225,
     "components": {
@@ -2778,7 +2778,7 @@
     "page": 225,
     "components": {
       "material": true,
-      "materials_needed": "One piece of ammunition or a thrown weapon.",
+      "materials_needed": "one piece of ammunition or a thrown weapon",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -2806,7 +2806,7 @@
   },
   {
     "name": "Conjure Celestial",
-    "desc": "You summon a celestial of challenge rating 4 or lower, which appears in an unoccupied space that you can see within range. The celestial disappears when it drops to 0 hit points or when the spell ends.The celestial is friendly to you and your companions for the duration. Roll initiative for the celestial, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you), as long as they don’t violate its alignment. If you don’t issue any commands to the celestial, it defends itself from hostile creatures but otherwise takes no actions.The DM has the celestial’s statistics.",
+    "desc": "<p>You summon a celestial of challenge rating 4 or lower, which appears in an unoccupied space that you can see within range. The celestial disappears when it drops to 0 hit points or when the spell ends.</p><p>The celestial is friendly to you and your companions for the duration. Roll initiative for the celestial, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you), as long as they don’t violate its alignment. If you don’t issue any commands to the celestial, it defends itself from hostile creatures but otherwise takes no actions.</p><p>The DM has the celestial’s statistics.</p>",
     "higher_level": "When you cast this spell using a 9th-level spell slot, you summon a celestial of challenge rating 5 or lower.",
     "book": "Player's Handbook",
     "page": 225,
@@ -2840,13 +2840,13 @@
   },
   {
     "name": "Conjure Elemental",
-    "desc": "You call forth an elemental servant. Choose an area of air, earth, fire, or water that fills a 10-foot cube within range. An elemental of challenge rating 5 or lower appropriate to the area you chose appears in an unoccupied space within 10 feet of it. For example, a fire elemental emerges from a bonfire, and an earth elemental rises up from the ground. The elemental disappears when it drops to 0 hit points or when the spell ends.The elemental is friendly to you and your companions for the duration. Roll initiative for the elemental, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don’t issue any commands to the elemental, it defends itself from hostile creatures but otherwise takes no actions.If your concentration is broken, the elemental doesn’t disappear. Instead, you lose control of the elemental, it becomes hostile toward you and your companions, and it might attack. An uncontrolled elemental can’t be dismissed by you, and it disappears 1 hour after you summoned it.The DM has the elemental’s statistics.",
+    "desc": "<p>You call forth an elemental servant. Choose an area of air, earth, fire, or water that fills a 10-foot cube within range. An elemental of challenge rating 5 or lower appropriate to the area you chose appears in an unoccupied space within 10 feet of it. For example, a fire elemental emerges from a bonfire, and an earth elemental rises up from the ground. The elemental disappears when it drops to 0 hit points or when the spell ends.</p><p>The elemental is friendly to you and your companions for the duration. Roll initiative for the elemental, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you). If you don’t issue any commands to the elemental, it defends itself from hostile creatures but otherwise takes no actions.</p><p>If your concentration is broken, the elemental doesn’t disappear. Instead, you lose control of the elemental, it becomes hostile toward you and your companions, and it might attack. An uncontrolled elemental can’t be dismissed by you, and it disappears 1 hour after you summoned it.</p><p>The DM has the elemental’s statistics.</p>",
     "higher_level": "When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th.",
     "book": "Player's Handbook",
     "page": 225,
     "components": {
       "material": true,
-      "materials_needed": "Burning incense for air, soft clay for earth, sulfur and phosphorus for fire, or water and sand for water.",
+      "materials_needed": "burning incense for air, soft clay for earth, sulfur and phosphorus for fire, or water and sand for water",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -2881,7 +2881,7 @@
   },
   {
     "name": "Conjure Fey",
-    "desc": "You summon a fey creature of challenge rating 6 or lower, or a fey spirit that takes the form of a beast of challenge rating 6 or lower. It appears in an unoccupied space that you can see within range. The fey creature disappears when it drops to 0 hit points or when the spell ends.The fey creature is friendly to you and your companions for the duration. Roll initiative for the creature, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you), as long as they don't violate its alignment. If you don’t issue any commands to the fey creature, it defends itself from hostile creatures but otherwise takes no actions.If your concentration is broken, the fey creature doesn’t disappear. Instead, you lose control of the fey creature, it becomes hostile toward you and your companions, and it might attack. An uncontrolled fey creature can't be dismissed by you, and it disappears 1 hour after you summoned it.The DM has the fey creature’s statistics.",
+    "desc": "<p>You summon a fey creature of challenge rating 6 or lower, or a fey spirit that takes the form of a beast of challenge rating 6 or lower. It appears in an unoccupied space that you can see within range. The fey creature disappears when it drops to 0 hit points or when the spell ends.</p><p>The fey creature is friendly to you and your companions for the duration. Roll initiative for the creature, which has its own turns. It obeys any verbal commands that you issue to it (no action required by you), as long as they don't violate its alignment. If you don’t issue any commands to the fey creature, it defends itself from hostile creatures but otherwise takes no actions.</p><p>If your concentration is broken, the fey creature doesn’t disappear. Instead, you lose control of the fey creature, it becomes hostile toward you and your companions, and it might attack. An uncontrolled fey creature can't be dismissed by you, and it disappears 1 hour after you summoned it.</p><p>The DM has the fey creature’s statistics.</p>",
     "higher_level": "When you cast this spell using a spell slot of 7th level or higher, the challenge rating increases by 1 for each slot level above 6th.",
     "book": "Player's Handbook",
     "page": 226,
@@ -2918,7 +2918,7 @@
   },
   {
     "name": "Conjure Minor Elementals",
-    "desc": "You summon elementals that appear in unoccupied spaces that you can see within range. You choose one the following options for what appears:- One elemental of challenge rating 2 or lower- Two elementals of challenge rating 1 or lower- Four elementals of challenge rating 1/2 or lower- Eight elementals of challenge rating 1/4 or lower.An elemental summoned by this spell disappears when it drops to 0 hit points or when the spell ends.The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.The DM has the creatures' statistics.",
+    "desc": "<p>You summon elementals that appear in unoccupied spaces that you can see within range. You choose one of the following options for what appears:</p><p><ul><li>One elemental of challenge rating 2 or lower</li><li>Two elementals of challenge rating 1 or lower</li><li>Four elementals of challenge rating 1/2 or lower</li><li>Eight elementals of challenge rating 1/4 or lower.</li></ul></p><p>An elemental summoned by this spell disappears when it drops to 0 hit points or when the spell ends.</p><p>The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don’t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.</p><p>The DM has the creatures' statistics.</p>",
     "higher_level": "When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 6th-level slot and three times as many with an 8th-level slot.",
     "book": "Player's Handbook",
     "page": 226,
@@ -2960,7 +2960,7 @@
     "page": 226,
     "components": {
       "material": true,
-      "materials_needed": "One piece of ammunition or one thrown weapon.",
+      "materials_needed": "one piece of ammunition or one thrown weapon",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -2988,13 +2988,13 @@
   },
   {
     "name": "Conjure Woodland Beings",
-    "desc": "You summon fey creatures that appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears:- One fey creature of challenge rating 2 or lower- Two fey creatures of challenge rating 1 or lower- Four fey creatures of challenge rating 1/2 or lower- Eight fey creatures of challenge rating 1/4 or lowerA summoned creature disappears when it drops to 0 hit points or when the spell ends.The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which have their own turns. They obey any verbal commands that you issue to them (no action required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.The DM has the creatures’ statistics.",
+    "desc": "<p>You summon fey creatures that appear in unoccupied spaces that you can see within range. Choose one of the following options for what appears:</p><p><ul><li>One fey creature of challenge rating 2 or lower</li><li>Two fey creatures of challenge rating 1 or lower</li><li>Four fey creatures of challenge rating 1/2 or lower</li><li>Eight fey creatures of challenge rating 1/4 or lower</li></ul></p><p>A summoned creature disappears when it drops to 0 hit points or when the spell ends.</p><p>The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which have their own turns. They obey any verbal commands that you issue to them (no action required by you). If you don't issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.</p><p>The DM has the creatures’ statistics.</p>",
     "higher_level": "When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 6th-level slot and three times as many with an 8th-level slot.",
     "book": "Player's Handbook",
     "page": 226,
     "components": {
       "material": true,
-      "materials_needed": "One holly berry per creature summoned.",
+      "materials_needed": "one holly berry per creature summoned",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -3025,7 +3025,7 @@
   },
   {
     "name": "Contact Other Plane",
-    "desc": "You mentally contact a demigod, the spirit of a long-dead sage, or some other mysterious entity from another plane. Contacting this extraplanar Intelligence can strain or even break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a failure, you take 6d6 psychic damage and are insane until you finish a long rest. While insane, you can’t take actions, can’t understand what other creatures say, can’t read, and speak only in gibberish. A greater restoration spell cast on you ends this effect.On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The DM answers each question with one word, such as “yes,” “no,” “maybe,” “never,” “irrelevant,” or “unclear” (if the entity doesn’t know the answer to the question). If a one-word answer would be misleading, the DM might instead offer a short phrase as an answer.",
+    "desc": "<p>You mentally contact a demigod, the spirit of a long-dead sage, or some other mysterious entity from another plane. Contacting this extraplanar intelligence can strain or even break your mind. When you cast this spell, make a DC 15 Intelligence saving throw. On a failure, you take 6d6 psychic damage and are insane until you finish a long rest. While insane, you can’t take actions, can’t understand what other creatures say, can’t read, and speak only in gibberish. A <i>greater restoration</i> spell cast on you ends this effect.</p><p>On a successful save, you can ask the entity up to five questions. You must ask your questions before the spell ends. The DM answers each question with one word, such as &ldquo;yes,&rdquo; &ldquo;no,&rdquo; &ldquo;maybe,&rdquo; &ldquo;never,&rdquo; &ldquo;irrelevant,&rdquo; or &ldquo;unclear&rdquo; (if the entity doesn’t know the answer to the question). If a one-word answer would be misleading, the DM might instead offer a short phrase as an answer.</p>",
     "book": "Player's Handbook",
     "page": 226,
     "components": {
@@ -3064,7 +3064,7 @@
   },
   {
     "name": "Contagion",
-    "desc": "Your touch inflicts disease. Make a melee spell attack against a creature within your reach. On a hit, you afflict the creature with a disease of your choice from any of the ones described below.At the end of each of the target’s turns, it must make a Constitution saving throw. After failing three of these saving throws, the disease’s effects last for the duration, and the creature stops making these saves. After succeeding on three of these saving throws, the creature recovers from the disease, and the spell ends.Since this spell induces a natural disease in its target, any effect that removes a disease or otherwise ameliorates a disease’s effects apply to it.<b>Blinding Sickness.</b> Pain grips the creature’s mind, and its eyes turn milky white. The creature has disadvantage on Wisdom checks and Wisdom saving throws and is blinded.<b>Filth Fever.</b> A raging fever sweeps through the creature’s body. The creature has disadvantage on Strength checks, Strength saving throws, and attack rolls that use Strength.<b>Flesh Rot.</b> The creature’s flesh decays. The creature has disadvantage on Charisma checks and vulnerability to all damage.<b>Mindfire.</b> The creature’s mind becomes feverish. The creature has disadvantage on Intelligence checks and Intelligence saving throws, and the creature behaves as if under the effects of the confusion spell during combat.<b>Seizure.</b> The creature is overcome with shaking. The creature has disadvantage on Dexterity checks, Dexterity saving throws, and attack rolls that use Dexterity.<b>Slimy Doom.</b> The creature begins to bleed uncontrollably. The creature has disadvantage on Constitution checks and Constitution saving throws. In addition, whenever the creature takes damage, it is stunned until the end of its next turn.",
+    "desc": "<p>Your touch inflicts disease. Make a melee spell attack against a creature within your reach. On a hit, you afflict the creature with a disease of your choice from any of the ones described below.</p><p>At the end of each of the target’s turns, it must make a Constitution saving throw. After failing three of these saving throws, the disease’s effects last for the duration, and the creature stops making these saves. After succeeding on three of these saving throws, the creature recovers from the disease, and the spell ends.</p><p>Since this spell induces a natural disease in its target, any effect that removes a disease or otherwise ameliorates a disease’s effects apply to it.</p><dl><dt><b>Blinding Sickness</b></dt><dd>Pain grips the creature’s mind, and its eyes turn milky white. The creature has disadvantage on Wisdom checks and Wisdom saving throws and is blinded.</dd><dt><b>Filth Fever</b></dt><dd>A raging fever sweeps through the creature’s body. The creature has disadvantage on Strength checks, Strength saving throws, and attack rolls that use Strength.</dd><dt><b>Flesh Rot</b></dt><dd>The creature’s flesh decays. The creature has disadvantage on Charisma checks and vulnerability to all damage.</dd><dt><b>Mindfire</b></dt><dd>The creature’s mind becomes feverish. The creature has disadvantage on Intelligence checks and Intelligence saving throws, and the creature behaves as if under the effects of the <i>confusion</i> spell during combat.</dd><dt><b>Seizure</b></dt><dd>The creature is overcome with shaking. The creature has disadvantage on Dexterity checks, Dexterity saving throws, and attack rolls that use Dexterity.</dd><dt><b>Slimy Doom</b></dt><dd>The creature begins to bleed uncontrollably. The creature has disadvantage on Constitution checks and Constitution saving throws. In addition, whenever the creature takes damage, it is stunned until the end of its next turn.</dd></dl>",
     "book": "Player's Handbook",
     "page": 227,
     "components": {
@@ -3100,12 +3100,12 @@
   },
   {
     "name": "Contingency",
-    "desc": "Choose a spell of 5th level or lower that you can cast, that has a casting time of Action, and that can target you. You cast that spell—called the contingent spell—as part of casting contingency, expending spell slots for both, but the contingent spell doesn't come into effect. Instead, it takes effect when a certain circumstance occurs. You describe that circumstance when you cast the two spells. For example, a contingency cast with water breathing might stipulate that water breathing comes into effect when you are engulfed in water or a similar liquid. The contingent spell takes effect immediately after the circumstance is met for the first time, whether or not you want it to. and then contingency ends.The contingent spell takes effect only on you, even if it can normally target others. You can use only one contingency spell at a time. If you cast this spell again, the effect of another contingency spell on you ends. Also, contingency ends on you if its material component is ever not on your person.",
+    "desc": "<p>Choose a spell of 5th level or lower that you can cast, that has a casting time of 1 action, and that can target you. You cast that spell&mdash;called the contingent spell&mdash;as part of casting <i>contingency</i>, expending spell slots for both, but the contingent spell doesn't come into effect. Instead, it takes effect when a certain circumstance occurs. You describe that circumstance when you cast the two spells. For example, a <i>contingency</i> cast with <i>water breathing</i> might stipulate that <i>water breathing</i> comes into effect when you are engulfed in water or a similar liquid.</p><p>The contingent spell takes effect immediately after the circumstance is met for the first time, whether or not you want it to, and then <i>contingency</i> ends.</p><p>The contingent spell takes effect only on you, even if it can normally target others. You can use only one <i>contingency</i> spell at a time. If you cast this spell again, the effect of another <i>contingency</i> spell on you ends. Also, <i>contingency</i> ends on you if its material component is ever not on your person.</p>",
     "book": "Player's Handbook",
     "page": 227,
     "components": {
       "material": true,
-      "materials_needed": "A statuette of yourself carved from ivory and decorated with gems worth at least 1,500 gp.",
+      "materials_needed": "a statuette of yourself carved from ivory and decorated with gems worth at least 1,500 gp",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
