@@ -6620,12 +6620,12 @@
   },
   {
     "name": "Foresight",
-    "desc": "You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target can’t be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration.This spell immediately ends if you cast it again before its duration ends.",
+    "desc": "<p>You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target can’t be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration.</p><p>This spell immediately ends if you cast it again before its duration ends.</p>",
     "book": "Player's Handbook",
     "page": 244,
     "components": {
       "material": true,
-      "materials_needed": "A hummingbird feather.",
+      "materials_needed": "a hummingbird feather",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -6662,12 +6662,12 @@
   },
   {
     "name": "Freedom of Movement",
-    "desc": "You touch a willing creature. For the duration, the target’s movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target’s speed nor cause the target to be paralyzed or restrained.The target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target’s movement or attacks.",
+    "desc": "<p>You touch a willing creature. For the duration, the target’s movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target’s speed nor cause the target to be paralyzed or restrained.</p><p>The target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target’s movement or attacks.</p>",
     "book": "Player's Handbook",
     "page": 244,
     "components": {
       "material": true,
-      "materials_needed": "A leather strap, bound around the arm or a similar appendage.",
+      "materials_needed": "a leather strap, bound around the arm or a similar appendage",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -6728,7 +6728,7 @@
     "page": 244,
     "components": {
       "material": true,
-      "materials_needed": "A small amount of makeup applied to the face as this spell is cast.",
+      "materials_needed": "a small amount of makeup applied to the face as this spell is cast",
       "raw": "S, M",
       "somatic": true,
       "verbal": false
@@ -6807,12 +6807,12 @@
   },
   {
     "name": "Gaseous Form",
-    "desc": "You transform a willing creature you touch, along with everything it’s wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn’t affected.While in this form, the target’s only method of movement is a flying speed of 10 feet. The target can enter and occupy the space of another creature. The target has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The target can’t fall and remains hovering in the air even when stunned or otherwise incapacitated.While in the form of a misty cloud, the target can’t talk or manipulate objects, and any objects it was carrying or holding can’t be dropped, used, or otherwise interacted with. The target can’t attack or cast spells.",
+    "desc": "<p>You transform a willing creature you touch, along with everything it’s wearing and carrying, into a misty cloud for the duration. The spell ends if the creature drops to 0 hit points. An incorporeal creature isn’t affected.</p><p>While in this form, the target’s only method of movement is a flying speed of 10 feet. The target can enter and occupy the space of another creature. The target has resistance to nonmagical damage, and it has advantage on Strength, Dexterity, and Constitution saving throws. The target can pass through small holes, narrow openings, and even mere cracks, though it treats liquids as though they were solid surfaces. The target can’t fall and remains hovering in the air even when stunned or otherwise incapacitated.</p><p>While in the form of a misty cloud, the target can’t talk or manipulate objects, and any objects it was carrying or holding can’t be dropped, used, or otherwise interacted with. The target can’t attack or cast spells.</p>",
     "book": "Player's Handbook",
     "page": 244,
     "components": {
       "material": true,
-      "materials_needed": "A bit of gauze and a wisp of smoke.",
+      "materials_needed": "a bit of gauze and a wisp of smoke",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -6853,12 +6853,12 @@
   },
   {
     "name": "Gate",
-    "desc": "You conjure a portal linking an unoccupied space you can see within range to a precise location on a different plane of existence. The portal is a circular opening, which you can make 5 to 20 feet in diameter. You can orient the portal in any direction you choose. The portal lasts for the duration.The portal has a front and a back on each plane where it appears. Travel through the portal is possible only by moving through its front. Anything that does so is instantly transported to the other plane, appearing in the unoccupied space nearest to the portal.Deities and other planar rulers can prevent portals created by this spell from opening in their presence or anywhere within their domains.When you cast this spell, you can speak the name of a specific creature (a pseudonym, title, or nickname doesn’t work). If that creature is on a plane other than the one you are on, the portal opens in the named creature’s immediate vicinity and draws the creature through it to the nearest unoccupied space on your side of the portal. You gain no special power over the creature, and it is free to act as the DM deems appropriate. It might leave, attack you, or help you.",
+    "desc": "<p>You conjure a portal linking an unoccupied space you can see within range to a precise location on a different plane of existence. The portal is a circular opening, which you can make 5 to 20 feet in diameter. You can orient the portal in any direction you choose. The portal lasts for the duration.</p><p>The portal has a front and a back on each plane where it appears. Travel through the portal is possible only by moving through its front. Anything that does so is instantly transported to the other plane, appearing in the unoccupied space nearest to the portal.</p><p>Deities and other planar rulers can prevent portals created by this spell from opening in their presence or anywhere within their domains.</p><p>When you cast this spell, you can speak the name of a specific creature (a pseudonym, title, or nickname doesn’t work). If that creature is on a plane other than the one you are on, the portal opens in the named creature’s immediate vicinity and draws the creature through it to the nearest unoccupied space on your side of the portal. You gain no special power over the creature, and it is free to act as the DM deems appropriate. It might leave, attack you, or help you.</p>",
     "book": "Player's Handbook",
     "page": 244,
     "components": {
       "material": true,
-      "materials_needed": "A diamond worth at least 5,000gp.",
+      "materials_needed": "a diamond worth at least 5,000 gp",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
