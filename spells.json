@@ -7880,13 +7880,13 @@
   },
   {
     "name": "Heat Metal",
-    "desc": "Choose a manufactured metal object, such as a metal weapon or a suit of heavy or medium metal armor, that you can see within range. You cause the object to glow red-hot. Any creature in physical contact with the object takes 2d8 fire damage when you cast the spell. Until the spell ends, you can use a bonus action on each of your subsequent turns to cause this damage again.If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn’t drop the object, it has disadvantage on attack rolls and ability checks until the start of your next turn.",
+    "desc": "<p>Choose a manufactured metal object, such as a metal weapon or a suit of heavy or medium metal armor, that you can see within range. You cause the object to glow red-hot. Any creature in physical contact with the object takes 2d8 fire damage when you cast the spell. Until the spell ends, you can use a bonus action on each of your subsequent turns to cause this damage again.</p><p>If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a Constitution saving throw or drop the object if it can. If it doesn’t drop the object, it has disadvantage on attack rolls and ability checks until the start of your next turn.</p>",
     "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for each slot level above 2nd.",
     "book": "Player's Handbook",
     "page": 250,
     "components": {
       "material": true,
-      "materials_needed": "A piece of iron and a flame.",
+      "materials_needed": "a piece of iron and a flame",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -7957,12 +7957,12 @@
   },
   {
     "name": "Heroes' Feast",
-    "desc": "You bring forth a great feast, including magnificent food and drink. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don’t set in until this hour is over. Up to twelve other creatures can partake of the feast.A creature that partakes of the feast gains several benefits. The creature is cured of all diseases and poison, becomes immune to poison and being frightened, and makes all Wisdom saving throws with advantage. Its hit point maximum also increases by 2d10, and it gains the same number of hit points. These benefits last for 24 hours.",
+    "desc": "<p>You bring forth a great feast, including magnificent food and drink. The feast takes 1 hour to consume and disappears at the end of that time, and the beneficial effects don’t set in until this hour is over. Up to twelve other creatures can partake of the feast.</p><p>A creature that partakes of the feast gains several benefits. The creature is cured of all diseases and poison, becomes immune to poison and being frightened, and makes all Wisdom saving throws with advantage. Its hit point maximum also increases by 2d10, and it gains the same number of hit points. These benefits last for 24 hours.</p>",
     "book": "Player's Handbook",
     "page": 250,
     "components": {
       "material": true,
-      "materials_needed": "A gem-encrusted bowl worth at least 1,000gp, which the spell consumes.",
+      "materials_needed": "a gem-encrusted bowl worth at least 1,000 gp, which the spell consumes",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -7994,6 +7994,7 @@
   {
     "name": "Heroism",
     "desc": "A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.",
+    "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.",
     "book": "Player's Handbook",
     "page": 250,
     "components": {
@@ -8029,13 +8030,13 @@
   },
   {
     "name": "Hex",
-    "desc": "You place a curse on a creature that you can see within range. Until the spell ends, you deals an extra 1d6 necrotic damage to the target whenever you hit it with an attack. Also choose one ability when you cast the spell. The target has disadvantage on ability checks made with the chosen ability.If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to curse a new creature.A remove curse cast on the target ends this spell early.",
+    "desc": "<p>You place a curse on a creature that you can see within range. Until the spell ends, you deal an extra 1d6 necrotic damage to the target whenever you hit it with an attack. Also, choose one ability when you cast the spell. The target has disadvantage on ability checks made with the chosen ability.</p><p>If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to curse a new creature.</p><p>A <i>remove curse</i> cast on the target ends this spell early.</p>",
     "higher_level": "When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours.",
     "book": "Player's Handbook",
     "page": 251,
     "components": {
       "material": true,
-      "materials_needed": "The petrified eye of a newt.",
+      "materials_needed": "the petrified eye of a newt",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
