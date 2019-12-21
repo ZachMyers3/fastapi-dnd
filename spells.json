@@ -1946,13 +1946,13 @@
   },
   {
     "name": "Chain Lightning",
-    "desc": "You create a bolt of lightning that arcs toward a target of your choice that you can see within range. Three bolts then leap from that target to as many as three other targets, each of which must be within 30 feet of the first target. A target can be a creature or an object and can be targeted by only one of the bolts.A target must make a Dexterity saving throw. The target takes 10d8 lightning damage on a failed save, or half as much damage on a successful one.",
+    "desc": "<p>You create a bolt of lightning that arcs toward a target of your choice that you can see within range. Three bolts then leap from that target to as many as three other targets, each of which must be within 30 feet of the first target. A target can be a creature or an object and can be targeted by only one of the bolts.</p><p>A target must make a Dexterity saving throw. The target takes 10d8 lightning damage on a failed save, or half as much damage on a successful one.</p>",
     "higher_level": "When you cast this spell using a spell slot of 7th level or higher, one additional bolt leaps from the first target to another target for each slot level above 6th.",
     "book": "Player's Handbook",
     "page": 221,
     "components": {
       "material": true,
-      "materials_needed": "A bit of fur; a piece of amber, glass, or a crystal rod; and three silver pins.",
+      "materials_needed": "a bit of fur; a piece of amber, glass, or a crystal rod; and three silver pins",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -2036,7 +2036,7 @@
   },
   {
     "name": "Chill Touch",
-    "desc": "You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes 1d8 necrotic damage, and it can’t regain hit points until the start of your next turn. Until then, the hand clings to the target.If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).",
+    "desc": "<p>You create a ghostly, skeletal hand in the space of a creature within range. Make a ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes 1d8 necrotic damage, and it can’t regain hit points until the start of your next turn. Until then, the hand clings to the target.</p><p>If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.</p><p>This spell’s damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8).</p>",
     "book": "Player's Handbook",
     "page": 221,
     "components": {
