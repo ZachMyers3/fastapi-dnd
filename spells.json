@@ -4901,7 +4901,7 @@
   },
   {
     "name": "Druidcraft",
-    "desc": "Whispering to the spirits of nature, you create one of the following effects within 'range':- You create a tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.- You instantly make a flower bloom, a seed pod open, or a leaf bud bloom.- You create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint order of skunk. The effect must fit in a 5-foot cube.- You instantly light or snuff out a candle, a torch, or a small campfire.",
+    "desc": "<p>Whispering to the spirits of nature, you create one of the following effects within range:</p><ul><li>You create a tiny, harmless sensory effect that predicts what the weather will be at your location for the next 24 hours. The effect might manifest as a golden orb for clear skies, a cloud for rain, falling snowflakes for snow, and so on. This effect persists for 1 round.</li><li>You instantly make a flower blossom, a seed pod open, or a leaf bud bloom.</li><li>You create an instantaneous, harmless sensory effect, such as falling leaves, a puff of wind, the sound of a small animal, or the faint order of skunk. The effect must fit in a 5-foot cube.</li><li>You instantly light or snuff out a candle, a torch, or a small campfire.</li></ul>",
     "book": "Player's Handbook",
     "page": 236,
     "components": {
@@ -5059,12 +5059,12 @@
   },
   {
     "name": "Earthquake",
-    "desc": "You create a seismic disturbance at a point on the ground that you can see within range. For the duration, an intense tremor rips through the ground in a 100-foot-radius circle centered on that point and shakes creatures and structures in contact with the ground in that area.The ground in the area becomes difficult terrain. Each creature on the ground that is concentrating must make a Constitution saving throw. On a failed save, the creature’s concentration is broken.When you cast this spell and at the end of each turn you spend concentrating on it, each creature on the ground in the area must make a Dexterity saving throw. On a failed save, the creature is knocked prone.This spell can have additional effects depending on the terrain in the area, as determined by the DM.Fissures. Fissures open throughout the spell’s area at the start of your next turn after you cast the spell. A total of 1d6 such fissures open in locations chosen by the DM. Each is 1d10 × 10 feet deep, 10 feet wide, and extends from one edge of the spell’s area to the opposite side. A creature standing on a spot where a fissure opens must succeed on a Dexterity saving throw or fall in. A creature that successfully saves moves with the fissure’s edge as it opens.A fissure that opens beneath a structure causes it to automatically collapse (see below).Structures. The tremor deals 50 bludgeoning damage to any structure in contact with the ground in the area when you cast the spell and at the start of each of your turns until the spell ends. If a structure drops to 0 hit points, it collapses and potentially damages nearby creatures. A creature within half the distance of a structure’s height must make a Dexterity saving throw. On a failed save, the creature takes 5d6 bludgeoning damage, is knocked prone, and is buried in the rubble, requiring a DC 20 Strength (Athletics) check as an action to escape. The DM can adjust the DC higher or lower, depending on the nature of the rubble. On a successful save, the creature takes half as much damage and doesn’t fall prone or become buried.",
+    "desc": "<p>You create a seismic disturbance at a point on the ground that you can see within range. For the duration, an intense tremor rips through the ground in a 100-foot-radius circle centered on that point and shakes creatures and structures in contact with the ground in that area.</p><p>The ground in the area becomes difficult terrain. Each creature on the ground that is concentrating must make a Constitution saving throw. On a failed save, the creature’s concentration is broken.</p><p>When you cast this spell and at the end of each turn you spend concentrating on it, each creature on the ground in the area must make a Dexterity saving throw. On a failed save, the creature is knocked prone.</p><p>This spell can have additional effects depending on the terrain in the area, as determined by the DM.</p><dl><dt><b>Fissures</b></dt><dd>Fissures open throughout the spell’s area at the start of your next turn after you cast the spell. A total of 1d6 such fissures open in locations chosen by the DM. Each is 1d10 × 10 feet deep, 10 feet wide, and extends from one edge of the spell’s area to the opposite side. A creature standing on a spot where a fissure opens must succeed on a Dexterity saving throw or fall in. A creature that successfully saves moves with the fissure’s edge as it opens.<p>A fissure that opens beneath a structure causes it to automatically collapse (see below).</p></dd><dt><b>Structures</b></dt><dd>The tremor deals 50 bludgeoning damage to any structure in contact with the ground in the area when you cast the spell and at the start of each of your turns until the spell ends. If a structure drops to 0 hit points, it collapses and potentially damages nearby creatures. A creature within half the distance of a structure’s height must make a Dexterity saving throw. On a failed save, the creature takes 5d6 bludgeoning damage, is knocked prone, and is buried in the rubble, requiring a DC 20 Strength (Athletics) check as an action to escape. The DM can adjust the DC higher or lower, depending on the nature of the rubble. On a successful save, the creature takes half as much damage and doesn’t fall prone or become buried.</dd></dl>",
     "book": "Player's Handbook",
     "page": 236,
     "components": {
       "material": true,
-      "materials_needed": "A pinch of dirt, a piece of rock, and a lump of clay.",
+      "materials_needed": "a pinch of dirt, a piece of rock, and a lump of clay",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -5098,7 +5098,7 @@
   },
   {
     "name": "Eldritch Blast",
-    "desc": "A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.",
+    "desc": "<p>A beam of crackling energy streaks toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 force damage.</p><p>The spell creates more than one beam when you reach higher levels: two beams at 5th level, three beams at 11th level, and four beams at 17th level. You can direct the beams at the same target or at different ones. Make a separate attack roll for each beam.</p>",
     "book": "Player's Handbook",
     "page": 237,
     "components": {
@@ -5205,13 +5205,13 @@
   },
   {
     "name": "Enhance Ability",
-    "desc": "You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects; the target gains that effect until the spell ends.<b>Bear’s Endurance.</b> The target has advantage on Constitution checks. It also gains 2d6 temporary hit points, which are lost when the spell ends. <b>Bull’s Strength.</b> The target has advantage on Strength checks, and his or her carrying capacity doubles.<b>Cat’s Grace.</b> The target has advantage on Dexterity checks. It also doesn’t take damage from falling 20 feet or less if it isn’t incapacitated.<b>Eagle’s Splendor.</b> The target has advantage on Charisma checks.<b>Fox’s Cunning.</b> The target has advantage on Intelligence checks.<b>Owl’s Wisdom.</b> The target has advantage on Wisdom checks.",
+    "desc": "<p>You touch a creature and bestow upon it a magical enhancement. Choose one of the following effects; the target gains that effect until the spell ends.</p><dl><dt><b>Bear’s Endurance</b></dt><dd>The target has advantage on Constitution checks. It also gains 2d6 temporary hit points, which are lost when the spell ends.</dd><dt><b>Bull’s Strength</b></dt><dd>The target has advantage on Strength checks, and his or her carrying capacity doubles.</dd><dt><b>Cat’s Grace</b></dt><dd>The target has advantage on Dexterity checks. It also doesn’t take damage from falling 20 feet or less if it isn’t incapacitated.</dd><dt><b>Eagle’s Splendor</b></dt><dd>The target has advantage on Charisma checks.</dd><dt><b>Fox’s Cunning</b></dt><dd>The target has advantage on Intelligence checks.</dd><dt><b>Owl’s Wisdom</b></dt><dd>The target has advantage on Wisdom checks.</dd></dl>",
     "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.",
     "book": "Player's Handbook",
     "page": 237,
     "components": {
       "material": true,
-      "materials_needed": "Fur or a feather from a beast.",
+      "materials_needed": "fur or a feather from a beast",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -5248,12 +5248,12 @@
   },
   {
     "name": "Enlarge/Reduce",
-    "desc": "Enlarging or reducing in size a creature or object that you can see and is within range for the duration of the spell. Choose a creature or object that is not worn or carried. If the target does not consent, it can make a Constitution saving throw. If successful, the spell has no effect.If the target is a creature, everything she wears and carries with it change size. Any item dropped by the affected creature returns to its normal size.<b>Magnification.</b> The double target in all dimensions, and its weight is multiplied by eight. This increases the size of a class of M to G for example. If there is not enough space in the room for the double target size, the creature or object reaches the maximum size possible in the available space. Until the end of the spell, the target also has the advantage of its jets Force and Force saves. Weapons to the target also grow. As long as these weapons are enlarged, the target's attacks cause additional 1d4 damage.<b>Reduction.</b> The size of the target is reduced by half in all dimensions, and its weight is divided by eight. This reduction decreases the size of a class from M to P for example. Until the end of the spell, the target has a disadvantage to its jets Force and its Force saves. The weapons of the target shrink too. As long as these weapons are reduced, target attacks cause less damage 1d4 (minimum 1 point of damage). ",
+    "desc": "<p>You cause a creature or an object you can see within range to grow larger or smaller for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.</p><p>If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.</p><dl><dt><b>Enlarge</b></dt><dd>The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category&mdash;from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attacks with them deal 1d4 extra damage.</dd><dt><b>Reduce</b></dt><dd>The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category&mdash;from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce damage below 1).</dd></dl>",
     "book": "Player's Handbook",
     "page": 237,
     "components": {
       "material": true,
-      "materials_needed": "A pinch iron powder.",
+      "materials_needed": "a pinch of powdered iron",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -5284,7 +5284,7 @@
   },
   {
     "name": "Ensnaring Strike",
-    "desc": "The next time you hit a creature with a weapon attack before this spell ends, a writhing mass of thorny vines appears at the point of impact, and the target must succeed on a Strength saving throw or be restrained by the magical vines until the spell ends. A Large or larger creature has advantage on this saving throw. If the target succeeds on the save, the vines shrivel away.While restrained by this spell, the target takes 1d6 piercing damage at the start of each of its turns. A creature restrained by the vines or one that can touch a creature can use its action to make a Strength check against your spell save DC. On a success, the target is freed.",
+    "desc": "<p>The next time you hit a creature with a weapon attack before this spell ends, a writhing mass of thorny vines appears at the point of impact, and the target must succeed on a Strength saving throw or be restrained by the magical vines until the spell ends. A Large or larger creature has advantage on this saving throw. If the target succeeds on the save, the vines shrivel away.</p><p>While restrained by this spell, the target takes 1d6 piercing damage at the start of each of its turns. A creature restrained by the vines or one that can touch the creature can use its action to make a Strength check against your spell save DC. On a success, the target is freed.</p>",
     "higher_level": "If you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.",
     "book": "Player's Handbook",
     "page": 237,
