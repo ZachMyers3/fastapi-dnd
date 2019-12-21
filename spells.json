@@ -8064,13 +8064,13 @@
   },
   {
     "name": "Hold Monster",
-    "desc": "Choose a creature you can see and reach. The target must make a saving throw of Wisdom or be paralyzed for the duration of the spell. This spell has no effect against the undead. At the end of each round, the target can make a new saving throw of Wisdom. If successful, the spell ends for the creature.",
-    "higher_level": "When you cast this spell using a level 6 or higher location, you can target an additional creature for each level of location beyond the fifth. The creatures must be within 30 feet o f each other when you target them.",
+    "desc": "Choose a creature you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. This spell has no effect on undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a sucess, the spell ends on the target.",
+    "higher_level": "When you cast this spell using a spell slot of 6th level or higher, you can target one additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.",
     "book": "Player's Handbook",
     "page": 251,
     "components": {
       "material": true,
-      "materials_needed": "A small piece of iron.",
+      "materials_needed": "a small, straight piece of iron",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
