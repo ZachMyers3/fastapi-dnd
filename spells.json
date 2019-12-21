@@ -6132,7 +6132,7 @@
   },
   {
     "name": "Fire Bolt",
-    "desc": "You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn’t being worn or carried.This spell’s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).",
+    "desc": "<p>You hurl a mote of fire at a creature or object within range. Make a ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn’t being worn or carried.</p><p>This spell’s damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>",
     "book": "Player's Handbook",
     "page": 242,
     "components": {
@@ -6168,12 +6168,12 @@
   },
   {
     "name": "Fire Shield",
-    "desc": "Thin and vaporous flame surround your body for the duration of the spell, radiating a bright light bright light in a 10-foot radius and dim light for an additional 10 feet. You can end the spell using an action to make it disappear.The flames are around you a heat shield or cold, your choice. The heat shield gives you cold damage resistance and the cold resistance to fire damage.In addition, whenever a creature within 5 feet of you hits you with a melee attack, flames spring from the shield. The attacker then suffers 2d8 points of fire damage or cold, depending on the model. ",
+    "desc": "<p>Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet. You can end the spell early by using an action to dismiss it.</p><p>The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants youu resistance to fire damage.</p><p>In addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes 2d8 fire damage from a warm shield, or 2d8 cold damage from a cold shield.</p>",
     "book": "Player's Handbook",
     "page": 242,
     "components": {
       "material": true,
-      "materials_needed": "A little phosphorus or a firefly.",
+      "materials_needed": "a bit of phosphorus or a firefly",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -6207,7 +6207,7 @@
   },
   {
     "name": "Fire Storm",
-    "desc": "A storm made up of sheets of roaring flame appears in a location you choose within range. The area of the storm consists of up to ten 10-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. Each creature in the area must make a Dexterity saving throw. It takes 7d10 fire damage on a failed save, or half as much damage on a successful one.The fire damages objects in the area and ignites flammable objects that aren’t being worn or carried. If you choose, plant life in the area is unaffected by this spell.",
+    "desc": "<p>A storm made up of sheets of roaring flame appears in a location you choose within range. The area of the storm consists of up to ten 10-foot cubes, which you can arrange as you wish. Each cube must have at least one face adjacent to the face of another cube. Each creature in the area must make a Dexterity saving throw. It takes 7d10 fire damage on a failed save, or half as much damage on a successful one.</p><p>The fire damages objects in the area and ignites flammable objects that aren’t being worn or carried. If you choose, plant life in the area is unaffected by this spell.</p>",
     "book": "Player's Handbook",
     "page": 242,
     "components": {
@@ -6289,13 +6289,13 @@
   },
   {
     "name": "Flame Blade",
-    "desc": "You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action.You can use your action to make a melee spell attack with the fiery blade. On a hit, the target takes 3d6 fire damage.The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.",
+    "desc": "<p>You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke the blade again as a bonus action.</p><p>You can use your action to make a melee spell attack with the fiery blade. On a hit, the target takes 3d6 fire damage.</p><p>The flaming blade sheds bright light in a 10-foot radius and dim light for an additional 10 feet.</p>",
     "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for every two slot levels above 2nd.",
     "book": "Player's Handbook",
     "page": 242,
     "components": {
       "material": true,
-      "materials_needed": "Leaf of sumac.",
+      "materials_needed": "leaf of sumac",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -6329,7 +6329,7 @@
     "page": 242,
     "components": {
       "material": true,
-      "materials_needed": "Pinch of sulfur.",
+      "materials_needed": "pinch of sulfur",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -6375,13 +6375,13 @@
   },
   {
     "name": "Flaming Sphere",
-    "desc": "A 5-foot-diameter sphere of fire appears in an unoccupied space of your choice within range and lasts for the duration. Any creature that ends its turn within 5 feet of the sphere must make a Dexterity saving throw. The creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere’s damage, and the sphere stops moving this turn.When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.",
+    "desc": "<p>A 5-foot-diameter sphere of fire appears in an unoccupied space of your choice within range and lasts for the duration. Any creature that ends its turn within 5 feet of the sphere must make a Dexterity saving throw. The creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.</p><p>As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere’s damage, and the sphere stops moving this turn.</p><p>When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.</p>",
     "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.",
     "book": "Player's Handbook",
     "page": 242,
     "components": {
       "material": true,
-      "materials_needed": "A bit of tallow, a pinch of brimstone, and a dusting of powdered iron.",
+      "materials_needed": "a bit of tallow, a pinch of brimstone, and a dusting of powdered iron",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -6419,12 +6419,12 @@
   },
   {
     "name": "Flesh to Stone",
-    "desc": "You attempt to turn one creature that you can see within range into stone. If the target’s body is made of flesh, the creature must make a Constitution saving throw. On a failed save, it is restrained as its flesh begins to harden. On a successful save, the creature isn’t affected.A creature restrained by this spell must make another Constitution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails its saves three times, it is turned to stone and subjected to the petrified condition for the duration. The successes and failures don’t need to be consecutive; keep track of both until the target collects three of a kind.If the creature is physically broken while petrified, it suffers from similar deformities if it reverts to its original state.If you maintain your concentration on this spell for the entire possible duration, the creature is turned to stone until the effect is removed.",
+    "desc": "<p>You attempt to turn one creature that you can see within range into stone. If the target’s body is made of flesh, the creature must make a Constitution saving throw. On a failed save, it is restrained as its flesh begins to harden. On a successful save, the creature isn’t affected.</p><p>A creature restrained by this spell must make another Constitution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails its saves three times, it is turned to stone and subjected to the petrified condition for the duration. The successes and failures don’t need to be consecutive; keep track of both until the target collects three of a kind.</p><p>If the creature is physically broken while petrified, it suffers from similar deformities if it reverts to its original state.</p><p>If you maintain your concentration on this spell for the entire possible duration, the creature is turned to stone until the effect is removed.</p>",
     "book": "Player's Handbook",
     "page": 243,
     "components": {
       "material": true,
-      "materials_needed": "A pinch of lime, water, and earth.",
+      "materials_needed": "a pinch of lime, water, and earth",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -6461,7 +6461,7 @@
     "page": 243,
     "components": {
       "material": true,
-      "materials_needed": "A wing feather from any bird.",
+      "materials_needed": "a wing feather from any bird",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -6545,12 +6545,12 @@
   },
   {
     "name": "Forbiddance",
-    "desc": "You create a ward against magical travel that protects up to 40,000 square feet of floor space to a height of 30 feet above the floor. For the duration, creatures can’t teleport into the area or use portals, such as those created by the gate spell, to enter the area. The spell proofs the area against planar travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, Ethereal Plane, Feywild, Shadowfell, or the plane shift spell.In addition, the spell damages types of creatures that you choose when you cast it. Choose one or more of the following: celestials, elementals, fey, fiends, and undead. When a chosen creature enters the spell’s area for the first time on a turn or starts its turn there, the creature takes 5d10 radiant or necrotic damage (your choice when you cast this spell).When you cast this spell, you can designate a password. A creature that speaks the password as it enters the area takes no damage from the spell.The spell’s area can't overlap with the area of another forbiddance spell. If you cast forbiddance every day for 30 days in the same location, the spell lasts until it is dispelled, and the material components are consumed on the last casting.",
+    "desc": "<p>You create a ward against magical travel that protects up to 40,000 square feet of floor space to a height of 30 feet above the floor. For the duration, creatures can’t teleport into the area or use portals, such as those created by the <i>gate</i> spell, to enter the area. The spell proofs the area against planar travel, and therefore prevents creatures from accessing the area by way of the Astral Plane, Ethereal Plane, Feywild, Shadowfell, or the <i>plane shift</i> spell.</p><p>In addition, the spell damages types of creatures that you choose when you cast it. Choose one or more of the following: celestials, elementals, fey, fiends, and undead. When a chosen creature enters the spell’s area for the first time on a turn or starts its turn there, the creature takes 5d10 radiant or necrotic damage (your choice when you cast this spell).</p><p>When you cast this spell, you can designate a password. A creature that speaks the password as it enters the area takes no damage from the spell.</p><p>The spell’s area can't overlap with the area of another <i>forbiddance</i> spell. If you cast <i>forbiddance</i> every day for 30 days in the same location, the spell lasts until it is dispelled, and the material components are consumed on the last casting.</p>",
     "book": "Player's Handbook",
     "page": 243,
     "components": {
       "material": true,
-      "materials_needed": "A sprinkling of holy water, rare incense, and powdered ruby worth at least 1,000 gp.",
+      "materials_needed": "a sprinkling of holy water, rare incense, and powdered ruby worth at least 1,000 gp",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
