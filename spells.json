@@ -309,7 +309,7 @@
   },
   {
     "name": "Animal Messenger",
-    "desc": "<p>By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as &rdquo;a man or woman dressed in the uniform of the town guard&ldquo; or &rdquo;a red-haired dwarf wearing a pointed hat.&ldquo; You also speak a message of up to twenty-five words. The target beast travels for the duration of the spell toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals.</p><p>When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn’t reach its destination before the spell ends, the message is lost, and the beast makes its way back to where you cast this spell.</p>",
+    "desc": "<p>By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue jay, or a bat. You specify a location, which you must have visited, and a recipient who matches a general description, such as &ldquo;a man or woman dressed in the uniform of the town guard&rdquo; or &ldquo;a red-haired dwarf wearing a pointed hat.&rdquo; You also speak a message of up to twenty-five words. The target beast travels for the duration of the spell toward the specified location, covering about 50 miles per 24 hours for a flying messenger, or 25 miles for other animals.</p><p>When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn’t reach its destination before the spell ends, the message is lost, and the beast makes its way back to where you cast this spell.</p>",
     "higher_level": "If you cast this spell using a spell slot of 3rd level or higher, the duration of the spell increases by 48 hours for each slot level above 2nd.",
     "book": "Player's Handbook",
     "page": 212,
@@ -2437,12 +2437,12 @@
   },
   {
     "name": "Commune",
-    "desc": "You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.Divine beings aren’t necessarily omniscient, so you might receive “unclear” as an answer if a question pertains to information that lies beyond the deity’s knowledge. In a case where a one-word answer could be misleading or contrary to the deity’s interests, the DM might offer a short phrase as an answer instead.If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The DM makes this roll in secret.",
+    "desc": "<p>You contact your deity or a divine proxy and ask up to three questions that can be answered with a yes or no. You must ask your questions before the spell ends. You receive a correct answer for each question.</p><p>Divine beings aren’t necessarily omniscient, so you might receive &ldquo;unclear&rdquo; as an answer if a question pertains to information that lies beyond the deity’s knowledge. In a case where a one-word answer could be misleading or contrary to the deity’s interests, the DM might offer a short phrase as an answer instead.</p><p>If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer. The DM makes this roll in secret.</p>",
     "book": "Player's Handbook",
     "page": 223,
     "components": {
       "material": true,
-      "materials_needed": "Incense and a vial of holy or unholy water.",
+      "materials_needed": "incense and a vial of holy or unholy water",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -2480,7 +2480,7 @@
   },
   {
     "name": "Commune with Nature",
-    "desc": "You briefly become one with nature and gain knowledge of the surrounding territory. In the outdoors, the spell gives you knowledge of the land within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn’t function where nature has been replaced by construction, such as in dungeons and towns. You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:- terrain and bodies of water- prevalent plants, minerals, animals, or peoples- powerful celestials, fey, fiends, elementals, or undead- influence from other planes of existence- buildingsFor example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns.",
+    "desc": "<p>You briefly become one with nature and gain knowledge of the surrounding territory. In the outdoors, the spell gives you knowledge of the land within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn’t function where nature has been replaced by construction, such as in dungeons and towns.</p><p>You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:</p><p><ul><li>terrain and bodies of water</li><li>prevalent plants, minerals, animals, or peoples</li><li>powerful celestials, fey, fiends, elementals, or undead</li><li>influence from other planes of existence</li><li>buildings</li></ul></p><p>For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns.</p>",
     "book": "Player's Handbook",
     "page": 224,
     "components": {
