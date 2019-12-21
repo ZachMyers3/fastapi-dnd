@@ -7123,12 +7123,12 @@
   },
   {
     "name": "Goodberry",
-    "desc": "Up to ten berries appear in your hand and are infused with magic for the duration. A creature can use its action to eat one berry. Eating a berry restores 1 hit point, and the berry provides enough nourishment to sustain a creature for a day.The berries lose their potency if they have not been consumed within 24 hours of the casting of this spell.",
+    "desc": "<p>Up to ten berries appear in your hand and are infused with magic for the duration. A creature can use its action to eat one berry. Eating a berry restores 1 hit point, and the berry provides enough nourishment to sustain a creature for a day.</p><p>The berries lose their potency if they have not been consumed within 24 hours of the casting of this spell.</p>",
     "book": "Player's Handbook",
     "page": 246,
     "components": {
       "material": true,
-      "materials_needed": "A sprig of mistletoe.",
+      "materials_needed": "a sprig of mistletoe",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -7159,7 +7159,7 @@
   },
   {
     "name": "Grasping Vine",
-    "desc": "You conjure a vine that sprouts from the ground in an unoccupied space of your choice that you can see within range. When you cast this spell, you can direct the vine to lash out at a creature within 30 feet of it that you can see. That creature must succeed on a Dexterity saving throw or be pulled 20 feet directly toward the vine. Until the spell ends, you can direct the vine to lash out at the same creature or another one as a bonus action on each of your turns.",
+    "desc": "<p>You conjure a vine that sprouts from the ground in an unoccupied space of your choice that you can see within range. When you cast this spell, you can direct the vine to lash out at a creature within 30 feet of it that you can see. That creature must succeed on a Dexterity saving throw or be pulled 20 feet directly toward the vine.</p><p>Until the spell ends, you can direct the vine to lash out at the same creature or another one as a bonus action on each of your turns.</p>",
     "book": "Player's Handbook",
     "page": 246,
     "components": {
@@ -7202,12 +7202,12 @@
   },
   {
     "name": "Grease",
-    "desc": "Slick grease covers the ground in a 10-foot square centered on a point within range and turns it into difficult terrain for the duration.When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone.",
+    "desc": "<p>Slick grease covers the ground in a 10-foot square centered on a point within range and turns it into difficult terrain for the duration.</p><p>When the grease appears, each creature standing in its area must succeed on a Dexterity saving throw or fall prone. A creature that enters the area or ends its turn there must also succeed on a Dexterity saving throw or fall prone.</p>",
     "book": "Player's Handbook",
     "page": 246,
     "components": {
       "material": true,
-      "materials_needed": "A bit of pork rind or butter.",
+      "materials_needed": "a bit of pork rind or butter",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -7287,12 +7287,12 @@
   },
   {
     "name": "Greater Restoration",
-    "desc": "You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target’s exhaustion level by one, or end one of the following effects on the target:- One effect that charmed or petrified the target- One curse, including the target’s attunement to a cursed magic item- Any reduction to one of the target’s ability scores- One effect reducing the target’s hit point maximum",
+    "desc": "<p>You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target’s exhaustion level by one, or end one of the following effects on the target:</p><ul><li>One effect that charmed or petrified the target</li><li>One curse, including the target’s attunement to a cursed magic item</li><li>Any reduction to one of the target’s ability scores</li><li>One effect reducing the target’s hit point maximum</li></ul>",
     "book": "Player's Handbook",
     "page": 246,
     "components": {
       "material": true,
-      "materials_needed": "Diamond dust worth at least 100gp, which the spell consumes.",
+      "materials_needed": "diamond dust worth at least 100 gp, which the spell consumes",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
