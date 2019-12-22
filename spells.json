@@ -12134,12 +12134,12 @@
   },
   {
     "name": "Protection from Evil and Good",
-    "desc": "Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can’t be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.",
+    "desc": "<p>Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.</p><p>The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can’t be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.</p>",
     "book": "Player's Handbook",
     "page": 270,
     "components": {
       "material": true,
-      "materials_needed": "Holy water or powdered silver and iron, which the spell consumes.",
+      "materials_needed": "holy water or powdered silver and iron, which the spell consumes",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -12180,7 +12180,7 @@
   },
   {
     "name": "Protection from Poison",
-    "desc": "You touch a creature. If it is poisoned, you neutralize the poison. If more than one poison afflicts the target, you neutralize one poison that you know is present, or you neutralize one at random.For the duration, the target has advantage on saving throws against being poisoned, and it has resistance to poison damage.",
+    "desc": "<p>You touch a creature. If it is poisoned, you neutralize the poison. If more than one poison afflicts the target, you neutralize one poison that you know is present, or you neutralize one at random.</p><p>For the duration, the target has advantage on saving throws against being poisoned, and it has resistance to poison damage.</p>",
     "book": "Player's Handbook",
     "page": 270,
     "components": {
@@ -12222,7 +12222,7 @@
   },
   {
     "name": "Purify Food and Drink",
-    "desc": "All nonmagical food and drink within a 5-foot radius sphere centered on a point of your choice within range is purified and rendered free of poison and disease.",
+    "desc": "All nonmagical food and drink within a 5-foot-radius sphere centered on a point of your choice within range is purified and rendered free of poison and disease.",
     "book": "Player's Handbook",
     "page": 270,
     "components": {
