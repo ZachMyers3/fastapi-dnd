@@ -150,6 +150,26 @@ def get_all_equipment():
 
     return jsonify(ok=True, data=results)
 
+@views.route('/api/v1/equipment', methods=['GET'])
+def get_equipment():
+    _id = request.args.get('_id', default=None, type=str)
+    if _id:
+        data = get_equipment_by_id(_id)
+    
+    eq_category = request.args.get('equipment_category', default=None, type=str)
+    if eq_category:
+        data = get_equipment_by_category(eq_category)
+    
+    return jsonify(ok=True, data=data)
+
+def get_equipment_by_id(_id):
+    data = mongo.db.equipment.find_one({'_id': ObjectId(_id)})
+    return data
+
+def get_equipment_by_category(category):
+    data = mongo.db.equipment_category.find({'equipment_category': category})
+    return data
+
 @views.route('/api/v1/equipment-categories/all', methods=['GET'])
 def get_all_equipment_categories():
     results = list(mongo.db.equipment_categories.find())
