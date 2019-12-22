@@ -167,7 +167,7 @@ def get_equipment_by_id(_id):
     return data
 
 def get_equipment_by_category(category):
-    data = mongo.db.equipment_category.find({'equipment_category': category})
+    data = list(mongo.db.equipment_category.find({'equipment_category': category}))
     return data
 
 @views.route('/api/v1/equipment-categories/all', methods=['GET'])
