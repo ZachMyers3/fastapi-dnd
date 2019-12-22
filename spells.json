@@ -9216,12 +9216,12 @@
   },
   {
     "name": "Levitate",
-    "desc": "One creature or object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target’s altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can use your action to move the target, which must remain within the spell’s range.When the spell ends, the target floats gently to the ground if it is still aloft.",
+    "desc": "<p>One creature or object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected.</p><p>The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target’s altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can use your action to move the target, which must remain within the spell’s range.</p><p>When the spell ends, the target floats gently to the ground if it is still aloft.</p>",
     "book": "Player's Handbook",
     "page": 255,
     "components": {
       "material": true,
-      "materials_needed": "Either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end.",
+      "materials_needed": "either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -9252,12 +9252,12 @@
   },
   {
     "name": "Light",
-    "desc": "You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.",
+    "desc": "<p>You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.</p><p>If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell.</p>",
     "book": "Player's Handbook",
     "page": 255,
     "components": {
       "material": true,
-      "materials_needed": "A firefly or phosphorescent moss.",
+      "materials_needed": "a firefly or phosphorescent moss",
       "raw": "V, M",
       "somatic": false,
       "verbal": true
