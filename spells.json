@@ -8127,7 +8127,7 @@
     "page": 251,
     "components": {
       "material": true,
-      "materials_needed": "A small, straight piece of iron.",
+      "materials_needed": "a small, straight piece of iron",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -8186,7 +8186,7 @@
     "page": 251,
     "components": {
       "material": true,
-      "materials_needed": "A tiny reliquary worth at least 1,000gp containing a sacred relic, such as a scrap of cloth from a saint’s robe or a piece of parchment from a religious text.",
+      "materials_needed": "a tiny reliquary worth at least 1,000 gp containing a sacred relic, such as a scrap of cloth from a saint’s robe or a piece of parchment from a religious text",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
