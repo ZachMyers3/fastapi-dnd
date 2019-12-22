@@ -12677,12 +12677,12 @@
   },
   {
     "name": "Reverse Gravity",
-    "desc": "This spell reverses gravity in a 50-foot-radius, 100-foot high cylinder centered on a point within range. All creatures and objects that aren’t somehow anchored to the ground in the area fall upward and reach the top of the area when you cast this spell. A creature can make a Dexterity saving throw to grab onto a fixed object it can reach, thus avoiding the fall.If some solid object (such as a ceiling) is encountered in this fall, falling objects and creatures strike it just as they would during a normal downward fall. If an object or creature reaches the top of the area without striking anything, it remains there, oscillating slightly, for the duration.At the end of the duration, affected objects and creatures fall back down.",
+    "desc": "<p>This spell reverses gravity in a 50-foot-radius, 100-foot high cylinder centered on a point within range. All creatures and objects that aren’t somehow anchored to the ground in the area fall upward and reach the top of the area when you cast this spell. A creature can make a Dexterity saving throw to grab onto a fixed object it can reach, thus avoiding the fall.</p><p>If some solid object (such as a ceiling) is encountered in this fall, falling objects and creatures strike it just as they would during a normal downward fall. If an object or creature reaches the top of the area without striking anything, it remains there, oscillating slightly, for the duration.</p><p>At the end of the duration, affected objects and creatures fall back down.</p>",
     "book": "Player's Handbook",
     "page": 272,
     "components": {
       "material": true,
-      "materials_needed": "A lodestone and iron filings.",
+      "materials_needed": "a lodestone and iron filings",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -12721,7 +12721,7 @@
     "page": 272,
     "components": {
       "material": true,
-      "materials_needed": "Diamonds worth 300gp, which the spell consumes.",
+      "materials_needed": "diamonds worth 300 gp, which the spell consumes",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -12756,12 +12756,12 @@
   },
   {
     "name": "Rope Trick",
-    "desc": "You touch a length of rope that is up to 60 feet long. One end of the rope then rises into the air until the whole rope hangs perpendicular to the ground. At the upper end of the rope, an invisible entrance opens to an extradimensional space that lasts until the spell ends.The extradimensional space can be reached by climbing to the top of the rope. The space can hold as many as eight Medium or smaller creatures. The rope can be pulled into the space, making the rope disappear from view outside the space.Attacks and spells can’t cross through the entrance into or out of the extradimensional space, but those inside can see out of it as if through a 3-foot-by-5-foot window centered on the rope.Anything inside the extradimensional space drops out when the spell ends.",
+    "desc": "<p>You touch a length of rope that is up to 60 feet long. One end of the rope then rises into the air until the whole rope hangs perpendicular to the ground. At the upper end of the rope, an invisible entrance opens to an extradimensional space that lasts until the spell ends.</p><p>The extradimensional space can be reached by climbing to the top of the rope. The space can hold as many as eight Medium or smaller creatures. The rope can be pulled into the space, making the rope disappear from view outside the space.</p><p>Attacks and spells can’t cross through the entrance into or out of the extradimensional space, but those inside can see out of it as if through a 3-foot-by-5-foot window centered on the rope.</p><p>Anything inside the extradimensional space drops out when the spell ends.</p>",
     "book": "Player's Handbook",
     "page": 272,
     "components": {
       "material": true,
-      "materials_needed": "Powdered corn extract and a twisted loop of parchment.",
+      "materials_needed": "powdered corn extract and a twisted loop of parchment",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
