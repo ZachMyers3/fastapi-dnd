@@ -126,6 +126,36 @@ def get_all_spells():
 
     return jsonify(ok=True, data=results)
 
+@views.route('/api/v1/skills/all', methods=['GET'])
+def get_all_skills():
+    results = list(mongo.db.skills.find())
+
+    return jsonify(ok=True, data=results)
+
+@views.route('/api/v1/magic-schools/all', methods=['GET'])
+def get_all_magic_schools():
+    results = list(mongo.db.magic_schools.find())
+
+    return jsonify(ok=True, data=results)
+
+@views.route('/api/v1/languages/all', methods=['GET'])
+def get_all_languages():
+    results = list(mongo.db.languages.find())
+
+    return jsonify(ok=True, data=results)
+
+@views.route('/api/v1/equipment/all', methods=['GET'])
+def get_all_equipment():
+    results = list(mongo.db.equipment.find())
+
+    return jsonify(ok=True, data=results)
+
+@views.route('/api/v1/equipment-categories/all', methods=['GET'])
+def get_all_equipment_categories():
+    results = list(mongo.db.equipment_categories.find())
+
+    return jsonify(ok=True, data=results)
+
 @views.route('/api/v1/spell', methods=['GET'])
 def get_spell():
     _id = request.args.get('_id', default=None, type=str)
