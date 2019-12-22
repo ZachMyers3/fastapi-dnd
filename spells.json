@@ -9294,7 +9294,7 @@
   },
   {
     "name": "Lightning Arrow",
-    "desc": "The next time you make a ranged weapon attack during the spell’s duration, the weapon’s ammunition, or the weapon itself if it’s a thrown weapon, transforms into a bolt of lightning. Make the attack roll as normal. The target takes 4d8 lightning damage on a hit, or half as much damage on a miss, instead of the weapon’s normal damage.Whether you hit or miss, each creature within 10 feet of the target must make a Dexterity saving throw. Each of these creatures takes 2d8 lightning damage on a failed save, or half as much damage on a successful one.The piece of ammunition or weapon then returns to its normal form.",
+    "desc": "<p>The next time you make a ranged weapon attack during the spell’s duration, the weapon’s ammunition, or the weapon itself if it’s a thrown weapon, transforms into a bolt of lightning. Make the attack roll as normal. The target takes 4d8 lightning damage on a hit, or half as much damage on a miss, instead of the weapon’s normal damage.</p><p>Whether you hit or miss, each creature within 10 feet of the target must make a Dexterity saving throw. Each of these creatures takes 2d8 lightning damage on a failed save, or half as much damage on a successful one.</p><p>The piece of ammunition or weapon then returns to its normal form.</p>",
     "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage for both effects of the spell increases by 1d8 for each slot level above 3rd.",
     "book": "Player's Handbook",
     "page": 255,
@@ -9328,13 +9328,13 @@
   },
   {
     "name": "Lightning Bolt",
-    "desc": "A stroke of lightning forming a line 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save, or half as much damage on a successful one.The lightning ignites flammable objects in the area that aren’t being worn or carried.",
+    "desc": "<p>A stroke of lightning forming a line 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make a Dexterity saving throw. A creature takes 8d6 lightning damage on a failed save, or half as much damage on a successful one.</p><p>The lightning ignites flammable objects in the area that aren’t being worn or carried.</p>",
     "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d6 for each slot level above 3rd.",
     "book": "Player's Handbook",
     "page": 255,
     "components": {
       "material": true,
-      "materials_needed": "A bit of fur and a rod of amber, crystal, or glass.",
+      "materials_needed": "a bit of fur and a rod of amber, crystal, or glass",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -9416,7 +9416,7 @@
     "page": 256,
     "components": {
       "material": true,
-      "materials_needed": "A bit of fur from a bloodhound.",
+      "materials_needed": "a bit of fur from a bloodhound",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -9453,12 +9453,12 @@
   },
   {
     "name": "Locate Creature",
-    "desc": "Describe or name a creature that is familiar to you. You sense the direction to the creature’s location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement.The spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a unicorn), so long as you have seen such a creature up close—within 30 feet—at least once. If the creature you described or named is in a different form, such as being under the effects of a polymorph spell, this spell doesn’t locate the creature.This spell can’t locate a creature if running water at least 10 feet wide blocks a direct path between you and the creature.",
+    "desc": "<p>Describe or name a creature that is familiar to you. You sense the direction to the creature’s location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement.</p><p>The spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a unicorn), so long as you have seen such a creature up close&mdash;within 30 feet&mdash;at least once. If the creature you described or named is in a different form, such as being under the effects of a <i>polymorph</i> spell, this spell doesn’t locate the creature.</p><p>This spell can’t locate a creature if running water at least 10 feet wide blocks a direct path between you and the creature.</p>",
     "book": "Player's Handbook",
     "page": 256,
     "components": {
       "material": true,
-      "materials_needed": "A bit of fur from a bloodhound.",
+      "materials_needed": "a bit of fur from a bloodhound",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -9505,12 +9505,12 @@
   },
   {
     "name": "Locate Object",
-    "desc": "Describe or name an object that is familiar to you. You sense the direction to the object’s location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.The spell can locate a specific object known to you, as long as you have seen it up close—within 30 feet—at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.This spell can’t locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object.",
+    "desc": "<p>Describe or name an object that is familiar to you. You sense the direction to the object’s location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement.</p><p>The spell can locate a specific object known to you, as long as you have seen it up close&mdash;within 30 feet&mdash;at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.</p><p>This spell can’t locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object.</p>",
     "book": "Player's Handbook",
     "page": 256,
     "components": {
       "material": true,
-      "materials_needed": "A forked twig.",
+      "materials_needed": "a forked twig",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -9554,12 +9554,12 @@
   {
     "name": "Longstrider",
     "desc": "You touch a creature. The target’s speed increases by 10 feet until the spell ends.",
-    "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each spell slot above 1st.",
+    "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.",
     "book": "Player's Handbook",
     "page": 256,
     "components": {
       "material": true,
-      "materials_needed": "A pinch of dirt.",
+      "materials_needed": "a pinch of dirt",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -9634,7 +9634,7 @@
     "page": 256,
     "components": {
       "material": true,
-      "materials_needed": "A piece of cured leather.",
+      "materials_needed": "a piece of cured leather",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -9665,7 +9665,7 @@
   },
   {
     "name": "Mage Hand",
-    "desc": "A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.The hand can’t attack, activate magic items, or carry more than 10 pounds.",
+    "desc": "<p>A spectral, floating hand appears at a point you choose within range. The hand lasts for the duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><p>You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.</p><p>The hand can’t attack, activate magic items, or carry more than 10 pounds.</p>",
     "book": "Player's Handbook",
     "page": 256,
     "components": {
