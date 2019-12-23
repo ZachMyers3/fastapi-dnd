@@ -14154,12 +14154,12 @@
   },
   {
     "name": "Stinking Cloud",
-    "desc": "You create a 20-foot-radius sphere of yellow, nauseating gas centered on a point within range. The cloud spreads around corners, and its area is heavily obscured. The cloud lingers in the air for the duration.Each creature that is completely within the cloud at the start of its turn must make a Constitution saving throw against poison. On a failed save, the creature spends its action that turn retching and reeling. Creatures that don’t need to breathe or are immune to poison automatically succeed on this saving throw.A moderate wind (at least 10 miles per hour) disperses the cloud after 4 rounds. A strong wind (at least 20 miles per hour) disperses it after 1 round.",
+    "desc": "<p>You create a 20-foot-radius sphere of yellow, nauseating gas centered on a point within range. The cloud spreads around corners, and its area is heavily obscured. The cloud lingers in the air for the duration.</p><p>Each creature that is completely within the cloud at the start of its turn must make a Constitution saving throw against poison. On a failed save, the creature spends its action that turn retching and reeling. Creatures that don’t need to breathe or are immune to poison automatically succeed on this saving throw.</p><p>A moderate wind (at least 10 miles per hour) disperses the cloud after 4 rounds. A strong wind (at least 20 miles per hour) disperses it after 1 round.</p>",
     "book": "Player's Handbook",
     "page": 278,
     "components": {
       "material": true,
-      "materials_needed": "A rotten egg or several skunk cabbage leaves.",
+      "materials_needed": "a rotten egg or several skunk cabbage leaves",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -14212,7 +14212,7 @@
     "page": 278,
     "components": {
       "material": true,
-      "materials_needed": "Soft clay, to be crudely worked into the desired shape for the stone object.",
+      "materials_needed": "soft clay, which must be worked into roughly the desired shape of the stone object",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -14256,7 +14256,7 @@
     "page": 278,
     "components": {
       "material": true,
-      "materials_needed": "Diamond dust worth 100 gp, which the spell consumes.",
+      "materials_needed": "diamond dust worth 100 gp, which the spell consumes",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
