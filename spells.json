@@ -13953,7 +13953,7 @@
     "page": 277,
     "components": {
       "material": true,
-      "materials_needed": "A drop of bitumen and a spider.",
+      "materials_needed": "a drop of bitumen and a spider",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -13996,12 +13996,12 @@
   },
   {
     "name": "Spike Growth",
-    "desc": "The ground in a 20-foot radius centered on a point within range twists and sprouts hard spikes and thorns. The area becomes difficult terrain for the duration. When a creature moves into or within the area, it takes 2d4 piercing damage for every 5 feet it travels.The development of land is camouflaged to look natural. Any creature that does not see the area when the spell is spell casts must make a Wisdom (Perception) opposite the DD backup your fate or it does not recognize the dangerous nature of the ground before entering.",
+    "desc": "<p>The ground in a 20-foot radius centered on a point within range twists and sprouts hard spikes and thorns. The area becomes difficult terrain for the duration. When a creature moves into or within the area, it takes 2d4 piercing damage for every 5 feet it travels.</p><p>The transformation of the ground is camouflaged to look natural. Any creature that can't see the area at the time the spell is cast must make a Widsom (Perception) check against your spell save DC to recognize the terrain as hazardous before entering it.</p>",
     "book": "Player's Handbook",
     "page": 277,
     "components": {
       "material": true,
-      "materials_needed": "Seven sharp spines or seven twigs cut peak.",
+      "materials_needed": "seven sharp thorns or seven small twigs, each sharpened to a point",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -14044,13 +14044,13 @@
   },
   {
     "name": "Spirit Guardians",
-    "desc": "You call forth spirits to protect you. They flit around you to a distance of 15 feet for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish.When you cast this spell, you can designate any number of creatures you can see to be unaffected by it. An affected creature’s speed is halved in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a Wisdom saving throw. On a failed save, the creature takes 3d8 radiant damage (if you are good or neutral) or 3d8 necrotic damage (if you are evil). On a successful save, the creature takes half as much damage.",
+    "desc": "<p>You call forth spirits to protect you. They flit around you to a distance of 15 feet for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish.</p><p>When you cast this spell, you can designate any number of creatures you can see to be unaffected by it. An affected creature’s speed is halved in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a Wisdom saving throw. On a failed save, the creature takes 3d8 radiant damage (if you are good or neutral) or 3d8 necrotic damage (if you are evil). On a successful save, the creature takes half as much damage.</p>",
     "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.",
     "book": "Player's Handbook",
     "page": 278,
     "components": {
       "material": true,
-      "materials_needed": "A holy symbol.",
+      "materials_needed": "a holy symbol",
       "raw": "V, S, M",
       "somatic": true,
       "verbal": true
@@ -14082,7 +14082,7 @@
   },
   {
     "name": "Spiritual Weapon",
-    "desc": "You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to 1d8 + your spellcasting ability modifier.As a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it.The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell’s effect resemble that weapon.",
+    "desc": "<p>You create a floating, spectral weapon within range that lasts for the duration or until you cast this spell again. When you cast the spell, you can make a melee spell attack against a creature within 5 feet of the weapon. On a hit, the target takes force damage equal to 1d8 + your spellcasting ability modifier.</p><p>As a bonus action on your turn, you can move the weapon up to 20 feet and repeat the attack against a creature within 5 feet of it.</p><p>The weapon can take whatever form you choose. Clerics of deities who are associated with a particular weapon (as St. Cuthbert is known for his mace and Thor for his hammer) make this spell’s effect resemble that weapon.</p>",
     "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d8 for every two slot levels above the 2nd.",
     "book": "Player's Handbook",
     "page": 278,
