@@ -16456,5 +16456,351 @@
       "touch": false,
       "sight": false
     }
+  },
+  {
+    "name": "Catnap",
+    "desc": "You make a calming gesture, and up to three willing creature of your choice that you can see within range fall unconscious for the spell's duration. The spell ends on a target early if it takes damage or someone uses an action to shake or slap it awake. If a target remains unconscious for the full duration, that target gains the benefit of a short rest, and it can't be affected by this spell again until it finishes a long rest.",
+    "higher_level": "When you cast this spell using a spell slot of 4th level or higher, you can target one additional willing creature for each slot level above 3rd.",
+    "book": "Xanathar's Guide to Everything",
+    "page": 151,
+    "components": {
+      "material": true,
+      "materials_needed": "a pinch of sand",
+      "raw": "S, M",
+      "somatic": true,
+      "verbal": false
+    },
+    "level": 3,
+    "school": "Enchantment",
+    "classes": [
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": 30,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        600
+      ],
+      "ritual": false,
+      "concentration": false,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Cause Fear",
+    "desc": "You awaken the sense of mortality in one creature you can see within range. A construct or an undead is immune to this effect. The target must succeed on a Wisdom saving throw or become frightened of you until the spell ends. The frightened target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.",
+    "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.",
+    "book": "Xanathar's Guide to Everything",
+    "page": 151,
+    "components": {
+      "material": false,
+      "materials_needed": "",
+      "raw": "V",
+      "somatic": false,
+      "verbal": true
+    },
+    "level": 1,
+    "school": "Necromancy",
+    "classes": [
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": 60,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        60
+      ],
+      "ritual": false,
+      "concentration": true,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Ceremony",
+    "desc": "<p>You perform a special religious ceremony that is infused with magic. When you cast the spell, choose one of the following rites, the target of which must be within 10 feet of you throughout the casting.</p><dl><dt><b>Atonement</b></dt><dd>You touch one willing creature whose alignment has changed, and you make a DC 20 Wisdom (Insight) check. On a successful check, you restore the target to its original alignment.</dd><dt><b>Bless Water</b></dt><dd>You touch one vial of water and cause it to become holy water.</dd><dt><b>Coming of Age</b></dt><dd>You touch one humanoid who is a young adult. For the next 24 hours, whenever the target makes an ability check, it can roll a d4 and add the number rolled to the ability check. A creature can benefit from this rite only once.</dd><dt><b>Dedication</b></dt><dd>You touch one humanoid who wishes to be dedicated to your god's service. For the next 24 hours, whenever the target makes a saving throw, it can roll a d4 and add the number rolled to the save. A creature can benefit from this rite only once.</dd><dt><b>Funeral Rite</b></dt><dd>You touch one corpse, and for the next 7 days, the target can't become undead by any means short of a <i>wish</i> spell</dd><dt><b>Wedding</b></dt><dd>You touch adult humanoids willing to be bonded together in marriage. For the next 7 days, each target gains a +2 bonus to AC while they are within 30 feet of each other. A creature can benefit from this rite again only if widowed.</dd></dt>",
+    "book": "Xanathar's Guide to Everything",
+    "page": 151,
+    "components": {
+      "material": true,
+      "materials_needed": "25 gp worth of powdered silver, which the spell consumes",
+      "raw": "V, S, M",
+      "somatic": true,
+      "verbal": true
+    },
+    "level": 1,
+    "school": "Abjuration",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 0,
+      "self": false,
+      "casting_time": 3600,
+      "action_type": "",
+      "duration": [
+        0
+      ],
+      "ritual": true,
+      "concentration": false,
+      "touch": true,
+      "sight": false
+    }
+  },
+  {
+    "name": "Chaos Bolt",
+    "desc": "<p>You hurl an undulating, warbling mass of chaotic energy at one creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 + 1d6 damage. Choose one of the d8s. The number rolled on that die determines the attack's damage type, as shown below.</p><table><tr><th>d8</th><th>Damage Type</th></tr><tr><td>1</td><td>Acid</td></tr><tr><td>2</td><td>Cold</td></tr><tr><td>3</td><td>Fire</td></tr><tr><td>4</td><td>Force</td></tr><tr><td>5</td><td>Lightning</td></tr><tr><td>6</td><td>Poison</td></tr><tr><td>7</td><td>Psychic</td></tr><tr><td>8</td><td>Thunder</td></tr></table><p>If you roll the same number on both d8s, the chaotic energy leaps from the target to a different creature of your choice within 30 feet of it. Make a new attack roll against the new target, and make a new damage roll, which could cause the chaotic energy to leap again.</p><p>A creature can be targeted only once by each casting of this spell.</p>",
+    "higher_level": "When you cast this spell using a spell slot of 2nd level or higher, each target takes 1d6 extra damage of the type rolled for each slot level above 1st.",
+    "book": "Xanathar's Guide to Everything",
+    "page": 151,
+    "components": {
+      "material": false,
+      "materials_needed": "",
+      "raw": "V, S",
+      "somatic": true,
+      "verbal": true
+    },
+    "level": 1,
+    "school": "Evocation",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 120,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        6
+      ],
+      "ritual": false,
+      "concentration": false,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Charm Monster",
+    "desc": "You attempt to charm a creature you can see within range. It must make a Wisdom saving throw, and it does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature is friendly to you. When the spell ends, the creature knows it was charmed by you.",
+    "higher_level": "When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th. The creatures must be within 30 feet of each other when you target them.",
+    "book": "Xanathar's Guide to Everything",
+    "page": 151,
+    "components": {
+      "material": false,
+      "materials_needed": "",
+      "raw": "V, S",
+      "somatic": true,
+      "verbal": true
+    },
+    "level": 4,
+    "school": "Enchantment",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 30,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        3600
+      ],
+      "ritual": false,
+      "concentration": false,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Create Homunculus",
+    "desc": "<p>While speaking an intricate incantation, you cut yourself with a jewel-encrusted dagger, taking 2d4 piercing damage that can't be reduced in any way. You then drip your blood on the spell's other components and touch them, transforming them into a special construct called a homunculus.</p><p>The statistics of the homunculus are in the <i>Monster Manual</i>. It is your faithful companion, and it dies if you die. Whenever you finish a long rest, you can spend up to half your Hit Dice if the homunculus is on the same plane of existence as you. When you do so, roll each die and add your Constitution modifier to it. Your hit point maximum and current hit points are both increased by it. This process can reduce you to no lower than 1 hit point, and the change to your and the homunculus' hit points ends when you finish your next long rest. The reduction to your hit point maximum can't be removed by any means before then, except by the homunculus' death.</p><p>You can have only one homunculus at a time. If you cast this spell while your homunculus lives, the spell fails.</p>",
+    "book": "Xanathar's Guide to Everything",
+    "page": 152,
+    "components": {
+      "material": true,
+      "materials_needed": "clay, ash, and mandrake root, all of which the spell consumes, and a jewel-encrusted dagger worth at least 1,000 gp",
+      "raw": "V, S, M",
+      "somatic": true,
+      "verbal": true
+    },
+    "level": 6,
+    "school": "Transmutation",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 0,
+      "self": false,
+      "casting_time": 3600,
+      "action_type": "",
+      "duration": [
+        0
+      ],
+      "ritual": false,
+      "concentration": false,
+      "touch": true,
+      "sight": false
+    }
+  },
+  {
+    "name": "Crown of Stars",
+    "desc": "<p>Seven star-like motes of light appear and orbit your head until the spell ends. You can use a bonus action to send one of the motes streaking toward one creature or object within 120 feet of you. When you do so, make a ranged spell attack. On a hit, the target takes 4d12 radiant damage. Whether you hit or miss, the mote is expended. The spell ends early if you expend the last mote.</p><p>If you have four or more motes remaining, they shed bright light in a 30-foot radius and dim light for an additional 30 feet. If you have one to three motes remaining, they shed dim light in a 30-foot radius.</p>",
+    "higher_level": "When you cast this spell using a spell slot of 8th level or higher, the number of motes created increases by two for each slot level above 7th.",
+    "book": "Xanathar's Guide to Everything",
+    "page": 152,
+    "components": {
+      "material": false,
+      "materials_needed": "",
+      "raw": "V, S",
+      "somatic": true,
+      "verbal": true
+    },
+    "level": 7,
+    "school": "Evocation",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 0,
+      "self": true,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        3600
+      ],
+      "ritual": false,
+      "concentration": false,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Danse Macabre",
+    "desc": "<p>Threads of dark power leap from your fingers to pierce up to five Small or Medium corpses you can see within range. Each corpse immediately stands up and becomes undead. You decide whether it is a zombie or a skeleton (the statistics for zombies and skeletons are in the <i>Monster Manual</i>), and it gains a bonus to its attack and damage rolls equal to your spellcasting ability modifier.</p><p>You can use a bonus action to mentally command the creatures you make with this spell, issuing the same command to all of them. To receive the command, a creature must be within 60 feet of you. You decide what action the creatures will take and where they will move during their next turn, or you can issue a general command, such as to guard a chamber or passageway against your foes. If you issue no commands, the creatures do nothing except defend themselves against hostile creatures. Once given an order, the creatures continue to follow it until their task is complete.</p><p>The creatures are under your control until the spell ends, after which they become inanimate once more.</p>",
+    "higher_level": "When you cast this spell using a spell slot of 6th level or higher, you animate up to two additional corpses for each slot level above 5th.",
+    "book": "Xanathar's Guide to Everything",
+    "page": 153,
+    "components": {
+      "material": false,
+      "materials_needed": "",
+      "raw": "V, S",
+      "somatic": true,
+      "verbal": true
+    },
+    "level": 5,
+    "school": "Necromancy",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 60,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        3600
+      ],
+      "ritual": false,
+      "concentration": true,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Dawn",
+    "desc": "<p>The light of dawn shines down on a location you specify within range. Until the spell ends, a 30-foot-radius, 40-foot-high cylinder of bright light glimmers there. This light is sunlight.</p><p>When the cylinder appears, each creature in it must make a Constitution saving throw, taking 4d10 radiant damage on a failed save, or half as much damage on a successful one. A creature must also make this saving throw whenever it ends its turn in the cylinder.</p><p>If you're within 60 feet of the cylinder, you can move it up to 60 feet as a bonus action on your turn.</p>",
+    "book": "Xanathar's Guide to Everything",
+    "page": 153,
+    "components": {
+      "material": true,
+      "materials_needed": "a sunburst pendant worth at least 100 gp",
+      "raw": "V, S, M",
+      "somatic": true,
+      "verbal": true
+    },
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 60,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        60
+      ],
+      "ritual": false,
+      "concentration": true,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Dragon's Breath",
+    "desc": "You touch one willing creature and imbue it with the power to spew magical energy from its mouth, provided it has one. Choose acid, cold, fire, lightning, or poison. Until the spell ends, the creature can use an action to exhale energy of the chosen type in a 15-foot cone. Each creature in that area must make a Dexterity saving throw, taking 3d6 damage of the chosen type on a failed save, or half as much damage on a successful one.",
+    "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.",
+    "book": "Xanathar's Guide to Everything",
+    "page": 154,
+    "components": {
+      "material": true,
+      "materials_needed": "a hot pepper",
+      "raw": "V, S, M",
+      "somatic": true,
+      "verbal": true
+    },
+    "level": 2,
+    "school": "Transmutation",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 0,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "bonus",
+      "duration": [
+        60
+      ],
+      "ritual": false,
+      "concentration": true,
+      "touch": true,
+      "sight": false
+    }
   }
 ]
