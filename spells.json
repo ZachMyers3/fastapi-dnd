@@ -16968,5 +16968,105 @@
       "touch": false,
       "sight": false
     }
+  },
+  {
+    "name": "Guardian of Nature",
+    "desc": "<p>A nature spirit answers your call and transforms you into a powerful guardian. The transformation lasts until the spell ends. You choose one of the following forms to assume: Primal Beast or Great Tree.</p><dl><dt><b>Primal Beast</b></dt><dd>Bestial fur covers your body, your facial features become feral, and you gain the following benefits:<ul><li>Your walking speed increases by 10 feet.</li><li>You gain darkvision with a range of 120 feet.</li><li>You make Strength-based attack rolls with advantage.</li><li>Your melee weapon attacks deal an extra 1d6 force damage on a hit.</li></ul></dd><dt><b>Great Tree</b></dt><dd>Your skin appears barky, leaves sprout from your hair, and you gain the following benefits:<ul><li>You gain 10 temporary hit points.</li><li>You make Constitution saving throws with advantage.</li><li>You make Dexterity- and Wisdom-based attack rolls with advantage.</li><li>While you are on the ground, the ground within 15 feet of you is difficult terrain for your enemies.</li></ul></dd></dl>",
+    "book": "Xanathar's Guide to Everything",
+    "page": 157,
+    "components": {
+      "material": false,
+      "materials_needed": "",
+      "raw": "V",
+      "somatic": false,
+      "verbal": true
+    },
+    "level": 4,
+    "school": "Transmutation",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 0,
+      "self": true,
+      "casting_time": 6,
+      "action_type": "bonus",
+      "duration": [
+        60
+      ],
+      "ritual": false,
+      "concentration": true,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Healing Spirit",
+    "desc": "<p>You call forth a nature spirit to soothe the wounded. The intangible spirit appears in a space that is a 5-foot cube you can see within range. The spirit looks like a transparent beast or fey (your choice).</p><p>Until the spell ends, whenever you or a creature you can see moves into the spirit's space for the first time on a turn or starts its turn there, you can cause the spirit to restore 1d6 hit points to that creature (no action required). The spirit can't heal constructs or undead.</p><p>As a bonus action on your turn, you can move the spirit up to 30 feet to a space you can see.</p>",
+    "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the healing increases by 1d6 for each slot level above 2nd.",
+    "book": "Xanathar's Guide to Everything",
+    "page": 157,
+    "components": {
+      "material": false,
+      "materials_needed": "",
+      "raw": "V, S",
+      "somatic": true,
+      "verbal": true
+    },
+    "level": 2,
+    "school": "Conjuration",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 60,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "bonus",
+      "duration": [
+        60
+      ],
+      "ritual": false,
+      "concentration": true,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Holy Weapon",
+    "desc": "<p>You imbue a weapon you touch with holy power. Until the spell ends, the weapon emits bright light in a 30-foot radius and dim light for an additional 30 feet. In addition, weapon attacks made with it deal an extra 2d8 radiant damage on a hit. If the weapon isn't already a magic weapon, it becomes one for the duration.</p>As a bonus action on your turn, you can dismiss this spell and cause the weapon to emit a burst of radiance. Each creature of your choice that you can see within 30 feet of you must make a Constitution saving throw. On a failed save, a creature takes 4d8 radiant damage, and it is blinded for 1 minute. On a successful save, a creature takes half as much damage and isn't blinded. At the end of each of its turns, a blinded creature can make a Constitution saving throw, ending the effect on itself on a success.</p>",
+    "book": "Xanathar's Guide to Everything",
+    "page": 157,
+    "components": {
+      "material": false,
+      "materials_needed": "",
+      "raw": "V, S",
+      "somatic": true,
+      "verbal": true
+    },
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 0,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "bonus",
+      "duration": [
+        3600
+      ],
+      "ritual": false,
+      "concentration": true,
+      "touch": true,
+      "sight": false
+    }
   }
 ]
