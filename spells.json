@@ -17068,5 +17068,205 @@
       "touch": true,
       "sight": false
     }
+  },
+  {
+    "name": "Illusory Dragon",
+    "desc": "<p>By gathering threads of shadow material from the Shadowfell, you create a Huge shadowy dragon in an unoccupied space that you can see within range. The illusion lasts for the spell's duration and occupies its space, as if it were a creature.</p><p>When the illusion appears, any of your enemies that can see it must succeed on a Wisdom saving throw or become frightened of it for 1 minute. If a frightened creature ends its turn in a location where it doesn't have line of sight to the illusion, it can repeat the saving throw, ending the effect on itself on a success.</p><p>As a bonus action on your turn, you can move the illusion up to 60 feet. At any point during its movement, you can cause it to exhale a blast of energy in a 60-foot cone originating from its space. When you create the dragon, choose a damage type: acid, cold, fire, lightning, necrotic, or poison. Each creature in the cone must make an Intelligence saving throw, taking 7d6 damage of the chosen damage type on a failed save, or half as much damage on a successful one.</p><p>The illusion is tangible because of the shadow stuff used to create it, but attacks miss it automatically, it succeeds on all saving throws, and it is immune to all damage and conditions. A creature that uses an action to examine the dragon can determine that it is an illusion by succeeding on an Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through it and has advantage on saving throws against its breath.</p>",
+    "book": "Xanathar's Guide to Everything",
+    "page": 157,
+    "components": {
+      "material": false,
+      "materials_needed": "",
+      "raw": "S",
+      "somatic": true,
+      "verbal": false
+    },
+    "level": 8,
+    "school": "Illusion",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 120,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        60
+      ],
+      "ritual": false,
+      "concentration": true,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Infernal Calling",
+    "desc": "<p>Uttering a dark incantation, you summon a devil from the Nine Hells. You choose the devil's type, which must be one of challenge rating 6 or lower, such as a barbed devil or a bearded devil. The devil appears in an unoccupied space that you can see within range. The devil disappears when it drops to 0 hit points or when the spell ends.</p><p>The devil is unfriendly toward you and your companions. Roll initiative for the devil, which has its own turns. It is under the Dungeon Master's control and acts according to its nature on each of its turns, which might result in its attacking you if it thinks it can prevail, or trying to tempt you to undertake an evil act in exchange for limited services. The DM has the creature's statistics.</p><p>On each of your turns, you can try to issue a verbal command to the devil (no action required by you). It obeys the command if the likely outcome is in accordance with its desires, especially if the result would draw you toward evil. Otherwise, you must make a Charisma (Deception, Intimidation, or Persuasion) check contexted by its Wisdom (Insight) check. You make the check with advantage if you say the devil's true name. If your check fails, the devil becomes immune to your verbal commands for the duration of the spell, though it can still carry out your commands if it chooses. If your check succeeds, the devil carries out your command&mdash;such as &ldquo;attack my enemies,&rdquo; &ldquo;explore the room ahead,&rdquo; or &ldquo;bear this message to the queen&rdquo;&mdash;until it completes the activity, at which point it returns to you to report having done so.</p><p>If your concentration ends before the spell reaches its full duration, the devil doesn't disappear if it has become immune to your verbal commands. Instead, it acts in whatever manner it chooses for 3d6 minutes, and then it disappears.</p><p>If you possess an individual devil's talisman, you can summon that devil if it is of the appropriate challenge rating plus 1, and it obeys all your commands, with no Charisma checks required.</p>",
+    "higher_level": "When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th.",
+    "book": "Xanathar's Guide to Everything",
+    "page": 158,
+    "components": {
+      "material": true,
+      "materials_needed": "a ruby worth at least 999 gp",
+      "raw": "V, S, M",
+      "somatic": true,
+      "verbal": true
+    },
+    "level": 5,
+    "school": "Conjuration",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 90,
+      "self": false,
+      "casting_time": 60,
+      "action_type": "",
+      "duration": [
+        3600
+      ],
+      "ritual": false,
+      "concentration": true,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Infestation",
+    "desc": "<p>You cause a cloud of mites, fleas, and other parasites to appear momentarily on one creature you can see within range. The target must succeed on a Constitution saving throw, or it takes 1d6 poison damage and moves 5 feet in a random direction if it can move and its speed is at least 5 feet. Roll a d4 for the direction: 1, north; 2, south; 3, east; or 4, west. This movement doesn't provoke opportunity attacks, and if the direction rolled is blocked, the target doesn't move.</p><p>The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>",
+    "book": "Xanathar's Guide to Everything",
+    "page": 158,
+    "components": {
+      "material": true,
+      "materials_needed": "a living flea",
+      "raw": "V, S, M",
+      "somatic": true,
+      "verbal": true
+    },
+    "level": 0,
+    "school": "Conjuration",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 30,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        0
+      ],
+      "ritual": false,
+      "concentration": false,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Invulnerability",
+    "desc": "You are immune to all damage until the spell ends.",
+    "book": "Xanathar's Guide to Everything",
+    "page": 160,
+    "components": {
+      "material": true,
+      "materials_needed": "a small piece of adamantine worth at least 500 gp, which the spell consumes",
+      "raw": "V, S, M",
+      "somatic": true,
+      "verbal": true
+    },
+    "level": 9,
+    "school": "Abjuration",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 0,
+      "self": true,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        600
+      ],
+      "ritual": false,
+      "concentration": true,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Life Transference",
+    "desc": "You sacrifice some of your health to mend another creature's injuries. You take 4d8 necrotic damage, and one creature of your choice that you can see within range regains a number of hit points equal to twice the necrotic damage you take.",
+    "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.",
+    "book": "Xanathar's Guide to Everything",
+    "page": 160,
+    "components": {
+      "material": false,
+      "materials_needed": "",
+      "raw": "V, S",
+      "somatic": true,
+      "verbal": true
+    },
+    "level": 3,
+    "school": "Necromancy",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 30,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        0
+      ],
+      "ritual": false,
+      "concentration": false,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Maddening Darkness",
+    "desc": "<p>Magical darkness spreads from a point you choose within range to fill a 60-foot-radius sphere until the spell ends. The darkness spreads around corners. A creature with darkvision can't see through this darkness. Nonmagical light, as well as light created by spells of 8th level or lower, can't illuminate the area.</p><p>Shrieks, gibbering, and mad laughter can be heard within the sphere. Whenever a creature starts its turn in the sphere, it must make a Wisdom saving throw, taking 8d8 psychic damage on a failed save, or half as much damage on a successful one.</p>",
+    "book": "Xanathar's Guide to Everything",
+    "page": 160,
+    "components": {
+      "material": true,
+      "materials_needed": "a drop of pitch mixed with a drop of mercury",
+      "raw": "V, M",
+      "somatic": false,
+      "verbal": true
+    },
+    "level": 8,
+    "school": "Evocation",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 150,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        600
+      ],
+      "ritual": false,
+      "concentration": true,
+      "touch": false,
+      "sight": false
+    }
   }
 ]
