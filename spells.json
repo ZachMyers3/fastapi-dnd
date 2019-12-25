@@ -17268,5 +17268,171 @@
       "touch": false,
       "sight": false
     }
+  },
+  {
+    "name": "Mass Polymorph",
+    "desc": "<p>You transform up to ten creatures of your choice that you can see within range. An unwilling target must succeed on a Wisdom saving throw to resist the transformation. An unwilling shapechanger automatically succeeds on the save.</p><p>Each target assumes a beast form of your choice, and you can choose the same form or different ones for each target. The new form can be any beast you have seen whose challenge rating is equal to or less than the target's (or half the target's level, if the target doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the chosen beast, but the target retains its hit points, alignment, and personality.</p><p>Each target gains a number of temporary hit points equal to the hit points of its new form. These temporary hit points can't be replaced by temporary hit points from another source. A target reverts to its normal form when it has no more temporary hit points or it dies. If the spell ends before then, the creature loses all its temporary hit points and reverts to its normal form.</p><p>The creature is limited in the actions it can perform by the nature of its new form. It can't speak, cast spells, or do anything else that requires hands or speech.</p><p.The target's gear melds into the new form. The target can't activate, use, wield, or otherwise benefit from any of its equipment.</p>",
+    "book": "Xanathar's Guide to Everything",
+    "page": 160,
+    "components": {
+      "material": true,
+      "materials_needed": "a caterpillar cocoon",
+      "raw": "V, S, M",
+      "somatic": true,
+      "verbal": true
+    },
+    "level": 9,
+    "school": "Transmutation",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 120,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        3600
+      ],
+      "ritual": false,
+      "concentration": true,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Mental Prison",
+    "desc": "You attempt to bind a creature within an illusory cell that only it perceives. One creature you can see within range must make an Intelligence saving throw. The target succeeds automatically if it is immune to being charmed. On a successful save, the target takes 5d10 psychic damage, and the spell ends. On a failed save, the target takes 5d10 psychic damage, and you make the area immediately around the target's space appear dangerous to it in some way. You might cause the target to perceive itself as being surrounded by fire, floating razors, or hideous maws filled with dripping teeth. Whatever form the illusion takes, the target can't see or hear anything beyond it and is restrained for the spell's duration. If the target is moved out of the illusion, makes a melee attack through it, or reaches any part of its body through it, the target takes 10d10 psychic damage, and the spell ends.",
+    "book": "Xanathar's Guide to Everything",
+    "page": 161,
+    "components": {
+      "material": false,
+      "materials_needed": "",
+      "raw": "S",
+      "somatic": true,
+      "verbal": false
+    },
+    "level": 6,
+    "school": "Illusion",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 60,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        60
+      ],
+      "ritual": false,
+      "concentration": true,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Mighty Fortress",
+    "desc": "<p>A fortress of stone erupts from a square area of ground of your choice that you can see within range. The area is 120 feet on each side, and it must not have any buildings or other structures on it. Any creatures in the area are harmlessly lifted up as the fortress rises.</p><p>The fortress has four turrets with square bases, each one 20 feet on a side and 30 feet tall, with one turret on each corner. The turrets are connected to each other by stone walls that are each 80 feet long, creating an enclosed area. Each wall is 1 foot thick and is composed of panels that are 10 feet wide and 20 feet tall. Each panel is contiguous with two other panels or one other panel and a turret. You can place up to four stone doors in the fortress' outer wall.</p><p>A small keep stands inside the enclosed area. The keep has a square base that is 50 feet on each side, and it has three floors with 10-foot-high ceilings. Each of the floors can be divided into as many rooms as you like, provided each room is at least 5 feet on each side. The floors of the keep are connected by stone staircases, its walls are 6 inches thick, and interior rooms can have stone doors or open archways as you choose. The keep is furnished and decorated however you like, and it contains sufficient food to serve a nine-course banquet for up to 100 people each day. Furnishings, food, and other objects created by this spell crumble to dust if removed from the fortress.</p><p>A staff of one hundred invisible servants obeys any command given to them by creatures you designate when you cast the spell. Each servant functions as if created by the <i>unseen servant</i> spell.</p><p>The walls, turrets, and keep are all made of stone that can be damaged. Each 10-foot-by-10-foot section of stone has AC 15 and 30 hit points per inch of thickness. It is immune to poison and psychic damage. Reducing a section of stone to 0 hit points destroys it and might cause connected sections to buckle and collapse at the DM's discretion.</p><p>After 7 days or when you cast this spell somewhere else, the fortress harmlessly crumbles and sinks back into the ground, leaving any creatures that were inside it safely on the ground.</p><p>Casting this spell on the same spot once every 7 days for a year makes the fortress permanent.</p>",
+    "book": "Xanathar's Guide to Everything",
+    "page": 161,
+    "components": {
+      "material": true,
+      "materials_needed": "a diamond worth at least 500 gp, which the spell consumes",
+      "raw": "V, S, M",
+      "somatic": true,
+      "verbal": true
+    },
+    "level": 8,
+    "school": "Conjuration",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 5280,
+      "self": false,
+      "casting_time": 60,
+      "action_type": "",
+      "duration": [
+        0
+      ],
+      "ritual": false,
+      "concentration": false,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Mind Spike",
+    "desc": "You reach into the mind of one creature you can see within range. The target must make a Wisdom saving throw, taking 3d8 psychic damage on a failed save, or half as much damage on a successful one. On a failed save, you also always know the target's location until the spell ends, but only while the two of you are on the same plane of existence. While you have this knowledge, the target can't become hidden from you, and if it's invisible, it gains no benefit from that condition against you.",
+    "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the damage increases by 1d6 for each slot level above 2nd.",
+    "book": "Xanathar's Guide to Everything",
+    "page": 162,
+    "components": {
+      "material": false,
+      "materials_needed": "",
+      "raw": "S",
+      "somatic": true,
+      "verbal": false
+    },
+    "level": 2,
+    "school": "Divination",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 60,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        3600
+      ],
+      "ritual": false,
+      "concentration": true,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Negative Energy Flood",
+    "desc": "<p>You send ribbons of negative energy at one creature you can see within range. Unless the target is undead, it must make a Constitution saving throw, taking 5d12 necrotic damage on a failed save, or half as much damage on a successful one. A target killed by this damage rises up as a zombie at the start of your next turn. The zombie pursues whatever creature it can see that is closest to it. Statistics for the zombie are in the <i>Monster Manual</i>.</p><p>If you target an undead with this spell, the target doesn't make a saving throw. Instead, roll 5d12. The target gains half the total as temporary hit points.</p>",
+    "book": "Xanathar's Guide to Everything",
+    "page": 163,
+    "components": {
+      "material": true,
+      "materials_needed": "a broken bone and a square of black silk",
+      "raw": "V, M",
+      "somatic": false,
+      "verbal": true
+    },
+    "level": 5,
+    "school": "Necromancy",
+    "classes": [
+      {
+        "class": ""
+      }
+    ],
+    "casting": {
+      "range": 60,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        0
+      ],
+      "ritual": false,
+      "concentration": false,
+      "touch": false,
+      "sight": false
+    }
   }
 ]
