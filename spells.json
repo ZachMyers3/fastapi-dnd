@@ -16550,7 +16550,10 @@
     "school": "Abjuration",
     "classes": [
       {
-        "class": ""
+        "class": "Cleric"
+      },
+      {
+        "class": "Paladin"
       }
     ],
     "casting": {
@@ -16584,7 +16587,7 @@
     "school": "Evocation",
     "classes": [
       {
-        "class": ""
+        "class": "Sorcerer"
       }
     ],
     "casting": {
@@ -16618,7 +16621,19 @@
     "school": "Enchantment",
     "classes": [
       {
-        "class": ""
+        "class": "Bard"
+      },
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -16651,7 +16666,7 @@
     "school": "Transmutation",
     "classes": [
       {
-        "class": ""
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -16685,7 +16700,13 @@
     "school": "Evocation",
     "classes": [
       {
-        "class": ""
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -16719,7 +16740,10 @@
     "school": "Necromancy",
     "classes": [
       {
-        "class": ""
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -16752,7 +16776,10 @@
     "school": "Evocation",
     "classes": [
       {
-        "class": ""
+        "class": "Cleric"
+      },
+      {
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -16786,7 +16813,10 @@
     "school": "Transmutation",
     "classes": [
       {
-        "class": ""
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -16819,7 +16849,7 @@
     "school": "Abjuration",
     "classes": [
       {
-        "class": ""
+        "class": "Druid"
       }
     ],
     "casting": {
@@ -16852,7 +16882,16 @@
     "school": "Enchantment",
     "classes": [
       {
-        "class": ""
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -16886,7 +16925,13 @@
     "school": "Necromancy",
     "classes": [
       {
-        "class": ""
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -16919,7 +16964,13 @@
     "school": "Conjuration",
     "classes": [
       {
-        "class": ""
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -16948,11 +16999,11 @@
       "somatic": true,
       "verbal": true
     },
-    "level": ,
-    "school": "",
+    "level": 4,
+    "school": "Conjuration",
     "classes": [
       {
-        "class": ""
+        "class": "Paladin"
       }
     ],
     "casting": {
@@ -16985,7 +17036,10 @@
     "school": "Transmutation",
     "classes": [
       {
-        "class": ""
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
       }
     ],
     "casting": {
@@ -17019,7 +17073,10 @@
     "school": "Conjuration",
     "classes": [
       {
-        "class": ""
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
       }
     ],
     "casting": {
@@ -17052,7 +17109,10 @@
     "school": "Evocation",
     "classes": [
       {
-        "class": ""
+        "class": "Cleric"
+      },
+      {
+        "class": "Paladin"
       }
     ],
     "casting": {
@@ -17085,7 +17145,7 @@
     "school": "Illusion",
     "classes": [
       {
-        "class": ""
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -17119,7 +17179,10 @@
     "school": "Conjuration",
     "classes": [
       {
-        "class": ""
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -17152,7 +17215,16 @@
     "school": "Conjuration",
     "classes": [
       {
-        "class": ""
+        "class": "Druid"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -17185,7 +17257,7 @@
     "school": "Abjuration",
     "classes": [
       {
-        "class": ""
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -17219,7 +17291,10 @@
     "school": "Necromancy",
     "classes": [
       {
-        "class": ""
+        "class": "Cleric"
+      },
+      {
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -17252,7 +17327,10 @@
     "school": "Evocation",
     "classes": [
       {
-        "class": ""
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -17285,7 +17363,13 @@
     "school": "Transmutation",
     "classes": [
       {
-        "class": ""
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -17318,7 +17402,13 @@
     "school": "Illusion",
     "classes": [
       {
-        "class": ""
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -17351,7 +17441,7 @@
     "school": "Conjuration",
     "classes": [
       {
-        "class": ""
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -17385,7 +17475,13 @@
     "school": "Divination",
     "classes": [
       {
-        "class": ""
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -17418,7 +17514,10 @@
     "school": "Necromancy",
     "classes": [
       {
-        "class": ""
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
       }
     ],
     "casting": {
@@ -17433,6 +17532,872 @@
       "concentration": false,
       "touch": false,
       "sight": false
+    }
+  },
+  {
+    "name": "Power Word Pain",
+    "desc": "<p>You speak a word of power that causes waves of intense pain to assail one creature you can see within range. If the target has 100 hit points or fewer, it is subject to crippling pain. Otherwise, the spell has no effect on it. A target is also unaffected if it is immune to being charmed.</p><p>While the target is affected by crippling pain, any speed it has can be no higher than 10 feet. The target also has disadvantage on attack rolls, ability checks, and saving throws, other than Constitution saving throws. Finally, if the target tries to cast a spell, it must first succeed on a Constitution saving throw, or the casting fails and the spell is wasted.</p><p>A target suffering this pain can make a Constitution saving throw at the end of each of its turns. On a successful save, the pain ends.</p>",
+    "book": "Xanathar's Guide to Everything",
+    "page": 163,
+    "components": {
+      "material": false,
+      "materials_needed": "",
+      "raw": "V",
+      "somatic": false,
+      "verbal": true
+    },
+    "level": 7,
+    "school": "Enchantment",
+    "classes": [
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": 60,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        0
+      ],
+      "ritual": false,
+      "concentration": false,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Primal Savagery",
+    "desc": "<p>You channel primal magic to cause your teeth or fingernails to sharpen, ready to deliver a corrosive attack. Make a melee spell attack against one creature within 5 feet of you. On a hit, the target takes 1d10 acid damage. After you make the attack, your teeth or fingernails return to normal.</p><p>The spell's damage increases by 1d10 when you reach 5th level (2d10), 11th level (3d10), and 17th level (4d10).</p>",
+    "book": "Xanathar's Guide to Everything",
+    "page": 163,
+    "components": {
+      "material": false,
+      "materials_needed": "",
+      "raw": "S",
+      "somatic": true,
+      "verbal": false
+    },
+    "level": 0,
+    "school": "Transmutation",
+    "classes": [
+      {
+        "class": "Druid"
+      }
+    ],
+    "casting": {
+      "range": 0,
+      "self": true,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        0
+      ],
+      "ritual": false,
+      "concentration": false,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Psychic Scream",
+    "desc": "<p>You unleash the power of your mind to blast the intellect of up to ten creatures of your choice that you can see within range. Creatures that have an Intelligence score of 2 or lower are unaffected.</p><p>Each target must make an Intelligence saving throw. On a failed save, a target takes 14d6 psychic damage and is stunned. On a successful save, a target takes half as much damage and isn't stunned. If a target is killed by this damage, its head explodes, assuming it has one.</p><p>A stunned target can make an Intelligence saving throw at the end of each of its turns. On a successful save, the stunning effect ends.</p>",
+    "book": "Xanathar's Guide to Everything",
+    "page": 163,
+    "components": {
+      "material": false,
+      "materials_needed": "",
+      "raw": "S",
+      "somatic": true,
+      "verbal": false
+    },
+    "level": 9,
+    "school": "Enchantment",
+    "classes": [
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": 90,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
+      "duration": [
+        0
+      ],
+      "ritual": false,
+      "concentration": false,
+      "touch": false,
+      "sight": false
+    }
+  },
+  {
+    "name": "Scatter",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 164,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 6,
+    "school": "Conjuration",
+    "classes": [
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
+    }
+  },
+  {
+    "name": "Shadow Blade",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 164,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 2,
+    "school": "Illusion",
+    "classes": [
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
+    }
+  },
+  {
+    "name": "Shadow of Moil",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 164,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 4,
+    "school": "Necromancy",
+    "classes": [
+      {
+        "class": "Warlock"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
+    }
+  },
+  {
+    "name": "Sickening Radiance",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 164,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 4,
+    "school": "Evocation",
+    "classes": [
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
+    }
+  },
+  {
+    "name": "Skill Empowerment",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 165,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 5,
+    "school": "Transmutation",
+    "classes": [
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
+    }
+  },
+  {
+    "name": "Snare",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 165,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 1,
+    "school": "Abjuration",
+    "classes": [
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
+    }
+  },
+  {
+    "name": "Soul Cage",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 165,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 6,
+    "school": "Necromancy",
+    "classes": [
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
+    }
+  },
+  {
+    "name": "Steel Wind Strike",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 166,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 5,
+    "school": "Conjuration",
+    "classes": [
+      {
+        "class": "Ranger"
+      },
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
+    }
+  },
+  {
+    "name": "Summon Greater Demon",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 166,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 4,
+    "school": "Conjuration",
+    "classes": [
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
+    }
+  },
+  {
+    "name": "Summon Lesser Demons",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 167,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
+    }
+  },
+  {
+    "name": "Synaptic Static",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 167,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 5,
+    "school": "Enchantment",
+    "classes": [
+      {
+        "class": "Bard"
+      },
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
+    }
+  },
+  {
+    "name": "Temple of the Gods",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 167,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 7,
+    "school": "Conjuration",
+    "classes": [
+      {
+        "class": "Cleric"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
+    }
+  },
+  {
+    "name": "Tenser's Transformation",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 168,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 6,
+    "school": "Transmutation",
+    "classes": [
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
+    }
+  },
+  {
+    "name": "Thunder Step",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 168,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 3,
+    "school": "Conjuration",
+    "classes": [
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
+    }
+  },
+  {
+    "name": "Tiny Servant",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 168,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 3,
+    "school": "Transmutation",
+    "classes": [
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
+    }
+  },
+  {
+    "name": "Toll the Dead",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 169,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 0,
+    "school": "Necromancy",
+    "classes": [
+      {
+        "class": "Cleric"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
+    }
+  },
+  {
+    "name": "Wall of Light",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 170,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      {
+        "class": "Sorcerer"
+      },
+      {
+        "class": "Warlock"
+      },
+      {
+        "class": "Wizard"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
+    }
+  },
+  {
+    "name": "Word of Radiance",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 171,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 0,
+    "school": "Evocation",
+    "classes": [
+      {
+        "class": "Cleric"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
+    }
+  },
+  {
+    "name": "Wrath of Nature",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 171,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 5,
+    "school": "Evocation",
+    "classes": [
+      {
+        "class": "Druid"
+      },
+      {
+        "class": "Ranger"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
+    }
+  },
+  {
+    "name": "Zephyr Strike",
+    "desc": "",
+    "higher_level": "",
+    "book": "Xanathar's Guide to Everything",
+    "page": 171,
+    "components": {
+      "material": ,
+      "materials_needed": "",
+      "raw": "",
+      "somatic": ,
+      "verbal":
+    },
+    "level": 1,
+    "school": "Transmutation",
+    "classes": [
+      {
+        "class": "Ranger"
+      }
+    ],
+    "casting": {
+      "range": ,
+      "self": ,
+      "casting_time": ,
+      "action_type": "",
+      "duration": [
+
+      ],
+      "ritual": ,
+      "concentration": ,
+      "touch": ,
+      "sight":
     }
   }
 ]
