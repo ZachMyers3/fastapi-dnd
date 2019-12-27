@@ -17951,16 +17951,16 @@
   },
   {
     "name": "Summon Greater Demon",
-    "desc": "",
-    "higher_level": "",
+    "desc": "<p>You utter foul words, summoning one demon from the chaos of the Abyss. You choose the demon's type, which must be one of challenge rating 5 or lower, such as a shadow demon or a barlgura. The demon appears in an unoccupied space that you can see within range, and the demon disappears when it drops to 0 hit points or when the spell ends.</p><p>Roll initiative for the demon, which has its own turns. When you summon it and on each of your turns thereafter, you can issue a verbal command to it (requiring no action on your part), telling it what it must do on its next turn. If you issue no command, it spends its turn attacking any creature within reach that has attacked it.</p><p>At the end of each of the demon's turns, it makes a Charisma saving throw. The demon has disadvantage on this saving throw if you say its true name. On a failed save, the demon continues to obey you. On a successful save, your control of the demon ends for the rest of the duration, and the demon spends its turns pursuing and attacking the nearest non-demons to the best of its ability. If you stop concentrating on the spell before it reaches its full duration, an uncontrolled demon doesn't disappear for 1d6 rounds if it still has hit points.</p><p>As part of casting the spell, you can form a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. While the spell lasts, the summoned demon can't cross the circle or harm it, and it can't target anyone within it. Using the material component in this manner consumes it when the spell ends.</p>",
+    "higher_level": "When you cast this spell using a spell slot of 5th level or higher, the challenge rating increases by 1 for each slot level above 4th.",
     "book": "Xanathar's Guide to Everything",
     "page": 166,
     "components": {
-      "material": ,
-      "materials_needed": "",
-      "raw": "",
-      "somatic": ,
-      "verbal":
+      "material": true,
+      "materials_needed": "a vial of blood from a humanoid killed within the past 24 hours",
+      "raw": "V, S, M",
+      "somatic": true,
+      "verbal": true
     },
     "level": 4,
     "school": "Conjuration",
@@ -17973,31 +17973,31 @@
       }
     ],
     "casting": {
-      "range": ,
-      "self": ,
-      "casting_time": ,
-      "action_type": "",
+      "range": 60,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
       "duration": [
-
+        3600
       ],
-      "ritual": ,
-      "concentration": ,
-      "touch": ,
-      "sight":
+      "ritual": false,
+      "concentration": true,
+      "touch": false,
+      "sight": false
     }
   },
   {
     "name": "Summon Lesser Demons",
-    "desc": "",
-    "higher_level": "",
+    "desc": "<p>You utter foul words, summong demons from the chaos of the Abyss. Roll on the following table to determine what appears.</p><table><tr><th>d6</th><th>Demons Summoned</th></tr><tr><td>1-2</td><td>Two demons of challenge rating 1 or lower</td></tr><tr><td>3-4</td><td>Four demons of challenge rating 1/2 or lower</td></tr><tr><td>5-6</td><td>Eight demons of challenge rating 1/4 or lower</td></tr></table><p>The DM chooses the demons, such as manes or dretches, and you choose the unoccupied spaces you can see within range where they appear. A summoned demon disappears when it drops to 0 hit points or when the spell ends.</p><p>The demons are hostile to all creatures, including you. Roll initiative for the summoned demons as a group, which has its own turns. The demons pursue and attack the nearest non-demons to the best of their ability.</p><p>As part of casting the spell, you can form a circle on the ground with the blood used as a material component. The circle is large enough to encompass your space. While the spell lasts, the summoned demons can't cross the circle or harm it, and they can't target anyone within it. Using the material component in this manner consumes it when the spell ends.</p>",
+    "higher_level": "When you cast this spell using a spell slot of 6th or 7th level, you summon twice as many demons. If you cast it using a spell slot of 8th or 9th level, you summon three times as many demons.",
     "book": "Xanathar's Guide to Everything",
     "page": 167,
     "components": {
-      "material": ,
-      "materials_needed": "",
-      "raw": "",
-      "somatic": ,
-      "verbal":
+      "material": true,
+      "materials_needed": "a vial of blood from a humanoid killed within the past 24 hours",
+      "raw": "V, S, M",
+      "somatic": true,
+      "verbal": true
     },
     "level": 3,
     "school": "Conjuration",
@@ -18010,31 +18010,30 @@
       }
     ],
     "casting": {
-      "range": ,
-      "self": ,
-      "casting_time": ,
-      "action_type": "",
+      "range": 60,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
       "duration": [
-
+        3600
       ],
-      "ritual": ,
-      "concentration": ,
-      "touch": ,
-      "sight":
+      "ritual": false,
+      "concentration": true,
+      "touch": false,
+      "sight": false
     }
   },
   {
     "name": "Synaptic Static",
-    "desc": "",
-    "higher_level": "",
+    "desc": "<p>You choose a point within range and cause psychic energy to explode there. Each creature in a 20-foot-radius sphere centered on that point must make an Intelligence saving throw. A creature with an Intelligence score of 2 or lower can't be affected by this spell. A target takes 8d6 psychic damage on a failed save, or half as much damage on a successful one.</p><p>After a failed save, a target has muddled thoughts for 1 minute. During that time, it rolls a d6 and subtracts the number rolled from all its attack rolls and ability checks, as well as its Constitution saving throws to maintain concentration. The target can make an Intelligence saving throw at the end of each of its turns, ending the effect on itself on a success.</p>",
     "book": "Xanathar's Guide to Everything",
     "page": 167,
     "components": {
-      "material": ,
+      "material": false,
       "materials_needed": "",
-      "raw": "",
-      "somatic": ,
-      "verbal":
+      "raw": "V, S",
+      "somatic": true,
+      "verbal": true
     },
     "level": 5,
     "school": "Enchantment",
@@ -18053,31 +18052,30 @@
       }
     ],
     "casting": {
-      "range": ,
-      "self": ,
-      "casting_time": ,
-      "action_type": "",
+      "range": 120,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
       "duration": [
-
+        0
       ],
-      "ritual": ,
-      "concentration": ,
-      "touch": ,
-      "sight":
+      "ritual": false,
+      "concentration": false,
+      "touch": false,
+      "sight": false
     }
   },
   {
     "name": "Temple of the Gods",
-    "desc": "",
-    "higher_level": "",
+    "desc": "<p>You cause a temple to shimmer into existence on ground you can see within range. The temple must fit within an unoccupied cube of space, up to 120 feet on each side. The temple remains until the spell ends. It is dedicated to whatever god, pantheon, or philosophy is represented by the holy symbol used in the casting.</p><p>You make all decisions about the temple's appearance. The interior is enclosed by a floor, walls, and a roof, with one door granting access to the interior and as many windows as you wish. Only you and any creatures you designate when you cast the spell can open or close the door.</p><p>The temple's interior is an open space with an idol or altar at one end. You decide whether the temple is illuminated and whether that illumination is bright light or dim light. The smell of burning incense fills the air within, and the temperature is mild.</p><p>The temple opposes types of creatures you choose when you cast this spell. Choose one or more of the following: celestials, elementals, fey, fiends, or undead. If a creature of the chosen type attempts to enter the temple, that creature must make a Charisma saving throw. On a failed save, it can't enter the temple for 24 hours. Even if the creature can enter the temple, the magic there hinders it; whenever it makes an attack roll, an ability check, or a saving throw inside the temple, it must roll a d4 and subtract the number rolled from the d20 roll.</p><p>In addition, the sensors created by divination spells can't appear inside the temple, and creatures within can't be targeted by divination spells.</p><p>Finally, whenever any creature in the temple regains hit points from a spell of 1st level or higher, the creature regains additional hit points equal to your Wisdom modifier (minimum 1 hit point).</p><p>The temple is made from opaque magical force that extends into the Ethereal Plane, thus blocking ethereal travel into the temple's interior. Nothing can physically pass through the temple's exterior. It can't be dispelled by <i>dispel magic</i>, and <i>antimagic field</i> has no effect on it. A <i>disintegrate</i> spell destroys the temple instantly.</p><p>Casting this spell on the same spot every day for a year makes this effect permanent.</p>",
     "book": "Xanathar's Guide to Everything",
     "page": 167,
     "components": {
-      "material": ,
-      "materials_needed": "",
-      "raw": "",
-      "somatic": ,
-      "verbal":
+      "material": true,
+      "materials_needed": "a holy symbol worth at least 5 gp",
+      "raw": "V, S, M",
+      "somatic": true,
+      "verbal": true
     },
     "level": 7,
     "school": "Conjuration",
@@ -18087,17 +18085,17 @@
       }
     ],
     "casting": {
-      "range": ,
-      "self": ,
-      "casting_time": ,
+      "range": 120,
+      "self": false,
+      "casting_time": 3600,
       "action_type": "",
       "duration": [
-
+        86400
       ],
-      "ritual": ,
-      "concentration": ,
-      "touch": ,
-      "sight":
+      "ritual": false,
+      "concentration": false,
+      "touch": false,
+      "sight": false
     }
   },
   {
