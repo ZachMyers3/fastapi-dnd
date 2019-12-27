@@ -18100,16 +18100,15 @@
   },
   {
     "name": "Tenser's Transformation",
-    "desc": "",
-    "higher_level": "",
+    "desc": "<p>You endow yourself with endurance and martial prowess fueled by magic. Until the spell ends, you can't cast spells, and you gain the following benefits:</p><p><ul><li>You gain 50 temporary hit points. If any of these remain when the spell ends, they are lost.</li><li>You have advantage on attack rolls that you make with simple and martial weapons.</p><p>When you hit a target with a weapon attack, that target takes an extra 2d12 force damage.</li><li>You have proficiency with all armor, shields, simple weapons, and martial weapons.</li><li>You have proficiency in Strength and Constitution saving throws.</li><li>You can attack twise, instead of once, when you take the Attack option on your turn. You ignore this benefit if you already have a feature, like Extra Attack, that gives you extra attacks.</li></ul></p><p>Immediately after the spell ends, you must succeed on a DC 15 Constitution saving throw or suffer one level of exhaustion.</p>",
     "book": "Xanathar's Guide to Everything",
     "page": 168,
     "components": {
-      "material": ,
-      "materials_needed": "",
-      "raw": "",
-      "somatic": ,
-      "verbal":
+      "material": true,
+      "materials_needed": "a few hairs from a bull",
+      "raw": "V, S, M",
+      "somatic": true,
+      "verbal": true
     },
     "level": 6,
     "school": "Transmutation",
@@ -18119,31 +18118,31 @@
       }
     ],
     "casting": {
-      "range": ,
-      "self": ,
-      "casting_time": ,
-      "action_type": "",
+      "range": 0,
+      "self": true,
+      "casting_time": 6,
+      "action_type": "action",
       "duration": [
-
+        600
       ],
-      "ritual": ,
-      "concentration": ,
-      "touch": ,
-      "sight":
+      "ritual": false,
+      "concentration": true,
+      "touch": false,
+      "sight": false
     }
   },
   {
     "name": "Thunder Step",
-    "desc": "",
-    "higher_level": "",
+    "desc": "<p>You teleport yourself to an unoccupied space you can see within range. Immediately after you disappear, a thunderous boom sounds, and each creature within 10 feet of the space you left must make a Constitution saving throw, taking 3d10 thunder damage on a failed save, or half as much damage on a successful one. The thunder can be heard from up to 300 feet away.</p><p>You can bring along objects as long as their weight doesn't exceed what you can carry. You can also teleport one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell, and there must be an unoccupied space within 5 feet of your destination space for the creature to appear in; otherwise, the creature is left behind.</p>",
+    "higher_level": "When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d10 for each slot level above 3rd.",
     "book": "Xanathar's Guide to Everything",
     "page": 168,
     "components": {
-      "material": ,
+      "material": false,
       "materials_needed": "",
-      "raw": "",
-      "somatic": ,
-      "verbal":
+      "raw": "V",
+      "somatic": false,
+      "verbal": true
     },
     "level": 3,
     "school": "Conjuration",
@@ -18159,31 +18158,31 @@
       }
     ],
     "casting": {
-      "range": ,
-      "self": ,
-      "casting_time": ,
-      "action_type": "",
+      "range": 90,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
       "duration": [
-
+        0
       ],
-      "ritual": ,
-      "concentration": ,
-      "touch": ,
-      "sight":
+      "ritual": false,
+      "concentration": false,
+      "touch": false,
+      "sight": false
     }
   },
   {
     "name": "Tiny Servant",
-    "desc": "",
-    "higher_level": "",
+    "desc": "<p>You touch one Tiny, nonmagical object that isn't attached to another object or a surface and isn't being carried by another creature. The target animates and sprouts little arms and legs, becoming a creature under your control until the spell ends or the creature drops to 0 hit points. See <i>Tiny Servant</i> for its statistics.</p><p>As a bonus action, you can mentally command the creature if it is within 120 feet of you. (If you control multiple creatures with this spell, you can command any or all of them at the same time, issuing the same command to each one.) You decide what action the creature will take and where it will move during its next turn, or you can issue a simple, general command, such as to fetch a key, stand watch, or stack some books. If you issue no commands, the servant does nothing other than defend itself against hostile creatures. Once given an order, the servant continues to follow that order until its task is complete.</p><p>When the creature drops to 0 hit points, it reverts to its original form, and any remaining damage carries over to that form.</p>",
+    "higher_level": "When you cast this spell using a spell slot of 4th level or higher, you can animate two additional objects for each slot level above 3rd",
     "book": "Xanathar's Guide to Everything",
     "page": 168,
     "components": {
-      "material": ,
+      "material": false,
       "materials_needed": "",
-      "raw": "",
-      "somatic": ,
-      "verbal":
+      "raw": "V, S",
+      "somatic": true,
+      "verbal": true
     },
     "level": 3,
     "school": "Transmutation",
@@ -18193,31 +18192,30 @@
       }
     ],
     "casting": {
-      "range": ,
-      "self": ,
-      "casting_time": ,
+      "range": 0,
+      "self": false,
+      "casting_time": 60,
       "action_type": "",
       "duration": [
-
+        28800
       ],
-      "ritual": ,
-      "concentration": ,
-      "touch": ,
-      "sight":
+      "ritual": false,
+      "concentration": false,
+      "touch": true,
+      "sight": false
     }
   },
   {
     "name": "Toll the Dead",
-    "desc": "",
-    "higher_level": "",
+    "desc": "<p>You point at one creature you can see within range, and the sound of a dolorous bell fills the air around it for a moment. The target must succeed on a Wisdom saving throw or take 1d8 necrotic damage. If the target is missing any of its hit points, it instead takes 1d12 necrotic damage.</p><p>The spell's damage increases by one die when you reach 5th level (2d8 or 2d12), 11th level (3d8 or 3d12), and 17th level (4d8 or 4d12).</p>",
     "book": "Xanathar's Guide to Everything",
     "page": 169,
     "components": {
-      "material": ,
+      "material": false,
       "materials_needed": "",
-      "raw": "",
-      "somatic": ,
-      "verbal":
+      "raw": "V, S",
+      "somatic": true,
+      "verbal": true
     },
     "level": 0,
     "school": "Necromancy",
@@ -18233,31 +18231,31 @@
       }
     ],
     "casting": {
-      "range": ,
-      "self": ,
-      "casting_time": ,
-      "action_type": "",
+      "range": 60,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
       "duration": [
-
+        0
       ],
-      "ritual": ,
-      "concentration": ,
-      "touch": ,
-      "sight":
+      "ritual": false,
+      "concentration": false,
+      "touch": false,
+      "sight": false
     }
   },
   {
     "name": "Wall of Light",
-    "desc": "",
-    "higher_level": "",
+    "desc": "<p>A shimmering wall of bright light appears at a point you choose within range. The wall appears in any orientation you choose: horizontally, vertically, or diagonally. It can be free floating, or it can rest on a solid suface. The wall can be up to 60 feet long, 10 feet high, and 5 feet thick. The wall blocks line of sight, but creatures and objects can pass through it. It emits bright light out to 120 feet and dim light for an additional 120 feet.</p><p>When the wall appears, each creature in its area must make a Constitution saving throw. On a failed save, a creature takes 4d8 radiant damage, and it is blinded for 1 minute. On a successful save, it takes half as much damage and isn't blinded. A blinded creature can make a Constitution saving throw at the end of each of its turns, ending the effect on itself on a success.</p><p>A creature that ends is turn in the wall's area takes 4d8 radiant damage.</p><p>Until the spell ends, you can use an action to launch a beam of radiance from the wall at one creature you can see within 60 feet of it. Make a ranged spell attack. On a hit, the target takes 4d8 radiant damage. Whether you hit or miss, reduce the length of the wall by 10 feet. If the wall's length drops to 0 feet, the spell ends.</p>",
+    "higher_level": "When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.",
     "book": "Xanathar's Guide to Everything",
     "page": 170,
     "components": {
-      "material": ,
-      "materials_needed": "",
-      "raw": "",
-      "somatic": ,
-      "verbal":
+      "material": true,
+      "materials_needed": "a hand mirror",
+      "raw": "V, S, M",
+      "somatic": true,
+      "verbal": true
     },
     "level": 5,
     "school": "Evocation",
@@ -18273,31 +18271,30 @@
       }
     ],
     "casting": {
-      "range": ,
-      "self": ,
-      "casting_time": ,
-      "action_type": "",
+      "range": 120,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
       "duration": [
-
+        600
       ],
-      "ritual": ,
-      "concentration": ,
-      "touch": ,
-      "sight":
+      "ritual": false,
+      "concentration": true,
+      "touch": false,
+      "sight": false
     }
   },
   {
     "name": "Word of Radiance",
-    "desc": "",
-    "higher_level": "",
+    "desc": "<p>You utter a divine word, and burning radiance erupts from you. Each creature of your choice that you can see within range must succeed on a Constitution saving throw or take 1d6 radiant damage.</p><p>The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6).</p>",
     "book": "Xanathar's Guide to Everything",
     "page": 171,
     "components": {
-      "material": ,
-      "materials_needed": "",
-      "raw": "",
-      "somatic": ,
-      "verbal":
+      "material": true,
+      "materials_needed": "a holy symbol",
+      "raw": "V, M",
+      "somatic": false,
+      "verbal": true
     },
     "level": 0,
     "school": "Evocation",
@@ -18307,17 +18304,17 @@
       }
     ],
     "casting": {
-      "range": ,
-      "self": ,
-      "casting_time": ,
-      "action_type": "",
+      "range": 5,
+      "self": false,
+      "casting_time": 6,
+      "action_type": "action",
       "duration": [
-
+        0
       ],
-      "ritual": ,
-      "concentration": ,
-      "touch": ,
-      "sight":
+      "ritual": false,
+      "concentration": false,
+      "touch": false,
+      "sight": false
     }
   },
   {
