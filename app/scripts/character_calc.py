@@ -39,17 +39,62 @@ def calc_skill_mods(character):
     # return updated character
     return character
 
+def determine_max_spell_level(level):
+    if level['spellcasting']['spell_slots_level_9'] > 0:
+        return 9
+    elif level['spellcasting']['spell_slots_level_8'] > 0:
+        return 8
+    elif level['spellcasting']['spell_slots_level_7'] > 0:
+        return 7
+    elif level['spellcasting']['spell_slots_level_6'] > 0:
+        return 6
+    elif level['spellcasting']['spell_slots_level_5'] > 0:
+        return 5
+    elif level['spellcasting']['spell_slots_level_4'] > 0:
+        return 4
+    elif level['spellcasting']['spell_slots_level_3'] > 0:
+        return 3
+    elif level['spellcasting']['spell_slots_level_2'] > 0:
+        return 2
+    elif level['spellcasting']['spell_slots_level_1'] > 0:
+        return 1
+    else:
+        return 0
+
 
 def calc_spells_available(character):
+    # the list of all available spells per class
+    spell_list = []
     # loop through every class to gather spells
     for cclass in character['class']:
-        print(f'{cclass["name"]}')
+        # find the class level information for the given class
+        class_level = mongo.db.levels.find_one({
+            "level": cclass['level'],
+            "class.name": cclass['name']
+        })
+        # get the max spell slot available at given class level
+        lvl_req = determine_max_spell_level(class_level)
+        # if the max spell slot is zero go to next class
+        if lvl_req == 0:
+            continue
+        # find all spells for this given class
         class_spells = list(mongo.db.spells.find({
-             "classes": [{
+             "classes": {
                  "class": cclass["name"]
-             }]   
+             }   
         }))
         for spell in class_spells:
-            print(f'{spell["name"]} | {spell["classes"]}')
-        print(f'{class_spells=}')
+            # ignore spells that are over level for given class
+            if spell['level'] > lvl_req:
+                continue
+
+            spell_list.append({
+                "name": spell["name"],
+                "level": spell["level"],
+                "id": spell["id"]
+            })
+
+        # add the generated spell list to the character and return result
+        character['spells'] = spell_list
+        return character
 
