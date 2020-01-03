@@ -1,7 +1,5 @@
 from flask import Blueprint, abort, jsonify, request
-
 from bson.objectid import ObjectId
-
 import math
 
 from .models import mongo
