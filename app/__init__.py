@@ -5,6 +5,11 @@ from .models import mongo
 from .views import views
 from .json import JSONEncoder
 
+from .api.character import character
+from .api.monster import monster
+from .api.spell import spell
+from .api.equipment import equipment
+
 def create_app():
     # initialize app
     app = Flask(__name__)
@@ -15,8 +20,12 @@ def create_app():
     # initialize CORS
     CORS(app, resources={r"/api/*": {"origins": "*"}})
     # CORS(app)
-    # initialize blueprint
+    # initialize blueprints
     app.register_blueprint(views)
+    app.register_blueprint(character)
+    app.register_blueprint(monster)
+    app.register_blueprint(spell)
+    app.register_blueprint(equipment)
     # use extended JSONEncoder
     app.json_encoder = JSONEncoder
     return app
