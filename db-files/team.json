@@ -193,7 +193,8 @@
       }
     ],
     "attacks": [],
-    "spells": []
+    "spells": [],
+    "id": 0
   },
   {
     "firstName": "Argos",
@@ -389,7 +390,8 @@
       }
     ],
     "attacks": [],
-    "spells": []
+    "spells": [],
+    "id": 1
   },
   {
     "firstName": "Carl",
@@ -585,7 +587,8 @@
       }
     ],
     "attacks": [],
-    "spells": []
+    "spells": [],
+    "id": 2
   },
   {
     "firstName": "Clanking",
@@ -781,7 +784,8 @@
       }
     ],
     "attacks": [],
-    "spells": []
+    "spells": [],
+    "id": 3
   },
   {
     "firstName": "Billy",
@@ -981,6 +985,7 @@
       }
     ],
     "attacks": [],
-    "spells": []
+    "spells": [],
+    "id": 4
   }
 ]
