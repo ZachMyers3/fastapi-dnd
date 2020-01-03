@@ -4,6 +4,8 @@ import math
 
 from ..models import mongo
 
+from ..scripts.character_calc import calc_skill_mods
+
 character = Blueprint('character', __name__)
 
 API_STUB = '/api/v1'
