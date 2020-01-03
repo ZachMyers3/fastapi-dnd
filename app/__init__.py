@@ -2,9 +2,9 @@ from flask import Flask
 from flask_cors import CORS
 
 from .models import mongo
-from .views import views
 from .json import JSONEncoder
 
+from .api.views import views
 from .api.character import character
 from .api.monster import monster
 from .api.spell import spell
