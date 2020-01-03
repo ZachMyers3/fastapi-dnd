@@ -1,4 +1,0 @@
-{"_id":{"$oid":"5df068f2ae1e9c6e59d1c828"},"firstName":"Billy","lastName":"Black","maxHP":42,"currentHP":30,"baseAC":17,"currentAC":17,"experience":6000,"experiencePoints":6000}
-{"_id":{"$oid":"5df06973ae1e9c6e59d1c829"},"firstName":"Argos","lastName":"Blackrock","maxHP":31,"currentHP":31,"baseAC":15,"currentAC":15}
-{"_id":{"$oid":"5df310a793f9a68c06396460"},"firstName":"Sativa","lastName":"KNabis","maxHP":31,"currentHP":31,"baseAC":15,"currentAC":15}
-{"_id":{"$oid":"5df3b476f4fc0461626bc560"},"baseAC":15,"currentAC":15,"currentHP":31,"firstName":"Test","lastName":"Dude","maxHP":31}
