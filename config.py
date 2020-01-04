@@ -1,7 +1,7 @@
 """ Flask config class """
 import os
 
-class Config:
+class Config(object):
     # general config
     TESTING = bool(os.environ.get('TESTING'))
     DEBUG = bool(os.environ.get('DEBUG'))
@@ -9,3 +9,5 @@ class Config:
     # flask-pymongo
     MONGO_URI = os.environ.get('MONGODB_URI')
     # MONGO_URI = os.environ.get('MONGO_URI')
+
+    SCHEDULER_API_ENABLED = True

@@ -2,6 +2,7 @@ from flask import Flask
 from flask_cors import CORS
 
 from .models import mongo
+from .scheduler import scheduler
 from .json import JSONEncoder
 
 from .api.views import views
@@ -17,6 +18,9 @@ def create_app():
     app.config.from_object('config.Config')
     # initialize database with app
     mongo.init_app(app)
+    # flask-apscheduler
+    scheduler.init_app(app)
+    scheduler.start()
     # initialize CORS
     CORS(app, resources={r"/api/*": {"origins": "*"}})
     # CORS(app)
