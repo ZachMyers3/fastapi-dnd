@@ -33,6 +33,6 @@ def test():
     # get character from the given id
     _id = request.args.get('_id', default=None, type=str)
     character = mongo.db.characters.find_one({'_id': ObjectId(_id)})
-    character = calc_spells_available(character)
+    character = calc_spells_available(character, mongo)
 
     return jsonify(ok=True, data=character)
