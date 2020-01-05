@@ -3,7 +3,7 @@ import math
 
 def get_total_level(character):
     total_level = 0
-    for cclass in char['class']:
+    for cclass in character['class']:
         total_level += cclass['level']
     return total_level
 
@@ -38,10 +38,8 @@ def calc_skill_mods(character, mongo):
     return character
 
 def determine_max_spell_level(level):
-    print(f'{level=}')
     max_lvl = 0
     for key, value in level['spellcasting'].items():
-        print(f'level[{key}] = {value}')
         if 'spell_slots_level' in key:
             if value > 0:
                 lvl = int(key[-1])
@@ -62,7 +60,6 @@ def calc_spells_available(character, mongo):
         })
         # get the max spell slot available at given class level
         lvl_req = determine_max_spell_level(class_level)
-        print(f'{lvl_req=}')
         # if the max spell slot is zero go to next class
         if lvl_req == 0:
             continue
@@ -72,7 +69,6 @@ def calc_spells_available(character, mongo):
                  "class": cclass["name"]
              }   
         }))
-        print(f'{class_spells=}')
         for spell in class_spells:
             # ignore spells that are over level for given class
             if spell['level'] > lvl_req:
@@ -83,8 +79,7 @@ def calc_spells_available(character, mongo):
                 "level": spell["level"],
                 "id": spell["id"]
             })
-        print(f'{spell_list=}')
-        # add the generated spell list to the character and return result
-        character['spells'] = spell_list
-        return character
+    # add the generated spell list to the character and return result
+    character['spells'] = spell_list
+    return character
 

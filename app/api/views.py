@@ -4,6 +4,7 @@ import math
 
 from ..models import mongo
 from ..scripts.character_calc import calc_skill_mods, calc_spells_available
+from ..scheduler import update_character_spell_list
 
 views = Blueprint('views', __name__)
 
@@ -31,8 +32,6 @@ def get_all_languages():
 @views.route(f'{API_STUB}/test', methods=['GET'])
 def test():
     # get character from the given id
-    _id = request.args.get('_id', default=None, type=str)
-    character = mongo.db.characters.find_one({'_id': ObjectId(_id)})
-    character = calc_spells_available(character, mongo)
+    update_character_spell_list()
 
-    return jsonify(ok=True, data=character)
+    return jsonify(ok=True)
