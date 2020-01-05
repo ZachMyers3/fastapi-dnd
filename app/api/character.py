@@ -16,7 +16,6 @@ def get_character():
     if not _id:
         return jsonify(ok=False, msg='_id field required'), 400
     this_char = mongo.db.characters.find_one({'_id': ObjectId(_id)})
-    print(f'{this_char=}')
     if this_char:
         return jsonify(ok=True, character=this_char)
     else:
@@ -41,9 +40,7 @@ def update_character():
     if not _id:
         return jsonify(ok=False, msg='ID is required to update'), 400
     # find the object by id and update from the rest of the json
-    print(f'_id')
-    update_json = {'_id': _id, '$set': request.json}
-    print(f'{update_json=}')
+    # update_json = {'_id': _id, '$set': request.json}
     request.json.pop('_id', None)
     mongo.db.characters.update_one({'_id': _id}, {'$set': request.json})
     this_char = mongo.db.characters.find_one({'_id': _id})
