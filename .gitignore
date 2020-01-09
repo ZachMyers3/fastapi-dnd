@@ -28,3 +28,5 @@ htmlcov/
 
 # config
 *.yml
+.autoenv*
+.venv

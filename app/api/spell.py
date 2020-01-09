@@ -16,10 +16,10 @@ def get_all_spells():
 
 @spell.route(f'{API_STUB}/spell', methods=['GET'])
 def get_spell():
-    _id = request.args.get('_id', default=None, type=str)
+    _id = request.args.get('_id', default=None, type=int)
     if not _id:
-        return jsonify(ok=False, msg='_id field required'), 400
-    data = mongo.db.spells.find_one({'_id': ObjectId(_id)})
+        return jsonify(ok=False, msg='id field required'), 400
+    data = mongo.db.spells.find_one({'id': _id})
     if data:
         return jsonify(ok=True, data=data)
     else:
