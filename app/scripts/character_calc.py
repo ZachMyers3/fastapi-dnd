@@ -48,58 +48,6 @@ def determine_max_spell_level(level):
 
     return max_lvl
 
-# 3rd level spell slot for druid
-# see call lightning to debug
-# {
-#     "_id": {
-#         "$oid": "5e0f90b99afe3de6cbbeb20f"
-#     },
-#     "name": "Call Lightning",
-#     "desc": "<p>A storm cloud appears in the shape of a cylinder that is 10 feet tall with a 60-foot radius, centered on a point you can see within range directly above you. The spell fails if you can\u2019t see a point in the air where the storm cloud could appear (for example, if you are in a room that can\u2019t accommodate the cloud).<\/p><p>When you cast the spell, choose a point you can see under the cloud. A bolt of lightning flashes down from the cloud to that point. Each creature within 5 feet of that point must make a Dexterity saving throw. A creature takes 3d10 lightning damage on a failed save, or half as much damage on a successful one. On each of your turns until the spell ends, you can use your action to call down lightning in this way again, targeting the same point or a different one.<\/p><p>If you are outdoors in stormy conditions when you cast this spell, the spell gives you control over the existing storm instead of creating a new one. Under such conditions, the spell\u2019s damage increases by 1d10.<\/p>",
-#     "higher_level": "When you cast this spell using a spell slot of 4th or higher level, the damage increases by 1d10 for each slot level above 3rd.",
-#     "book": "Player's Handbook",
-#     "page": 220,
-#     "components": {
-#         "material": false,
-#         "materials_needed": "",
-#         "raw": "V, S",
-#         "somatic": true,
-#         "verbal": true
-#     },
-#     "level": 3,
-#     "school": "Conjuration",
-    # "classes": [
-    #     {
-    #         "class": "Cleric",
-    #         "subclasses": [
-    #             "Tempest"
-    #         ],
-    #         "class_level": 5
-    #     },
-    #     {
-    #         "class": "Druid",
-    #         "subclasses": [
-    #             "Forest"
-    #         ],
-    #         "class_level": 5
-    #     }
-    # ],
-#     "casting": {
-#         "range": 120,
-#         "self": false,
-#         "casting_time": 6,
-#         "action_type": "action",
-#         "duration": [
-#             600
-#         ],
-#         "ritual": false,
-#         "concentration": true,
-#         "touch": false,
-#         "sight": false
-#     },
-#     "id": 47
-# }
-
 def calc_spells_available(character, mongo):
     # the list of all available spells per class
     spell_list = []

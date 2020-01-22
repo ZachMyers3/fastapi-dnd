@@ -65,3 +65,38 @@ def delete_character():
     del_result = mongo.db.characters.delete_one({'_id': ObjectId(_id)})
     if del_result:
         return jsonify(ok=True, character=del_char)
+
+
+@character.route(f'{API_STUB}/character/learn_spell', methods=['PUT'])
+def mark_spell_learned():
+    # need character id, spell id
+    try:
+        char_id = ObjectId(request.args.get('_id', default=None, type=str))
+    except:
+        return jsonify(ok=False, msg='Invalid id format')
+    spell_id = request.args.get('spell_id', default=None, type=int)
+    if not char_id or not spell_id:
+        return jsonify(ok=False, msg='_id and spell_id required')
+    # verify the given character and spell can be found
+    char = mongo.db.characters.find_one({'_id': char_id})
+    # assign the found spell if its in the learnable spell list
+    spell_to_learn = None
+    for spell in char["spells"]:
+        if spell["id"] == spell_id:
+            spell_to_learn = spell
+            break
+    if not spell_to_learn:
+        return jsonify(ok=False, msg='Cannot find given spell by id {spell_id}'), 404
+    # set the learned attribute to the opposite of it's current value
+    try:
+        learned_status = spell_to_learn["learned"]
+    except:
+        learned_status = False
+    # flip current status
+    learned_status = not learned_status
+    spell_to_learn["learned"] = learned_status
+
+    mongo.db.characters.update_one({'_id': char_id}, {'$set': char})
+    return jsonify(ok=True, data=char)
+
+    
