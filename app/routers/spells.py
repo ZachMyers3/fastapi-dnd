@@ -15,7 +15,7 @@ def get_all_spells():
     return list(retrieve_spells())
 
 
-@router.get("/spells/{spell_id}/", response_model=SpellSchema)
+@router.get("/spells/{_id}/", response_model=SpellSchema)
 def get_spell_by_id(_id: str):
     result = retrieve_spell(_id=_id)
     if result is None:

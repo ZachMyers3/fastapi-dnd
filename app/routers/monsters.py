@@ -11,7 +11,7 @@ def get_all_equipment():
     return list(retrieve_monsters())
 
 
-@router.get("/monsters/{spell_id}/", response_model=MonsterSchema)
+@router.get("/monsters/{_id}/", response_model=MonsterSchema)
 def get_spell_by_id(_id: str):
     result = retrieve_monster(_id=_id)
     if result is None:
