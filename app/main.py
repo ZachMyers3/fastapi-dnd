@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from .routers import spells
 from .routers import equipment
+from .routers import equipment_categories
 from .routers import ability_scores
 from .routers import monsters
 from .routers import skills
@@ -15,6 +16,7 @@ app = FastAPI(
 
 app.include_router(spells.router, prefix="/api/v1")
 app.include_router(equipment.router, prefix="/api/v1")
+app.include_router(equipment_categories.router, prefix="/api/v1")
 app.include_router(ability_scores.router, prefix="/api/v1")
 app.include_router(monsters.router, prefix="/api/v1")
 app.include_router(skills.router, prefix="/api/v1")
