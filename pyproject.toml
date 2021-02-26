@@ -6,11 +6,6 @@ authors = ["Zach Myers <zachmyers@woosterbrush.com>"]
 
 [tool.poetry.dependencies]
 python = ">3.8"
-MongoAlchemy = "^0.21"
-Flask = "^1.1.2"
-Flask-Cors = "^3.0.10"
-Flask-PyMongo = "^2.3.0"
-Flask-APScheduler = "^1.11.0"
 python-dotenv = "^0.15.0"
 dnspython = "^2.1.0"
 fastapi = "^0.63.0"
