@@ -7,5 +7,10 @@ def retrieve_spells():
     return db.spells.find()
 
 
-def retrieve_spell(_id: ObjectId):
-    return db.spells.find_one({"_id": _id})
+def retrieve_spell(_id: str):
+    try:
+        _id = ObjectId(_id)
+    except:
+        return None
+    finally:
+        return db.spells.find_one({"_id": _id})

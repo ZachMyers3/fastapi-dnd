@@ -15,10 +15,9 @@ def get_all_spells():
     return list(retrieve_spells())
 
 
-@router.get("/spell/{spell_id}/", response_model=SpellSchema)
-def get_spell_by_id(spell_id: str):
-    print(f"Getting spell by id {spell_id}")
-    result = retrieve_spell(_id=ObjectId(spell_id))
+@router.get("/spells/{spell_id}/", response_model=SpellSchema)
+def get_spell_by_id(_id: str):
+    result = retrieve_spell(_id=_id)
     if result is None:
         HTTPException(status_code=404, detail="Object not found")
     return result
