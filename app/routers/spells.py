@@ -11,7 +11,7 @@ router = APIRouter()
 
 
 @router.get("/spells/", response_model=List[SpellSchema])
-def get_all_spells():
+def get_spells():
     return list(retrieve_spells())
 
 

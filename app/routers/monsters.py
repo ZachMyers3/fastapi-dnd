@@ -7,12 +7,12 @@ router = APIRouter()
 
 
 @router.get("/monsters/", response_model=List[MonsterSchema])
-def get_all_equipment():
+def get_all_monsters():
     return list(retrieve_monsters())
 
 
 @router.get("/monsters/{_id}/", response_model=MonsterSchema)
-def get_spell_by_id(_id: str):
+def get_monster(_id: str):
     result = retrieve_monster(_id=_id)
     if result is None:
         HTTPException(status_code=404, detail="Object not found")

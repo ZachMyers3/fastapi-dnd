@@ -10,5 +10,5 @@ router = APIRouter()
 
 
 @router.get("/equipment_categories/", response_model=List[EquipmentTypeSchema])
-def get_all_equipment():
+def get_equipment_categories():
     return list(retrieve_equipment_categories())

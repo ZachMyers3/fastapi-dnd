@@ -11,7 +11,7 @@ router = APIRouter()
 
 
 @router.get("/characters/", response_model=List[CharacterSchema])
-def get_all_equipment():
+def get_characters():
     return list(retrieve_characters())
 
 

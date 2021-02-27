@@ -7,5 +7,5 @@ router = APIRouter()
 
 
 @router.get("/ability_scores/", response_model=List[AbilityScoresSchema])
-def get_all_equipment():
+def get_ability_scores():
     return list(retrieve_ability_scores())
