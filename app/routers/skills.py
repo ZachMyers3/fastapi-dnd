@@ -7,5 +7,5 @@ router = APIRouter()
 
 
 @router.get("/skills/", response_model=List[SkillsSchema])
-def get_all_equipment():
+def get_skills():
     return list(retrieve_skills())
