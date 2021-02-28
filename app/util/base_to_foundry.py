@@ -1,6 +1,12 @@
 import json
 from typing import List, Dict
 
+import pymongo
+import dotenv
+import os
+
+dotenv.load_dotenv(dotenv.find_dotenv())
+
 test_file = """
 {
   "_id": "5e0f90b99afe3de6cbbeb2cc",
@@ -81,7 +87,7 @@ def determine_spell_save_dictionary():
 
 
 def determine_fountry_compat_spell_school(base_school: str) -> str:
-    return base_school[0:3]
+    return base_school[0:3].lower()
 
 
 def determine_materials_dictionary(components: Dict) -> Dict:
@@ -95,9 +101,8 @@ def determine_materials_dictionary(components: Dict) -> Dict:
 
 
 def base_to_foundy(spell_json: dict):
-    print(spell_json)
     foundry_json = {}
-    foundry_json["_id"] = spell_json["_id"]
+    foundry_json["_id"] = str(spell_json["_id"])
     foundry_json["name"] = spell_json["name"]
     foundry_json["permission"] = {
         "default": 0
@@ -109,7 +114,7 @@ def base_to_foundy(spell_json: dict):
             "chat": "",
             "unidentified": ""
         },
-        "source":f"{spell_json['book']} page {spell_json['casting']['duration']}",
+        "source": f"{spell_json['book']} page {spell_json['page']}",
         "activation": {
             "type": spell_json["casting"]["action_type"],
             "cost": 1,
@@ -171,17 +176,31 @@ def base_to_foundy(spell_json: dict):
         },
         "scaling": {
             "model": "level",
-            "formulat": ""
+            "formula": ""
         }
     }
     foundry_json["sort"] = 100001
     foundry_json["flags"] = {}
-    foundry_json["img"] = str(""),
+    foundry_json["img"] = "systems/dnd5e/icons/spells/fire-arrows-magenta-1.jpg",
+    foundry_json["img"] = foundry_json["img"][0]
     foundry_json["effects"] = []
 
-    print(foundry_json)
+    return foundry_json
+
+
+def entire_db_to_foundry_compat():
+    print(os.environ.get("MONGODB_URI"))
+    client = pymongo.MongoClient(os.environ.get("MONGODB_URI"))
+    db = client["dnd"]
+    foundry_json_list = []
+    for spell in db.spells.find():
+        foundy_json = base_to_foundy(spell)
+        foundry_json_list.append(foundy_json)
+
+    with open("foundy_spells.db", "w") as _f:
+        for foundry_json in foundry_json_list:
+            _f.write(f"{foundry_json}\n")
 
 
 if __name__ == "__main__":
-    test_json = json.loads(test_file)
-    base_to_foundy(test_json)
+    entire_db_to_foundry_compat()
