@@ -1,6 +1,7 @@
 import json
 from typing import List, Dict
 
+import pathlib
 import pymongo
 import dotenv
 import os
@@ -100,6 +101,13 @@ def determine_materials_dictionary(components: Dict) -> Dict:
     return materials
 
 
+def determine_spell_level_string(spell_level: int) -> str:
+    if spell_level == 0:
+        return "cantrip"
+    else:
+        return "level"
+
+
 def base_to_foundy(spell_json: dict):
     foundry_json = {}
     foundry_json["_id"] = str(spell_json["_id"])
@@ -175,7 +183,7 @@ def base_to_foundy(spell_json: dict):
             "prepared": False
         },
         "scaling": {
-            "model": "level",
+            "mode": determine_spell_level_string(spell_json["level"]),
             "formula": ""
         }
     }
@@ -188,7 +196,7 @@ def base_to_foundy(spell_json: dict):
     return foundry_json
 
 
-def entire_db_to_foundry_compat():
+def entire_db_to_foundry_compat_file(file_name: pathlib.Path):
     print(os.environ.get("MONGODB_URI"))
     client = pymongo.MongoClient(os.environ.get("MONGODB_URI"))
     db = client["dnd"]
@@ -197,10 +205,27 @@ def entire_db_to_foundry_compat():
         foundy_json = base_to_foundy(spell)
         foundry_json_list.append(foundy_json)
 
-    with open("foundy_spells.db", "w") as _f:
+    with open(file_name, "w") as _f:
         for foundry_json in foundry_json_list:
             _f.write(f"{foundry_json}\n")
 
 
+def entire_db_to_foundry_compat_collection(collection_name: str):
+    print(os.environ.get("MONGODB_URI"))
+    client = pymongo.MongoClient(os.environ.get("MONGODB_URI"))
+    db = client["dnd"]
+    foundry_json_list = []
+    for spell in db.spells.find():
+        foundy_json = base_to_foundy(spell)
+        foundry_json_list.append(foundy_json)
+
+    for foundry_json in foundry_json_list:
+        del foundry_json["_id"]
+
+    foundry_collection = db[collection_name]
+    foundry_collection.insert_many(foundry_json_list)
+
+
 if __name__ == "__main__":
-    entire_db_to_foundry_compat()
+    # entire_db_to_foundry_compat_file(pathlib.Path("./spells.db"))
+    entire_db_to_foundry_compat_collection("foundry_spells")
