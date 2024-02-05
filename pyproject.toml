@@ -8,7 +8,7 @@ authors = ["Zach Myers <zachmyers@woosterbrush.com>"]
 python = "3.8.8"
 python-dotenv = "^0.15.0"
 dnspython = "^2.1.0"
-fastapi = "^0.63.0"
+fastapi = "^0.109.1"
 uvicorn = "^0.13.4"
 motor = "^2.3.1"
 
